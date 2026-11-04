@@ -4,19 +4,22 @@
  "data": {
   "analyst_mode": "jev",
   "audit_delay_s": "60",
+  "bundle_budget_s": "20",
   "bundle_max_pct": "25",
+  "bundle_rpc_concurrency": "8",
   "bundle_top_n": "20",
   "daily_loss_limit_sol": "2",
+  "fomo_handle": "ZonalFunnyWhale",
   "heartbeat_timeout_s": "120",
   "kill_switch": "0",
-  "max_hold_min": "60",
+  "max_hold_min": "7",
   "max_open_positions": "5",
   "max_position_sol": "0.5",
   "min_liquidity_usd": "5000",
   "mode": "PAPER",
   "night_report_hour": "23",
   "paper_balance_sol": "10",
-  "paper_fee_pct": "1.0",
+  "paper_fee_pct": "1",
   "priority_fee_sol": "0.0001",
   "publish_interval": "120",
   "risk_poll_s": "15",
@@ -24,5 +27,5 @@
   "stop_loss_pct": "30",
   "take_profit_pct": "100"
  },
- "generated_at": "2026-11-04T16:57:36+00:00"
+ "generated_at": "2026-11-04T17:03:42+00:00"
 }
