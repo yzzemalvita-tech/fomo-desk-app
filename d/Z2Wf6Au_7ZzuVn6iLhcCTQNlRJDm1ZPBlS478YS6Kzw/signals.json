@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 185,
-   "mint": "695AvBKk4qUWfoqqwmDguBqUwUDK3QXaoPNhmjH2pump",
+   "id": 186,
+   "mint": "4VCMyD2KH8kGt6faEtckanB6Ko2sgEKzMuqsLMNepump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-04 23:53:51",
+   "created_at": "2026-11-04 23:54:51",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=695AvBKk4qUWfoqqwmDguBqUwUDK3QXaoPNhmjH2pump&chainId=1399811149&r=savipww&source=share_link",
+   "coin_url": "https://fomo.family/coin?address=4VCMyD2KH8kGt6faEtckanB6Ko2sgEKzMuqsLMNepump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 185,
+   "mint": "695AvBKk4qUWfoqqwmDguBqUwUDK3QXaoPNhmjH2pump",
+   "symbol": "SPIRIT",
+   "name": "The Indomitable Human Spirit",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 3.425e-05,
+   "mcap_usd": 34210.0,
+   "liquidity_usd": null,
+   "created_at": "2026-11-04 23:53:51",
+   "audit_id": 187,
+   "audit_passed": 1,
+   "audit_score": 0.75,
+   "coin_url": "https://fomo.family/coin?address=695AvBKk4qUWfoqqwmDguBqUwUDK3QXaoPNhmjH2pump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "2 bundled \u00b7 10/20 checked",
+    "bundled_pct": 10.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.58,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.00 / WATCH 0.72 / PASS 0.28); quality 1.98/4; rug risk 0.25. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-04 23:55:13"
+   }
   },
   {
    "id": 184,
@@ -3085,71 +3149,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-04 21:26:43"
    }
-  },
-  {
-   "id": 136,
-   "mint": "ETycStdHm27tdv8MTNxKWjrzNLkEvaTT4YjVw9Qzhigh",
-   "symbol": "Ceiling",
-   "name": "There is No Ceiling",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 1.422e-05,
-   "mcap_usd": 14225.0,
-   "liquidity_usd": 6731.39,
-   "created_at": "2026-11-04 21:25:25",
-   "audit_id": 138,
-   "audit_passed": 1,
-   "audit_score": 0.75,
-   "coin_url": "https://fomo.family/coin?address=ETycStdHm27tdv8MTNxKWjrzNLkEvaTT4YjVw9Qzhigh&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.96,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.03 / PASS 0.97); quality 1.30/4; rug risk 0.50. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=pass; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-04 21:26:41"
-   }
   }
  ],
- "generated_at": "2026-11-04T23:54:29+00:00"
+ "generated_at": "2026-11-04T23:55:30+00:00"
 }
