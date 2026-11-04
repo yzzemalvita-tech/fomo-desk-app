@@ -3,7 +3,7 @@
  "version": 1,
  "data": {
   "date_utc": "2026-11-04",
-  "signals": 140,
+  "signals": 141,
   "audited": 151,
   "verdicts": {
    "BUY": 3,
@@ -30,12 +30,12 @@
    "mode": "PAPER",
    "route": "worst",
    "referral": false,
-   "sol_usd": 96.15,
+   "sol_usd": 96.02,
    "size_sol": 0.5,
-   "round_trip_fees_sol": 0.019761,
-   "breakeven_pct": 7.2,
+   "round_trip_fees_sol": 0.019788,
+   "breakeven_pct": 7.206,
    "source": "https://help.fomo.family/en/articles/14436214-trading-fees-on-fomo"
   }
  },
- "generated_at": "2026-11-04T22:56:43+00:00"
+ "generated_at": "2026-11-04T22:58:45+00:00"
 }
