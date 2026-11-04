@@ -1,0 +1,28 @@
+{
+ "schema": "fomo-desk/settings",
+ "version": 1,
+ "data": {
+  "analyst_mode": "jev",
+  "audit_delay_s": "60",
+  "bundle_max_pct": "25",
+  "bundle_top_n": "20",
+  "daily_loss_limit_sol": "2",
+  "heartbeat_timeout_s": "120",
+  "kill_switch": "0",
+  "max_hold_min": "60",
+  "max_open_positions": "5",
+  "max_position_sol": "0.5",
+  "min_liquidity_usd": "5000",
+  "mode": "PAPER",
+  "night_report_hour": "23",
+  "paper_balance_sol": "10",
+  "paper_fee_pct": "1.0",
+  "priority_fee_sol": "0.0001",
+  "publish_interval": "60",
+  "risk_poll_s": "15",
+  "slippage_bps": "300",
+  "stop_loss_pct": "30",
+  "take_profit_pct": "100"
+ },
+ "generated_at": "2026-11-04T16:00:35+00:00"
+}

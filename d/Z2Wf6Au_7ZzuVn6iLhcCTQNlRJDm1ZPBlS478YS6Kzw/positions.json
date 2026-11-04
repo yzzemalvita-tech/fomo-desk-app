@@ -1,0 +1,23 @@
+{
+ "schema": "fomo-desk/positions",
+ "version": 1,
+ "data": [
+  {
+   "id": 1,
+   "mint": "5s2PfWHNegqRJNeNZtYnbLi9NBXuUuVYDgMkCub3pump",
+   "mode": "PAPER",
+   "status": "closed",
+   "qty": 833614.0881236171,
+   "avg_entry_usd": 4.196e-05,
+   "cost_sol": 0.37,
+   "realized_pnl_sol": -0.13956190693902004,
+   "fees_sol": 0.006228668,
+   "stop_loss_pct": 30.0,
+   "take_profit_pct": 100.0,
+   "opened_at": "2026-11-04 15:48:19",
+   "closed_at": "2026-11-04 15:51:56",
+   "coin_url": "https://fomo.family/coin?address=5s2PfWHNegqRJNeNZtYnbLi9NBXuUuVYDgMkCub3pump&chainId=1399811149&r=savipww&source=share_link"
+  }
+ ],
+ "generated_at": "2026-11-04T16:00:35+00:00"
+}
