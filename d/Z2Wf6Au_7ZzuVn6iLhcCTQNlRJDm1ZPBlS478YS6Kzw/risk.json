@@ -3,6 +3,18 @@
  "version": 1,
  "data": [
   {
+   "id": 7,
+   "kind": "take_profit",
+   "severity": "info",
+   "mint": "HSxuYKZw9Aevsugt4jiW1mE7zG3cW1DRDmjstDAypump",
+   "position_id": 2,
+   "action": "close",
+   "created_at": "2026-11-04 21:21:52",
+   "detail": {
+    "chg_pct": 143.4
+   }
+  },
+  {
    "id": 6,
    "kind": "tg_non_owner",
    "severity": "info",
@@ -54,5 +66,5 @@
    }
   }
  ],
- "generated_at": "2026-11-04T17:05:45+00:00"
+ "generated_at": "2026-11-04T21:23:00+00:00"
 }

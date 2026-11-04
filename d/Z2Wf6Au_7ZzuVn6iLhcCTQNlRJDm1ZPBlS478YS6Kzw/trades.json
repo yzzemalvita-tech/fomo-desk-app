@@ -3,6 +3,21 @@
  "version": 1,
  "data": [
   {
+   "id": 4,
+   "position_id": 2,
+   "mint": "HSxuYKZw9Aevsugt4jiW1mE7zG3cW1DRDmjstDAypump",
+   "mode": "PAPER",
+   "side": "SELL",
+   "qty": 943912.7874463274,
+   "price_usd": 8.421e-05,
+   "amount_sol": 0.8255286615139902,
+   "fee_sol": 0.010011592370112761,
+   "priority_fee_sol": 0.0,
+   "slippage_bps": 300,
+   "reason": "take_profit",
+   "created_at": "2026-11-04 21:21:52"
+  },
+  {
    "id": 3,
    "position_id": 2,
    "mint": "HSxuYKZw9Aevsugt4jiW1mE7zG3cW1DRDmjstDAypump",
@@ -48,5 +63,5 @@
    "created_at": "2026-11-04 15:48:19"
   }
  ],
- "generated_at": "2026-11-04T21:10:54+00:00"
+ "generated_at": "2026-11-04T21:23:00+00:00"
 }

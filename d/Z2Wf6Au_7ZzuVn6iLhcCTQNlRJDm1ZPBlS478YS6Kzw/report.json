@@ -3,21 +3,21 @@
  "version": 1,
  "data": {
   "date_utc": "2026-11-04",
-  "signals": 121,
-  "audited": 130,
+  "signals": 122,
+  "audited": 133,
   "verdicts": {
    "BUY": 2,
-   "PASS": 100,
+   "PASS": 103,
    "WATCH": 29
   },
   "live_signal_alerts": 0,
   "risk_events": 1,
   "paper": {
-   "trades": 3,
-   "open_positions": 1,
-   "closed_today": 1,
-   "realized_pnl_sol": -0.13956190693902004,
-   "fees_sol": 0.016450822235678866
+   "trades": 4,
+   "open_positions": 0,
+   "closed_today": 2,
+   "realized_pnl_sol": 0.3409551622048574,
+   "fees_sol": 0.02646241460579163
   },
   "live": {
    "trades": 0,
@@ -30,12 +30,12 @@
    "mode": "PAPER",
    "route": "worst",
    "referral": false,
-   "sol_usd": 94.9,
+   "sol_usd": 94.89,
    "size_sol": 0.5,
-   "round_trip_fees_sol": 0.020021,
-   "breakeven_pct": 7.256,
+   "round_trip_fees_sol": 0.020023,
+   "breakeven_pct": 7.257,
    "source": "https://help.fomo.family/en/articles/14436214-trading-fees-on-fomo"
   }
  },
- "generated_at": "2026-11-04T21:20:57+00:00"
+ "generated_at": "2026-11-04T21:23:00+00:00"
 }
