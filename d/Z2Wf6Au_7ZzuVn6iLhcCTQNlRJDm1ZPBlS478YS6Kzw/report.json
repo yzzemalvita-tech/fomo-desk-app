@@ -3,12 +3,12 @@
  "version": 1,
  "data": {
   "date_utc": "2026-11-04",
-  "signals": 32,
-  "audited": 25,
+  "signals": 23,
+  "audited": 27,
   "verdicts": {
    "BUY": 1,
-   "PASS": 17,
-   "WATCH": 8
+   "PASS": 18,
+   "WATCH": 9
   },
   "trades": 2,
   "open_positions": 0,
@@ -16,5 +16,5 @@
   "fees_sol": 0.006228668,
   "risk_events": 2
  },
- "generated_at": "2026-11-04T16:59:36+00:00"
+ "generated_at": "2026-11-04T17:00:41+00:00"
 }
