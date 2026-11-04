@@ -29,34 +29,6 @@
    }
   },
   {
-   "id": 4,
-   "kind": "setting_change",
-   "severity": "info",
-   "mint": null,
-   "position_id": null,
-   "action": "reset",
-   "created_at": "2026-11-04 17:03:41",
-   "detail": {
-    "key": "stop_loss_pct",
-    "old": "25",
-    "new": "30"
-   }
-  },
-  {
-   "id": 3,
-   "kind": "setting_change",
-   "severity": "info",
-   "mint": null,
-   "position_id": null,
-   "action": "set",
-   "created_at": "2026-11-04 17:03:41",
-   "detail": {
-    "key": "stop_loss_pct",
-    "old": "30",
-    "new": "25"
-   }
-  },
-  {
    "id": 2,
    "kind": "tg_non_owner",
    "severity": "info",
@@ -82,5 +54,5 @@
    }
   }
  ],
- "generated_at": "2026-11-04T17:03:42+00:00"
+ "generated_at": "2026-11-04T17:05:45+00:00"
 }
