@@ -17,6 +17,10 @@
    "open_positions": 0,
    "closed_today": 3,
    "realized_pnl_sol": 0.3570838282708234,
+   "wins": 2,
+   "losses": 1,
+   "win_rate_pct": 66.7,
+   "positions_traded": 3,
    "fees_sol": 0.04629027111961998
   },
   "live": {
@@ -24,6 +28,10 @@
    "open_positions": 0,
    "closed_today": 0,
    "realized_pnl_sol": 0,
+   "wins": 0,
+   "losses": 0,
+   "win_rate_pct": null,
+   "positions_traded": 0,
    "fees_sol": 0
   },
   "fee_model": {
@@ -37,5 +45,5 @@
    "source": "https://help.fomo.family/en/articles/14436214-trading-fees-on-fomo"
   }
  },
- "generated_at": "2026-11-04T23:43:19+00:00"
+ "generated_at": "2026-11-04T23:44:13+00:00"
 }

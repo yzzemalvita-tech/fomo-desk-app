@@ -16,6 +16,10 @@
    "take_profit_pct": 0.01,
    "opened_at": "2026-11-04 22:37:57",
    "closed_at": "2026-11-04 23:01:43",
+   "orig_qty": 596373.0275956069,
+   "ladder_steps_done": 0,
+   "ladder_alerted": 0,
+   "peak_price_sol": null,
    "coin_url": "https://fomo.family/coin?address=9NjrwJTbVbMzv3jong3pqQny6vkLePVjUvavda6Ypump&chainId=1399811149&r=savipww&source=share_link"
   },
   {
@@ -32,6 +36,10 @@
    "take_profit_pct": 100.0,
    "opened_at": "2026-11-04 21:08:00",
    "closed_at": "2026-11-04 21:21:52",
+   "orig_qty": 943912.7874463274,
+   "ladder_steps_done": 0,
+   "ladder_alerted": 0,
+   "peak_price_sol": null,
    "coin_url": "https://fomo.family/coin?address=HSxuYKZw9Aevsugt4jiW1mE7zG3cW1DRDmjstDAypump&chainId=1399811149&r=savipww&source=share_link"
   },
   {
@@ -48,8 +56,12 @@
    "take_profit_pct": 100.0,
    "opened_at": "2026-11-04 15:48:19",
    "closed_at": "2026-11-04 15:51:56",
+   "orig_qty": 833614.0881236171,
+   "ladder_steps_done": 0,
+   "ladder_alerted": 0,
+   "peak_price_sol": null,
    "coin_url": "https://fomo.family/coin?address=5s2PfWHNegqRJNeNZtYnbLi9NBXuUuVYDgMkCub3pump&chainId=1399811149&r=savipww&source=share_link"
   }
  ],
- "generated_at": "2026-11-04T23:02:49+00:00"
+ "generated_at": "2026-11-04T23:44:13+00:00"
 }
