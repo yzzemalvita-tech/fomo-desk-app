@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 64,
+   "mint": "AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-04 18:56:58",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 63,
    "mint": "hL9tACtRRneeqQzWezjZmsfvEhv7gjdiDwmAQaBpump",
    "symbol": "Donkey",
@@ -2909,43 +2929,7 @@
    "layers": {},
    "bundles": null,
    "verdict": null
-  },
-  {
-   "id": 1,
-   "mint": "rUPfWGxm6z2E8RDsqW5bqT5kPTaYvKt3oSXqRY9pump",
-   "symbol": "TEST",
-   "name": null,
-   "source": "test",
-   "status": "new",
-   "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
-   "created_at": "2026-11-04 15:34:36",
-   "audit_id": 1,
-   "audit_passed": 1,
-   "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=rUPfWGxm6z2E8RDsqW5bqT5kPTaYvKt3oSXqRY9pump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    }
-   },
-   "bundles": {
-    "label": "checked 14/top 20 (partial)",
-    "bundled_pct": 3.2,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "WATCH",
-    "confidence": 0.4,
-    "size_sol": null,
-    "reasoning": null,
-    "analyst": "Jev",
-    "created_at": "2026-11-04 15:34:36"
-   }
   }
  ],
- "generated_at": "2026-11-04T18:55:54+00:00"
+ "generated_at": "2026-11-04T18:57:56+00:00"
 }
