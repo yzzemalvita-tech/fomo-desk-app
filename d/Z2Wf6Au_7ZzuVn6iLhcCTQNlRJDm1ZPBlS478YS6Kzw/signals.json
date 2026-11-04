@@ -5,22 +5,66 @@
   {
    "id": 153,
    "mint": "9iyKHYMrXMF1eFJNC1TKUhGv6pBM47LH51KYi4ympump",
-   "symbol": null,
-   "name": null,
+   "symbol": "SL",
+   "name": "Sol Labyrinth",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
+   "price_usd": 3.944e-05,
+   "mcap_usd": 39448.6,
    "liquidity_usd": null,
    "created_at": "2026-11-04 22:53:53",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 155,
+   "audit_passed": 1,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=9iyKHYMrXMF1eFJNC1TKUhGv6pBM47LH51KYi4ympump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "4 bundled \u00b7 10/20 checked",
+    "bundled_pct": 20.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.80/4; rug risk 0.74. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=fail; L7_bundles=partial; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-04 22:55:18"
+   }
   },
   {
    "id": 152,
@@ -3143,5 +3187,5 @@
    }
   }
  ],
- "generated_at": "2026-11-04T22:54:41+00:00"
+ "generated_at": "2026-11-04T22:56:43+00:00"
 }
