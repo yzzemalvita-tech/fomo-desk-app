@@ -1,8 +1,9 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="FOMO Desk"><meta name="theme-color" content="#0b0d12">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="FOMO Desk"><meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#16181d" media="(prefers-color-scheme: dark)">
 <meta name="referrer" content="no-referrer"><meta name="robots" content="noindex">
 <title>FOMO Desk</title>
 <link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -10,11 +11,11 @@
 </head><body>
 <div id="locked" class="locked"><h1>FOMO Desk</h1><p>Locked. Open your private link.</p></div>
 <div id="app" hidden>
-<header><span class="title">FOMO Desk</span><span id="mode" class="pill"></span><span id="age" class="age"></span></header>
+<header><div><div id="date" class="mute"></div><h1 id="title">FOMO Desk</h1></div><div class="hr"><span id="mode" class="pill"></span><span id="age" class="mute"></span></div></header>
 <div id="stale" class="stale" hidden></div>
 <main id="view"></main>
 <nav id="tabs">
-<button data-t="status" class="on">Status</button><button data-t="signals">Signals</button><button data-t="trades">Trades</button><button data-t="risk">Risk</button><button data-t="report">Report</button><button data-t="settings">Settings</button>
+<button data-t="status" class="on"><i>◎</i>Home</button><button data-t="signals"><i>◇</i>Signals</button><button data-t="trades"><i>◔</i>Trades</button><button data-t="risk"><i>△</i>Risk</button><button data-t="report"><i>▤</i>Report</button><button data-t="settings"><i>⚙</i>Settings</button>
 </nav></div>
 <script src="config.js"></script><script src="app.js"></script>
 </body></html>
