@@ -8,47 +8,47 @@
    {
     "agent": "Analyst",
     "status": "ok",
-    "detail": "verdicts=23 jev_calls=16 queue=0",
-    "last_beat": "2026-11-04 17:15:14",
-    "age_s": 7.4
+    "detail": "verdicts=0 jev_calls=0 queue=0",
+    "last_beat": "2026-11-04 17:18:11",
+    "age_s": 2.9
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=23 queue=0 busy=None",
-    "last_beat": "2026-11-04 17:15:14",
-    "age_s": 7.4
+    "detail": "audited=0 queue=0 busy=None",
+    "last_beat": "2026-11-04 17:18:11",
+    "age_s": 2.9
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "stats={'429': 10, 'errors': 2, 'jev_in': 14800, 'jev_out': 1136, 'jev_calls': 16, 'publishes': 9}",
-    "last_beat": "2026-11-04 17:15:14",
-    "age_s": 7.4
+    "detail": "mode=PAPER stats={'429': 0, 'errors': 0, 'jev_in': 0, 'jev_out': 0, 'jev_calls': 0, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 1}",
+    "last_beat": "2026-11-04 17:18:11",
+    "age_s": 2.9
    },
    {
     "agent": "Executor",
     "status": "ok",
-    "detail": "mode=PAPER opened=0 closed=0",
-    "last_beat": "2026-11-04 17:15:14",
-    "age_s": 7.4
+    "detail": "mode=PAPER opened=0 closed=0 live_alerts=0",
+    "last_beat": "2026-11-04 17:18:11",
+    "age_s": 2.9
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=109 open=0 kill=0",
-    "last_beat": "2026-11-04 17:15:14",
-    "age_s": 7.4
+    "detail": "checks=8 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-04 17:18:11",
+    "age_s": 2.9
    },
    {
     "agent": "Scanner",
     "status": "ok",
-    "detail": "seen=25 connected=True reconnects=1",
-    "last_beat": "2026-11-04 17:15:14",
-    "age_s": 7.4
+    "detail": "seen=2 connected=True reconnects=0",
+    "last_beat": "2026-11-04 17:18:11",
+    "age_s": 2.9
    }
   ],
-  "last_update": "2026-11-04 17:15:14"
+  "last_update": "2026-11-04 17:18:11"
  },
- "generated_at": "2026-11-04T17:15:21+00:00"
+ "generated_at": "2026-11-04T17:18:13+00:00"
 }
