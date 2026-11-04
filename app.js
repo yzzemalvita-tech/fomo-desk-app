@@ -1,6 +1,6 @@
 "use strict";
 (function(){
-const C=window.FOMO_CONFIG,FILES=["status","signals","positions","trades","risk","report","settings"];
+const C=window.FOMO_CONFIG,FILES=["status","signals","positions","trades","risk","report","settings","live"];
 const KEY="fomo_desk_t",STALE_S=180,REFRESH_MS=30000;
 let D={},tab="status",timer=null;
 const $=s=>document.querySelector(s);
@@ -38,21 +38,28 @@ signals(){const l=D.signals&&D.signals.data||[];if(!l.length)return"<p class=mut
   const link=/^https:\/\//.test(x.coin_url||"")?`<a class=btn href="${esc(x.coin_url)}" target="_blank" rel="noopener">Open in FOMO</a>`:"";
   return`<div class=card><div class=row><b>${esc(x.symbol||x.mint.slice(0,6)+"…")}</b><span class=mut>${esc(x.status)} · ${fmtAge(ageS(x.created_at))}</span></div>
   <div class=mut>${esc(x.name||"")} liq $${x.liquidity_usd?Math.round(x.liquidity_usd):"–"}</div><div class=chips>${chips}</div>${b}${vh}${link}</div>`}).join("")},
-trades(){const p=D.positions&&D.positions.data||[],t=D.trades&&D.trades.data||[];
- const pnl=p.reduce((a,x)=>a+(x.realized_pnl_sol||0),0),fee=t.reduce((a,x)=>a+(x.fee_sol||0)+(x.priority_fee_sol||0),0);
- const pos=p.map(x=>`<div class=card><div class=row><b>${esc(x.mint.slice(0,6))}… ${esc(x.mode)}</b><span class="${x.realized_pnl_sol<0?"bad":"ok"}">${num(x.realized_pnl_sol)} SOL</span></div>
-  <div class=mut>${esc(x.status)} · cost ${num(x.cost_sol,3)} · fees ${num(x.fees_sol)} · SL ${x.stop_loss_pct}% TP ${x.take_profit_pct}%</div>
-  ${/^https:\/\//.test(x.coin_url||"")?`<a class=btn href="${esc(x.coin_url)}" target="_blank" rel="noopener">Open in FOMO</a>`:""}</div>`).join("");
- const tr=t.map(x=>`<tr><td>${esc(x.side)}</td><td>${num(x.amount_sol,3)}</td><td>${num(x.fee_sol,4)}</td><td>${esc(x.reason||"")}</td><td class=mut>${esc((x.created_at||"").slice(11,16))}</td></tr>`).join("");
- return`<div class=grid><div class=card><div class=mut>Realized PnL</div><div class="big ${pnl<0?"bad":"ok"}">${num(pnl)}</div></div><div class=card><div class=mut>Fees</div><div class=big>${num(fee)}</div></div></div>
- <div class=card><div class=mut>Cumulative PnL (SOL)</div><canvas id=pnl></canvas></div><h2>Positions</h2>${pos||"<p class=mut>None</p>"}
- <h2>Trades</h2><div class=card><table><tr class=mut><td>Side</td><td>SOL</td><td>Fee</td><td>Reason</td><td>UTC</td></tr>${tr}</table></div>`},
+trades(){const P=D.positions&&D.positions.data||[],T=D.trades&&D.trades.data||[],L=D.live&&D.live.data||[];
+ const btn=u=>/^https:\/\//.test(u||"")?`<a class=btn href="${esc(u)}" target="_blank" rel="noopener">Open in FOMO</a>`:"";
+ const sec=(m,title)=>{const p=P.filter(x=>x.mode===m),t=T.filter(x=>x.mode===m);
+  const pnl=p.reduce((a,x)=>a+(x.realized_pnl_sol||0),0),fee=t.reduce((a,x)=>a+(x.fee_sol||0)+(x.priority_fee_sol||0),0);
+  const pos=p.map(x=>`<div class=card><div class=row><b>${esc(x.mint.slice(0,6))}… ${esc(x.mode)}</b><span class="${x.realized_pnl_sol<0?"bad":"ok"}">${num(x.realized_pnl_sol)} SOL</span></div>
+  <div class=mut>${esc(x.status)} · cost ${num(x.cost_sol,3)} · fees ${num(x.fees_sol)} · SL ${x.stop_loss_pct}% TP ${x.take_profit_pct}%</div>${btn(x.coin_url)}</div>`).join("");
+  const tr=t.map(x=>`<tr><td>${esc(x.side)}</td><td>${num(x.amount_sol,3)}</td><td>${num(x.fee_sol,4)}</td><td>${esc(x.reason||"")}</td><td class=mut>${esc((x.created_at||"").slice(11,16))}</td></tr>`).join("");
+  return`<h2>${title}</h2><div class=grid><div class=card><div class=mut>Realized PnL</div><div class="big ${pnl<0?"bad":"ok"}">${num(pnl)}</div></div><div class=card><div class=mut>Fees</div><div class=big>${num(fee)}</div></div></div>
+  ${m==="PAPER"?"<div class=card><div class=mut>Cumulative PnL (SOL, paper)</div><canvas id=pnl></canvas></div>":""}${pos||"<p class=mut>No positions</p>"}
+  ${tr?`<div class=card><table><tr class=mut><td>Side</td><td>SOL</td><td>Fee</td><td>Reason</td><td>UTC</td></tr>${tr}</table></div>`:""}`};
+ const la=L.slice(0,10).map(x=>`<div class=card><div class=row><b>${esc(x.mint.slice(0,6))}… LIVE alert</b><span class=mut>${esc(x.created_at)} UTC</span></div>
+  <div class=mut>size ${num(x.size_sol,3)} SOL · SL $${esc(x.stop_loss_usd!=null?x.stop_loss_usd.toExponential(3):"n/a")} · TP $${esc(x.take_profit_usd!=null?x.take_profit_usd.toExponential(3):"n/a")} · fees ${num(x.est_fees_sol)} · breakeven +${num(x.breakeven_pct,2)}%</div>${btn(x.coin_url)}</div>`).join("");
+ return sec("PAPER","PAPER (simulated)")+sec("LIVE","LIVE (manual, logged via /bought /sold)")+`<h2>LIVE signal alerts</h2>${la||"<p class=mut>None</p>"}`},
 risk(){const l=D.risk&&D.risk.data||[];if(!l.length)return"<p class=mut>No risk events</p>";
  return l.map(x=>`<div class=card><div class=row><b class="${x.severity==="warn"?"warn":x.severity==="crit"?"bad":""}">${esc(x.kind)}</b><span class=mut>${esc(x.created_at)} UTC</span></div>
  <div class=mut>${esc(x.action||"")} ${x.mint?esc(x.mint.slice(0,6))+"…":""} ${esc(JSON.stringify(x.detail||{}))}</div></div>`).join("")},
-report(){const r=D.report&&D.report.data;if(!r)return"<p class=mut>No report</p>";const v=r.verdicts||{};
+report(){const r=D.report&&D.report.data;if(!r)return"<p class=mut>No report</p>";const v=r.verdicts||{},f=r.fee_model||{};
  const c=(k,val,cl="")=>`<div class=card><div class=mut>${k}</div><div class="big ${cl}">${esc(val)}</div></div>`;
- return`<div class=mut>Day (UTC) ${esc(r.date_utc)}</div><div class=grid>${c("Signals",r.signals)}${c("Audited",r.audited)}${c("BUY",v.BUY||0,"ok")}${c("WATCH",v.WATCH||0,"warn")}${c("PASS",v.PASS||0)}${c("Trades",r.trades)}${c("Open",r.open_positions)}${c("Risk events",r.risk_events)}${c("PnL SOL",num(r.realized_pnl_sol),r.realized_pnl_sol<0?"bad":"ok")}${c("Fees SOL",num(r.fees_sol))}</div>`},
+ const m=(t,x)=>x?`<h2>${t}</h2><div class=grid>${c("Trades",x.trades)}${c("Open",x.open_positions)}${c("PnL SOL",num(x.realized_pnl_sol),x.realized_pnl_sol<0?"bad":"ok")}${c("Fees SOL",num(x.fees_sol))}</div>`:"";
+ return`<div class=mut>Day (UTC) ${esc(r.date_utc)}</div><div class=grid>${c("Signals",r.signals)}${c("Audited",r.audited)}${c("BUY",v.BUY||0,"ok")}${c("WATCH",v.WATCH||0,"warn")}${c("PASS",v.PASS||0)}${c("LIVE alerts",r.live_signal_alerts||0)}${c("Risk events",r.risk_events)}</div>
+ ${m("PAPER (simulated)",r.paper)}${m("LIVE (manual)",r.live)}
+ <h2>Fee model</h2><div class=card><div class=mut>${esc(f.mode||"")} · route ${esc(f.route||"")} · SOL $${esc(f.sol_usd)} · ${num(f.size_sol,2)} SOL round trip ≈ ${num(f.round_trip_fees_sol)} SOL fees · breakeven +${num(f.breakeven_pct,2)}%</div></div>`},
 settings(){const s=D.settings&&D.settings.data;if(!s)return"<p class=mut>No settings</p>";
  return`<div class=mut>Read-only · change via Telegram /set, /reset · 🔒 = not editable</div><div class=card><table>${Object.keys(s).map(k=>{const o=s[k]&&typeof s[k]==="object"?s[k]:{value:s[k]};
   const ch=o.default!=null&&String(o.value)!==String(o.default);
