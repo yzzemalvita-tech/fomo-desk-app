@@ -1,0 +1,54 @@
+{
+ "schema": "fomo-desk/status",
+ "version": 1,
+ "data": {
+  "mode": "PAPER",
+  "kill_switch": false,
+  "heartbeats": [
+   {
+    "agent": "Analyst",
+    "status": "ok",
+    "detail": "verdicts=0 jev_calls=0 queue=0",
+    "last_beat": "2026-11-04 17:11:14",
+    "age_s": 0.4
+   },
+   {
+    "agent": "Auditor",
+    "status": "ok",
+    "detail": "audited=0 queue=0 busy=None",
+    "last_beat": "2026-11-04 17:11:14",
+    "age_s": 0.4
+   },
+   {
+    "agent": "Desk",
+    "status": "ok",
+    "detail": "stats={'429': 0, 'errors': 0, 'jev_in': 0, 'jev_out': 0, 'jev_calls': 0, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 3}",
+    "last_beat": "2026-11-04 17:11:14",
+    "age_s": 0.4
+   },
+   {
+    "agent": "Executor",
+    "status": "ok",
+    "detail": "mode=PAPER opened=0 closed=0",
+    "last_beat": "2026-11-04 17:11:14",
+    "age_s": 0.4
+   },
+   {
+    "agent": "Risk",
+    "status": "ok",
+    "detail": "checks=20 open=0 kill=0",
+    "last_beat": "2026-11-04 17:11:14",
+    "age_s": 0.4
+   },
+   {
+    "agent": "Scanner",
+    "status": "ok",
+    "detail": "seen=7 connected=True reconnects=0",
+    "last_beat": "2026-11-04 17:11:14",
+    "age_s": 0.4
+   }
+  ],
+  "last_update": "2026-11-04 17:11:14"
+ },
+ "generated_at": "2026-11-04T17:11:14+00:00"
+}
