@@ -5,22 +5,66 @@
   {
    "id": 179,
    "mint": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
-   "symbol": null,
-   "name": null,
+   "symbol": "TSLAx",
+   "name": "Tesla xStock",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 383.64,
+   "mcap_usd": 72324701.0,
+   "liquidity_usd": 2386070.45,
    "created_at": "2026-11-04 23:48:43",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 181,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "fail"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "fail"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L2_mint_authority, L3_freeze_authority",
+    "analyst": "Jev",
+    "created_at": "2026-11-04 23:50:13"
+   }
   },
   {
    "id": 178,
@@ -3147,5 +3191,5 @@
    }
   }
  ],
- "generated_at": "2026-11-04T23:49:20+00:00"
+ "generated_at": "2026-11-04T23:50:22+00:00"
 }
