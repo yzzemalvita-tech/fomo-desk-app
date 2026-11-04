@@ -8,47 +8,47 @@
    {
     "agent": "Analyst",
     "status": "ok",
-    "detail": "verdicts=18 jev_calls=9 queue=0",
-    "last_beat": "2026-11-04 20:10:32",
-    "age_s": 13.8
+    "detail": "verdicts=21 jev_calls=12 queue=0",
+    "last_beat": "2026-11-04 20:12:32",
+    "age_s": 16.8
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=18 queue=0 busy=81",
-    "last_beat": "2026-11-04 20:10:32",
-    "age_s": 13.8
+    "detail": "audited=21 queue=0 busy=None",
+    "last_beat": "2026-11-04 20:12:32",
+    "age_s": 16.8
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=PAPER stats={'429': 0, 'errors': 8, 'jev_in': 8342, 'jev_out': 639, 'jev_calls': 9, 'tg': {'in': 5, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 10}",
-    "last_beat": "2026-11-04 20:10:34",
-    "age_s": 11.8
+    "detail": "mode=PAPER stats={'429': 0, 'errors': 8, 'jev_in': 11093, 'jev_out': 852, 'jev_calls': 12, 'tg': {'in': 5, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 11}",
+    "last_beat": "2026-11-04 20:12:34",
+    "age_s": 14.8
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=PAPER opened=0 closed=0 live_alerts=0",
-    "last_beat": "2026-11-04 20:10:32",
-    "age_s": 13.8
+    "last_beat": "2026-11-04 20:12:32",
+    "age_s": 16.8
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=89 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-04 20:10:32",
-    "age_s": 13.8
+    "detail": "checks=97 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-04 20:12:32",
+    "age_s": 16.8
    },
    {
     "agent": "Scanner",
     "status": "ok",
     "detail": "seen=14 connected=True reconnects=4",
-    "last_beat": "2026-11-04 20:10:32",
-    "age_s": 13.8
+    "last_beat": "2026-11-04 20:12:32",
+    "age_s": 16.8
    }
   ],
-  "last_update": "2026-11-04 20:10:34"
+  "last_update": "2026-11-04 20:12:34"
  },
- "generated_at": "2026-11-04T20:10:45+00:00"
+ "generated_at": "2026-11-04T20:12:48+00:00"
 }
