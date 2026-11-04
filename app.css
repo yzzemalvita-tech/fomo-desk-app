@@ -1,0 +1,20 @@
+:root{--bg:#0b0d12;--card:#151922;--fg:#e8ecf3;--mut:#8a93a6;--ok:#22c55e;--warn:#f59e0b;--bad:#ef4444;--acc:#7c5cff}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.4 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;-webkit-text-size-adjust:100%}
+header{position:sticky;top:0;z-index:2;display:flex;gap:8px;align-items:center;padding:calc(env(safe-area-inset-top) + 10px) calc(env(safe-area-inset-right) + 14px) 10px calc(env(safe-area-inset-left) + 14px);background:rgba(11,13,18,.92);backdrop-filter:blur(10px);border-bottom:1px solid #222836}
+.title{font-weight:700;font-size:17px;flex:1}.age{color:var(--mut);font-size:12px}
+.pill{padding:2px 8px;border-radius:99px;font-size:12px;font-weight:700;background:#1f2633}.pill.PAPER{color:#60a5fa}.pill.LIVE{color:var(--bad)}
+main{padding:12px calc(env(safe-area-inset-right) + 12px) calc(env(safe-area-inset-bottom) + 80px) calc(env(safe-area-inset-left) + 12px)}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:#10131a;border-top:1px solid #222836;padding:6px env(safe-area-inset-right) calc(env(safe-area-inset-bottom) + 6px) env(safe-area-inset-left)}
+nav button{flex:1;background:none;border:0;color:var(--mut);font-size:12px;padding:8px 0}nav button.on{color:var(--fg);font-weight:700}
+.card{background:var(--card);border-radius:14px;padding:12px;margin-bottom:10px}
+.row{display:flex;justify-content:space-between;gap:8px;align-items:center}.mut{color:var(--mut);font-size:13px}
+.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin:8px 0}.chip{font-size:11px;padding:2px 6px;border-radius:6px;background:#1f2633}
+.chip.pass{color:var(--ok)}.chip.fail{color:var(--bad)}.chip.warn,.chip.skip{color:var(--warn)}
+.btn{display:block;text-align:center;background:var(--acc);color:#fff;text-decoration:none;border-radius:10px;padding:10px;font-weight:700;margin-top:8px}
+.stale{background:#3a2a06;color:var(--warn);padding:8px 14px;font-size:13px}
+.big{font-size:22px;font-weight:700}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+canvas{width:100%;height:180px;display:block}
+.locked{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;color:var(--mut)}
+h2{font-size:15px;margin:14px 2px 8px;color:var(--mut)}table{width:100%;border-collapse:collapse;font-size:13px}td{padding:4px 0;border-bottom:1px solid #222836}
+[hidden]{display:none!important}
