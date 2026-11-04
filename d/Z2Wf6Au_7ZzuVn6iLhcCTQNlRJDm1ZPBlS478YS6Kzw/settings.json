@@ -269,7 +269,7 @@
    "max": 3600
   },
   "publish_interval": {
-   "value": "120",
+   "value": "60",
    "default": 120,
    "type": "int",
    "desc": "Web app JSON publish interval (s)",
@@ -307,5 +307,5 @@
    "restart": false
   }
  },
- "generated_at": "2026-11-04T23:10:42+00:00"
+ "generated_at": "2026-11-04T23:26:56+00:00"
 }
