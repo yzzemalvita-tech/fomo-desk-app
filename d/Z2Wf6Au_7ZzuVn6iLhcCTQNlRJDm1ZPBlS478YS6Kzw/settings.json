@@ -2,246 +2,33 @@
  "schema": "fomo-desk/settings",
  "version": 1,
  "data": {
-  "mode": {
-   "value": "PAPER",
-   "default": "PAPER",
-   "type": "str",
-   "desc": "Trading mode. This build is PAPER only (LIVE not implemented)",
-   "editable": false,
-   "restart": true,
-   "allowed": [
-    "PAPER"
-   ]
-  },
-  "analyst_mode": {
-   "value": "jev",
-   "default": "jev",
-   "type": "str",
-   "desc": "Analyst engine (TypeSafe Jev)",
-   "editable": false,
-   "restart": false,
-   "allowed": [
-    "jev"
-   ]
-  },
-  "kill_switch": {
-   "value": "0",
-   "default": 0,
-   "type": "bool",
-   "desc": "1 = no new paper entries (use /pause, /resume)",
-   "editable": true,
-   "restart": false,
-   "min": 0,
-   "max": 1
-  },
-  "paper_balance_sol": {
-   "value": "10",
-   "default": 10.0,
-   "type": "float",
-   "desc": "Starting paper balance (SOL)",
-   "editable": false,
-   "restart": false,
-   "min": 0,
-   "max": 10000
-  },
-  "max_position_sol": {
-   "value": "0.5",
-   "default": 0.5,
-   "type": "float",
-   "desc": "Max size per paper position (SOL)",
-   "editable": true,
-   "restart": false,
-   "min": 0.01,
-   "max": 5
-  },
-  "max_open_positions": {
-   "value": "5",
-   "default": 5,
-   "type": "int",
-   "desc": "Max concurrent open positions",
-   "editable": true,
-   "restart": false,
-   "min": 0,
-   "max": 20
-  },
-  "stop_loss_pct": {
-   "value": "30",
-   "default": 30.0,
-   "type": "float",
-   "desc": "Stop-loss for new positions (% below entry)",
-   "editable": true,
-   "restart": false,
-   "min": 1,
-   "max": 90
-  },
-  "take_profit_pct": {
-   "value": "100",
-   "default": 100.0,
-   "type": "float",
-   "desc": "Take-profit for new positions (% above entry)",
-   "editable": true,
-   "restart": false,
-   "min": 1,
-   "max": 1000
-  },
-  "max_hold_min": {
-   "value": "60",
-   "default": 60,
-   "type": "int",
-   "desc": "Close positions after this many minutes",
-   "editable": true,
-   "restart": false,
-   "min": 1,
-   "max": 1440
-  },
-  "slippage_bps": {
-   "value": "300",
-   "default": 300,
-   "type": "int",
-   "desc": "Simulated slippage (bps)",
-   "editable": true,
-   "restart": false,
-   "min": 10,
-   "max": 2000
-  },
-  "paper_fee_pct": {
-   "value": "1",
-   "default": 1.0,
-   "type": "float",
-   "desc": "Simulated platform fee (% of notional)",
-   "editable": true,
-   "restart": false,
-   "min": 0,
-   "max": 10
-  },
-  "priority_fee_sol": {
-   "value": "0.0001",
-   "default": 0.0001,
-   "type": "float",
-   "desc": "Simulated priority fee per trade (SOL)",
-   "editable": true,
-   "restart": false,
-   "min": 0,
-   "max": 0.01
-  },
-  "min_liquidity_usd": {
-   "value": "5000",
-   "default": 5000.0,
-   "type": "float",
-   "desc": "Audit layer 1: min pool liquidity (USD)",
-   "editable": true,
-   "restart": false,
-   "min": 0,
-   "max": 10000000.0
-  },
-  "bundle_top_n": {
-   "value": "20",
-   "default": 20,
-   "type": "int",
-   "desc": "Audit layer 7: top holders checked for bundles",
-   "editable": true,
-   "restart": false,
-   "min": 5,
-   "max": 50
-  },
-  "bundle_max_pct": {
-   "value": "25",
-   "default": 25.0,
-   "type": "float",
-   "desc": "Audit layer 7: max bundled supply (%)",
-   "editable": true,
-   "restart": false,
-   "min": 1,
-   "max": 100
-  },
-  "bundle_budget_s": {
-   "value": "20",
-   "default": 20.0,
-   "type": "float",
-   "desc": "RPC budget: max seconds per bundle check",
-   "editable": true,
-   "restart": false,
-   "min": 5,
-   "max": 120
-  },
-  "bundle_rpc_concurrency": {
-   "value": "8",
-   "default": 8,
-   "type": "int",
-   "desc": "RPC budget: parallel public-RPC calls per bundle check",
-   "editable": true,
-   "restart": false,
-   "min": 1,
-   "max": 16
-  },
-  "daily_loss_limit_sol": {
-   "value": "2",
-   "default": 2.0,
-   "type": "float",
-   "desc": "Kill switch trips at this daily realized loss (SOL)",
-   "editable": true,
-   "restart": false,
-   "min": 0.1,
-   "max": 50
-  },
-  "audit_delay_s": {
-   "value": "60",
-   "default": 60,
-   "type": "int",
-   "desc": "Wait after migration before auditing (s)",
-   "editable": true,
-   "restart": false,
-   "min": 0,
-   "max": 600
-  },
-  "risk_poll_s": {
-   "value": "15",
-   "default": 15,
-   "type": "int",
-   "desc": "Risk loop interval (s)",
-   "editable": true,
-   "restart": false,
-   "min": 5,
-   "max": 300
-  },
-  "publish_interval": {
-   "value": "120",
-   "default": 120,
-   "type": "int",
-   "desc": "Web app JSON publish interval (s)",
-   "editable": true,
-   "restart": false,
-   "min": 60,
-   "max": 3600
-  },
-  "heartbeat_timeout_s": {
-   "value": "120",
-   "default": 120,
-   "type": "int",
-   "desc": "Heartbeat older than this is shown red (s)",
-   "editable": true,
-   "restart": false,
-   "min": 30,
-   "max": 3600
-  },
-  "night_report_hour": {
-   "value": "23",
-   "default": 23,
-   "type": "int",
-   "desc": "Night report hour, Europe/Madrid (0-23)",
-   "editable": true,
-   "restart": false,
-   "min": 0,
-   "max": 23
-  },
-  "fomo_handle": {
-   "value": "ZonalFunnyWhale",
-   "default": "ZonalFunnyWhale",
-   "type": "str",
-   "desc": "FOMO profile handle (/profile)",
-   "editable": true,
-   "restart": false
-  }
+  "analyst_mode": "jev",
+  "audit_delay_s": "60",
+  "bundle_budget_s": "20",
+  "bundle_max_pct": "25",
+  "bundle_rpc_concurrency": "8",
+  "bundle_top_n": "20",
+  "daily_loss_limit_sol": "2",
+  "fomo_fee_route": "worst",
+  "fomo_handle": "ZonalFunnyWhale",
+  "fomo_referral": "0",
+  "heartbeat_timeout_s": "120",
+  "kill_switch": "0",
+  "max_hold_min": "60",
+  "max_open_positions": "5",
+  "max_position_sol": "0.5",
+  "min_liquidity_usd": "5000",
+  "mode": "PAPER",
+  "night_report_hour": "23",
+  "paper_balance_sol": "10",
+  "paper_fee_pct": "0",
+  "priority_fee_sol": "0",
+  "publish_interval": "120",
+  "risk_poll_s": "15",
+  "slippage_bps": "300",
+  "sol_usd_fallback": "150",
+  "stop_loss_pct": "30",
+  "take_profit_pct": "100"
  },
- "generated_at": "2026-11-04T17:11:14+00:00"
+ "generated_at": "2026-11-04T17:13:17+00:00"
 }
