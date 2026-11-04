@@ -3,6 +3,22 @@
  "version": 1,
  "data": [
   {
+   "id": 3,
+   "mint": "9NjrwJTbVbMzv3jong3pqQny6vkLePVjUvavda6Ypump",
+   "mode": "PAPER",
+   "status": "open",
+   "qty": 596373.0275956069,
+   "avg_entry_usd": 1.816e-05,
+   "cost_sol": 0.125,
+   "realized_pnl_sol": 0.0,
+   "fees_sol": 0.009928929765886286,
+   "stop_loss_pct": 30.0,
+   "take_profit_pct": 100.0,
+   "opened_at": "2026-11-04 22:37:57",
+   "closed_at": null,
+   "coin_url": "https://fomo.family/coin?address=9NjrwJTbVbMzv3jong3pqQny6vkLePVjUvavda6Ypump&chainId=1399811149&r=savipww&source=share_link"
+  },
+  {
    "id": 2,
    "mint": "HSxuYKZw9Aevsugt4jiW1mE7zG3cW1DRDmjstDAypump",
    "mode": "PAPER",
@@ -35,5 +51,5 @@
    "coin_url": "https://fomo.family/coin?address=5s2PfWHNegqRJNeNZtYnbLi9NBXuUuVYDgMkCub3pump&chainId=1399811149&r=savipww&source=share_link"
   }
  ],
- "generated_at": "2026-11-04T21:23:00+00:00"
+ "generated_at": "2026-11-04T22:38:46+00:00"
 }
