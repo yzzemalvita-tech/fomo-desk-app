@@ -238,6 +238,36 @@
    "min": 5,
    "max": 300
   },
+  "price_cache_s": {
+   "value": "5",
+   "default": 5,
+   "type": "int",
+   "desc": "Per-mint price cache (s); shared by risk, executor, Telegram",
+   "editable": true,
+   "restart": false,
+   "min": 0,
+   "max": 60
+  },
+  "dex_rpm": {
+   "value": "55",
+   "default": 55,
+   "type": "int",
+   "desc": "DexScreener request budget per minute (their limit ~60)",
+   "editable": true,
+   "restart": false,
+   "min": 5,
+   "max": 300
+  },
+  "price_stale_alert_s": {
+   "value": "60",
+   "default": 60,
+   "type": "int",
+   "desc": "Alert owner once if an open position has no price for this long (s)",
+   "editable": true,
+   "restart": false,
+   "min": 20,
+   "max": 3600
+  },
   "publish_interval": {
    "value": "120",
    "default": 120,
@@ -277,5 +307,5 @@
    "restart": false
   }
  },
- "generated_at": "2026-11-04T17:16:11+00:00"
+ "generated_at": "2026-11-04T23:10:42+00:00"
 }

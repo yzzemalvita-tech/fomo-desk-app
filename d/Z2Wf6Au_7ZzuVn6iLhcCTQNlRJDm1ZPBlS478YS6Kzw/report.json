@@ -30,12 +30,12 @@
    "mode": "PAPER",
    "route": "worst",
    "referral": false,
-   "sol_usd": 95.97,
+   "sol_usd": 150.0,
    "size_sol": 0.5,
-   "round_trip_fees_sol": 0.019798,
-   "breakeven_pct": 7.208,
+   "round_trip_fees_sol": 0.012667,
+   "breakeven_pct": 5.69,
    "source": "https://help.fomo.family/en/articles/14436214-trading-fees-on-fomo"
   }
  },
- "generated_at": "2026-11-04T23:08:55+00:00"
+ "generated_at": "2026-11-04T23:10:42+00:00"
 }
