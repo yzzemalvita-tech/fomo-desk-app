@@ -8,47 +8,47 @@
    {
     "agent": "Analyst",
     "status": "ok",
-    "detail": "verdicts=69 jev_calls=50 queue=0",
-    "last_beat": "2026-11-04 21:16:48",
-    "age_s": 3.5
+    "detail": "verdicts=71 jev_calls=50 queue=0",
+    "last_beat": "2026-11-04 21:18:48",
+    "age_s": 6.5
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=69 queue=0 busy=None",
-    "last_beat": "2026-11-04 21:16:48",
-    "age_s": 3.5
+    "detail": "audited=71 queue=0 busy=None",
+    "last_beat": "2026-11-04 21:18:48",
+    "age_s": 6.5
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=PAPER stats={'429': 11, 'errors': 16, 'jev_in': 46027, 'jev_out': 3550, 'jev_calls': 50, 'tg': {'in': 8, 'ignored': 0, 'sent': 2, 'send_err': 0}, 'publishes': 30}",
-    "last_beat": "2026-11-04 21:16:48",
-    "age_s": 3.5
+    "detail": "mode=PAPER stats={'429': 11, 'errors': 16, 'jev_in': 46027, 'jev_out': 3550, 'jev_calls': 50, 'tg': {'in': 8, 'ignored': 0, 'sent': 2, 'send_err': 0}, 'publishes': 31}",
+    "last_beat": "2026-11-04 21:18:48",
+    "age_s": 6.5
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=PAPER opened=1 closed=0 live_alerts=0",
-    "last_beat": "2026-11-04 21:16:48",
-    "age_s": 3.5
+    "last_beat": "2026-11-04 21:18:48",
+    "age_s": 6.5
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=251 open=1 live_open=0 kill=0",
-    "last_beat": "2026-11-04 21:16:48",
-    "age_s": 3.5
+    "detail": "checks=259 open=1 live_open=0 kill=0",
+    "last_beat": "2026-11-04 21:18:48",
+    "age_s": 6.5
    },
    {
     "agent": "Scanner",
     "status": "ok",
     "detail": "seen=64 connected=True reconnects=10",
-    "last_beat": "2026-11-04 21:16:48",
-    "age_s": 3.5
+    "last_beat": "2026-11-04 21:18:48",
+    "age_s": 6.5
    }
   ],
-  "last_update": "2026-11-04 21:16:48"
+  "last_update": "2026-11-04 21:18:48"
  },
- "generated_at": "2026-11-04T21:16:51+00:00"
+ "generated_at": "2026-11-04T21:18:54+00:00"
 }
