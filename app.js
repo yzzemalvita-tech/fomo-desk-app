@@ -54,7 +54,9 @@ report(){const r=D.report&&D.report.data;if(!r)return"<p class=mut>No report</p>
  const c=(k,val,cl="")=>`<div class=card><div class=mut>${k}</div><div class="big ${cl}">${esc(val)}</div></div>`;
  return`<div class=mut>Day (UTC) ${esc(r.date_utc)}</div><div class=grid>${c("Signals",r.signals)}${c("Audited",r.audited)}${c("BUY",v.BUY||0,"ok")}${c("WATCH",v.WATCH||0,"warn")}${c("PASS",v.PASS||0)}${c("Trades",r.trades)}${c("Open",r.open_positions)}${c("Risk events",r.risk_events)}${c("PnL SOL",num(r.realized_pnl_sol),r.realized_pnl_sol<0?"bad":"ok")}${c("Fees SOL",num(r.fees_sol))}</div>`},
 settings(){const s=D.settings&&D.settings.data;if(!s)return"<p class=mut>No settings</p>";
- return`<div class=mut>Read-only</div><div class=card><table>${Object.keys(s).sort().map(k=>`<tr><td>${esc(k)}</td><td style="text-align:right">${esc(s[k])}</td></tr>`).join("")}</table></div>`}};
+ return`<div class=mut>Read-only · change via Telegram /set, /reset · 🔒 = not editable</div><div class=card><table>${Object.keys(s).map(k=>{const o=s[k]&&typeof s[k]==="object"?s[k]:{value:s[k]};
+  const ch=o.default!=null&&String(o.value)!==String(o.default);
+  return`<tr><td>${esc(k)}${o.editable===false?" 🔒":""}<div class=mut>${esc(o.desc||"")}</div></td><td style="text-align:right">${ch?"<b class=warn>":""}${esc(o.value)}${ch?"</b><div class=mut>default "+esc(o.default)+"</div>":""}</td></tr>`}).join("")}</table></div>`}};
 function chart(){const cv=$("#pnl");if(!cv)return;const t=(D.trades&&D.trades.data||[]).slice().reverse(),pos=D.positions&&D.positions.data||[];
  const pts=[0];pos.slice().filter(p=>p.closed_at).sort((a,b)=>a.closed_at<b.closed_at?-1:1).forEach(p=>pts.push(pts[pts.length-1]+(p.realized_pnl_sol||0)));
  const r=devicePixelRatio||1,w=cv.clientWidth,h=cv.clientHeight;cv.width=w*r;cv.height=h*r;const g=cv.getContext("2d");g.scale(r,r);
