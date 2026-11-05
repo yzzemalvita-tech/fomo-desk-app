@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 882,
+   "mint": "6dt4hHKo6f8b1H7RwUTb6b6PMLDZhiRQy8EFEhFFpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 23:18:56",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=6dt4hHKo6f8b1H7RwUTb6b6PMLDZhiRQy8EFEhFFpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 881,
    "mint": "7U49FEgDg3PgxRME6ZMooiny53iSHQPTmstvS947pump",
    "symbol": "FOMOCAT",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 21:14:50"
    }
-  },
-  {
-   "id": 832,
-   "mint": "GGVs673aVEFBvNZ6ZE4fPhojDSveWuatA1FgAD7Wpump",
-   "symbol": "COPE",
-   "name": "COPE",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 0.0001088,
-   "mcap_usd": 108859.0,
-   "liquidity_usd": 24685.7,
-   "created_at": "2026-11-05 21:12:45",
-   "audit_id": 836,
-   "audit_passed": 1,
-   "audit_score": 0.625,
-   "coin_url": "https://fomo.family/coin?address=GGVs673aVEFBvNZ6ZE4fPhojDSveWuatA1FgAD7Wpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "warn"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "fail"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "19 bundled ? 19/20 checked",
-    "bundled_pct": 95.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.92,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.05 / PASS 0.95); quality 1.50/4; rug risk 0.55. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=pass; L7_bundles=fail; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 21:14:47"
-   }
   }
  ],
- "generated_at": "2026-11-05T23:17:30+00:00"
+ "generated_at": "2026-11-05T23:19:32+00:00"
 }
