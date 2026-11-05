@@ -5,20 +5,45 @@
   {
    "id": 616,
    "mint": "SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE",
-   "symbol": null,
-   "name": null,
+   "symbol": "SQQQ",
+   "name": "ProShares UltraPro Short QQQ - Backpack Securities",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 47.51,
+   "mcap_usd": 560645.0,
+   "liquidity_usd": 306427.6,
    "created_at": "2026-11-05 16:33:57",
-   "audit_id": null,
+   "audit_id": 620,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "fail"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "fail"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -28,15 +53,15 @@
    "symbol": " ",
    "name": "Nasdaqistan",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 0.0,
    "mcap_usd": null,
    "liquidity_usd": null,
    "created_at": "2026-11-05 16:32:51",
    "audit_id": 619,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.75,
    "coin_url": "https://pump.fun/coin/EGsMo77yCH9BVKedGcA3ZForQ2mJdLbvGwMhBA3Zpump",
    "layers": {
     "1": {
@@ -62,10 +87,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.4,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.01 / WATCH 0.60 / PASS 0.39); quality 1.33/4; rug risk 0.26. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=pass; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 16:34:19"
+   }
   },
   {
    "id": 614,
@@ -3140,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T16:34:05+00:00"
+ "generated_at": "2026-11-05T16:35:07+00:00"
 }
