@@ -5,40 +5,90 @@
   {
    "id": 670,
    "mint": "52Hpzq9Y4CVfEaA8pxQmHFnWmRU3hwfyG3dmtDNpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "SAVPIR",
+   "name": "Savage Piranha",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.33e-08,
+   "mcap_usd": 67.0,
+   "liquidity_usd": 11.13,
    "created_at": "2026-11-05 18:12:34",
-   "audit_id": null,
+   "audit_id": 674,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/52Hpzq9Y4CVfEaA8pxQmHFnWmRU3hwfyG3dmtDNpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 669,
    "mint": "EzWEpUK63UMMFdCMMrQMhB4hKeugeic6GFFSJKZ7pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "TOAD",
+   "name": "The Toad Cat",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 5.679e-08,
+   "mcap_usd": 114.0,
+   "liquidity_usd": 23.85,
    "created_at": "2026-11-05 18:12:13",
-   "audit_id": null,
+   "audit_id": 673,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/EzWEpUK63UMMFdCMMrQMhB4hKeugeic6GFFSJKZ7pump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3115,5 +3165,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T18:12:39+00:00"
+ "generated_at": "2026-11-05T18:13:41+00:00"
 }
