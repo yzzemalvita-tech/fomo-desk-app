@@ -5,22 +5,66 @@
   {
    "id": 474,
    "mint": "6u7CWWu2trqBNzySaCqt8kaLb4Dh2LAdStiLciWJpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "F.T",
+   "name": "F.T",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.698e-05,
+   "mcap_usd": 36984.0,
+   "liquidity_usd": 14104.61,
    "created_at": "2026-11-05 12:51:01",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 476,
+   "audit_passed": 1,
+   "audit_score": 0.875,
    "coin_url": "https://fomo.family/coin?address=6u7CWWu2trqBNzySaCqt8kaLb4Dh2LAdStiLciWJpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.48,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.24 / WATCH 0.65 / PASS 0.11); quality 2.43/4; rug risk 0.14. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=pass; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 12:52:32"
+   }
   },
   {
    "id": 473,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T12:51:35+00:00"
+ "generated_at": "2026-11-05T12:52:36+00:00"
 }
