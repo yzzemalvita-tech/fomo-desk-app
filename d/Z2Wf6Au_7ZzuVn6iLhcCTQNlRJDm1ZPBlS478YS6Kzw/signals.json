@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 718,
-   "mint": "27K4zxVKSLMReJc6H31ms1bSjFrtUWC7R8XveiJsrQ3M",
+   "id": 721,
+   "mint": "DeECcjPpQWoCY3PsviuRyiM9sF8j8WU2F8368kFPpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,32 +13,142 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 19:09:35",
+   "created_at": "2026-11-05 19:11:14",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/27K4zxVKSLMReJc6H31ms1bSjFrtUWC7R8XveiJsrQ3M",
+   "coin_url": "https://pump.fun/coin/DeECcjPpQWoCY3PsviuRyiM9sF8j8WU2F8368kFPpump",
    "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 720,
+   "mint": "F2HwFZy2HQxU7q6suG47ugbkvLDmwmG4X8CJEwyipump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 19:11:00",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/F2HwFZy2HQxU7q6suG47ugbkvLDmwmG4X8CJEwyipump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 719,
+   "mint": "7kQokWrdorMzrYNDZ4icXDkk96HwVcZ4Vjb2sJmUpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 19:10:59",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/7kQokWrdorMzrYNDZ4icXDkk96HwVcZ4Vjb2sJmUpump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 718,
+   "mint": "27K4zxVKSLMReJc6H31ms1bSjFrtUWC7R8XveiJsrQ3M",
+   "symbol": "PRISM",
+   "name": "Prism",
+   "source": "pumpportal_migration",
+   "status": "auditing",
+   "mode": "LIVE",
+   "price_usd": 3.178e-05,
+   "mcap_usd": 31780.0,
+   "liquidity_usd": 14123.52,
+   "created_at": "2026-11-05 19:09:35",
+   "audit_id": 722,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/27K4zxVKSLMReJc6H31ms1bSjFrtUWC7R8XveiJsrQ3M",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 717,
    "mint": "GLK8VyHan9q8hCrRaXGduskWtsw1BedwBJFKzKxPpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "HALH",
+   "name": "Haaland Hair",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.875e-08,
+   "mcap_usd": 38.0,
+   "liquidity_usd": 21.61,
    "created_at": "2026-11-05 19:09:23",
-   "audit_id": null,
+   "audit_id": 721,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/GLK8VyHan9q8hCrRaXGduskWtsw1BedwBJFKzKxPpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -2921,199 +3031,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 18:17:56"
    }
-  },
-  {
-   "id": 671,
-   "mint": "141XGGGB1RZ9YTxmgMm92tavRwjH19YndJtB3aEwAYgK",
-   "symbol": "BURNIT",
-   "name": "Burn it",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 4.119e-05,
-   "mcap_usd": 41075.0,
-   "liquidity_usd": 14579.0,
-   "created_at": "2026-11-05 18:15:45",
-   "audit_id": 675,
-   "audit_passed": 1,
-   "audit_score": 1.0,
-   "coin_url": "https://pump.fun/coin/141XGGGB1RZ9YTxmgMm92tavRwjH19YndJtB3aEwAYgK",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None ? 13/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "BUY",
-    "confidence": 0.7,
-    "size_sol": 0.35,
-    "reasoning": "Jev: BUY (P BUY 0.80 / WATCH 0.15 / PASS 0.05); quality 2.76/4; rug risk 0.13. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 18:17:46"
-   }
-  },
-  {
-   "id": 670,
-   "mint": "52Hpzq9Y4CVfEaA8pxQmHFnWmRU3hwfyG3dmtDNpump",
-   "symbol": "SAVPIR",
-   "name": "Savage Piranha",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 3.33e-08,
-   "mcap_usd": 67.0,
-   "liquidity_usd": 11.13,
-   "created_at": "2026-11-05 18:12:34",
-   "audit_id": 674,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/52Hpzq9Y4CVfEaA8pxQmHFnWmRU3hwfyG3dmtDNpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 12/12 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 18:14:05"
-   }
-  },
-  {
-   "id": 669,
-   "mint": "EzWEpUK63UMMFdCMMrQMhB4hKeugeic6GFFSJKZ7pump",
-   "symbol": "TOAD",
-   "name": "The Toad Cat",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 5.679e-08,
-   "mcap_usd": 114.0,
-   "liquidity_usd": 23.85,
-   "created_at": "2026-11-05 18:12:13",
-   "audit_id": 673,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/EzWEpUK63UMMFdCMMrQMhB4hKeugeic6GFFSJKZ7pump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 18:14:05"
-   }
   }
  ],
- "generated_at": "2026-11-05T19:10:15+00:00"
+ "generated_at": "2026-11-05T19:11:18+00:00"
 }
