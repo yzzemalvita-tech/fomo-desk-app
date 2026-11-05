@@ -5,40 +5,90 @@
   {
    "id": 826,
    "mint": "5rWGUB4FV8ocE9X7QhBbBJ2QsQaQgFryLwtPYmBnpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "ALICE",
+   "name": "Alice Huang",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.183e-05,
+   "mcap_usd": 41795.0,
+   "liquidity_usd": 14691.98,
    "created_at": "2026-11-05 21:02:30",
-   "audit_id": null,
+   "audit_id": 830,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/5rWGUB4FV8ocE9X7QhBbBJ2QsQaQgFryLwtPYmBnpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 825,
    "mint": "Arkd1v37y5frwMadoMvQduyhUFNoyVzbar3wooQxpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "MONK",
+   "name": "Monkey Business",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 7.999e-09,
+   "mcap_usd": 16.0,
+   "liquidity_usd": 9.26,
    "created_at": "2026-11-05 21:02:27",
-   "audit_id": null,
+   "audit_id": 829,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/Arkd1v37y5frwMadoMvQduyhUFNoyVzbar3wooQxpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3115,5 +3165,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T21:02:58+00:00"
+ "generated_at": "2026-11-05T21:04:01+00:00"
 }
