@@ -8,47 +8,47 @@
    {
     "agent": "Analyst",
     "status": "ok",
-    "detail": "verdicts=12 jev_calls=6 queue=0",
-    "last_beat": "2026-11-05 22:11:29",
-    "age_s": 11.7
+    "detail": "verdicts=13 jev_calls=7 queue=0",
+    "last_beat": "2026-11-05 22:13:29",
+    "age_s": 13.7
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=12 queue=0 busy=851",
-    "last_beat": "2026-11-05 22:11:29",
-    "age_s": 11.7
+    "detail": "audited=13 queue=0 busy=None",
+    "last_beat": "2026-11-05 22:13:29",
+    "age_s": 13.7
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=PAPER stats={'429': 512, 'errors': 0, 'jev_in': 5532, 'jev_out': 426, 'jev_calls': 6, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 21}",
-    "last_beat": "2026-11-05 22:10:58",
-    "age_s": 42.7
+    "detail": "mode=PAPER stats={'429': 560, 'errors': 0, 'jev_in': 6451, 'jev_out': 497, 'jev_calls': 7, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 22}",
+    "last_beat": "2026-11-05 22:12:58",
+    "age_s": 44.7
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=PAPER opened=0 closed=0 live_alerts=0",
-    "last_beat": "2026-11-05 22:11:29",
-    "age_s": 11.7
+    "last_beat": "2026-11-05 22:13:29",
+    "age_s": 13.7
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=106 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-05 22:11:29",
-    "age_s": 11.7
+    "detail": "checks=114 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-05 22:13:29",
+    "age_s": 13.7
    },
    {
     "agent": "Scanner",
     "status": "ok",
     "detail": "seen=11 connected=True reconnects=0",
-    "last_beat": "2026-11-05 22:11:29",
-    "age_s": 11.7
+    "last_beat": "2026-11-05 22:13:29",
+    "age_s": 13.7
    }
   ],
-  "last_update": "2026-11-05 22:11:29"
+  "last_update": "2026-11-05 22:13:29"
  },
- "generated_at": "2026-11-05T22:11:40+00:00"
+ "generated_at": "2026-11-05T22:13:42+00:00"
 }
