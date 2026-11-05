@@ -5,22 +5,66 @@
   {
    "id": 661,
    "mint": "SPYBo66VJPFjh1pXMb9Le53kDYWTK1zzYVDeVRWtsbi",
-   "symbol": null,
-   "name": null,
+   "symbol": "SPY",
+   "name": "State Street SPDR S&P 500 ETF Trust - Backpack Securities",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 742.31,
+   "mcap_usd": 293215.0,
+   "liquidity_usd": 90601.05,
    "created_at": "2026-11-05 18:00:50",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 665,
+   "audit_passed": 0,
+   "audit_score": 0.375,
    "coin_url": "https://pump.fun/coin/SPYBo66VJPFjh1pXMb9Le53kDYWTK1zzYVDeVRWtsbi",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "fail"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "fail"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "error"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L2_mint_authority, L3_freeze_authority",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 18:02:18"
+   }
   },
   {
    "id": 660,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T18:01:21+00:00"
+ "generated_at": "2026-11-05T18:02:23+00:00"
 }
