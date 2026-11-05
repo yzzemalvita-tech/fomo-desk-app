@@ -9,46 +9,46 @@
     "agent": "Analyst",
     "status": "ok",
     "detail": "verdicts=45 jev_calls=32 queue=0",
-    "last_beat": "2026-11-05 14:59:48",
-    "age_s": 7.5
+    "last_beat": "2026-11-05 15:01:49",
+    "age_s": 10.4
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=45 queue=0 busy=None",
-    "last_beat": "2026-11-05 14:59:47",
-    "age_s": 8.5
+    "detail": "audited=45 queue=0 busy=554",
+    "last_beat": "2026-11-05 15:01:49",
+    "age_s": 10.4
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=LIVE stats={'429': 439, '429_by_host': {}, 'errors': 0, 'jev_in': 33755, 'jev_out': 2272, 'jev_calls': 32, 'tg': {'in': 0, 'ignored': 0, 'sent': 5, 'send_err': 0}, 'publishes': 68}",
-    "last_beat": "2026-11-05 14:59:46",
-    "age_s": 9.5
+    "detail": "mode=LIVE stats={'429': 439, '429_by_host': {}, 'errors': 0, 'jev_in': 33755, 'jev_out': 2272, 'jev_calls': 32, 'tg': {'in': 0, 'ignored': 0, 'sent': 5, 'send_err': 0}, 'publishes': 70}",
+    "last_beat": "2026-11-05 15:01:46",
+    "age_s": 13.4
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=LIVE opened=0 closed=0 live_alerts=5",
-    "last_beat": "2026-11-05 14:59:48",
-    "age_s": 7.5
+    "last_beat": "2026-11-05 15:01:49",
+    "age_s": 10.4
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=300 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-05 14:59:48",
-    "age_s": 7.5
+    "detail": "checks=308 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-05 15:01:49",
+    "age_s": 10.4
    },
    {
     "agent": "Scanner",
     "status": "ok",
-    "detail": "seen=41 connected=True reconnects=0",
-    "last_beat": "2026-11-05 14:59:47",
-    "age_s": 8.5
+    "detail": "seen=44 connected=True reconnects=0",
+    "last_beat": "2026-11-05 15:01:49",
+    "age_s": 10.4
    }
   ],
-  "last_update": "2026-11-05 14:59:48"
+  "last_update": "2026-11-05 15:01:49"
  },
- "generated_at": "2026-11-05T14:59:55+00:00"
+ "generated_at": "2026-11-05T15:01:59+00:00"
 }
