@@ -3,20 +3,60 @@
  "version": 1,
  "data": [
   {
+   "id": 667,
+   "mint": "9Bu1SsQ2wUQ4T8zwUXCnoJKNJvxDwFP8UyuxS7p1pump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 18:06:41",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/9Bu1SsQ2wUQ4T8zwUXCnoJKNJvxDwFP8UyuxS7p1pump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 666,
+   "mint": "B4v6q2oJfAbu1f6BZ9WkQpn3wViWnmxNjNQ6GEUtpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 18:06:32",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/B4v6q2oJfAbu1f6BZ9WkQpn3wViWnmxNjNQ6GEUtpump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 665,
    "mint": "CTfWXH4mzGRmgKmYKy13sSVXudTCXQpiv5vr6nFpump",
    "symbol": "MrBeast",
    "name": "MrBeast",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 0.0001036,
    "mcap_usd": 103634.0,
    "liquidity_usd": 23924.8,
    "created_at": "2026-11-05 18:05:13",
    "audit_id": 669,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.75,
    "coin_url": "https://pump.fun/coin/CTfWXH4mzGRmgKmYKy13sSVXudTCXQpiv5vr6nFpump",
    "layers": {
     "1": {
@@ -42,10 +82,29 @@
     "6": {
      "name": "activity",
      "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.97/4; rug risk 0.83. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=pass; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 18:06:45"
+   }
   },
   {
    "id": 664,
@@ -3054,135 +3113,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 16:44:28"
    }
-  },
-  {
-   "id": 617,
-   "mint": "AtgneGZuU8A22jRZkaTEDFz7HXpUvpZqcrrQnPQppump",
-   "symbol": "STARBUCKS",
-   "name": "Starbucks Corporation",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 0.0001109,
-   "mcap_usd": 110934.0,
-   "liquidity_usd": 25097.16,
-   "created_at": "2026-11-05 16:42:17",
-   "audit_id": 621,
-   "audit_passed": 1,
-   "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/AtgneGZuU8A22jRZkaTEDFz7HXpUvpZqcrrQnPQppump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "warn"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "warn"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.74,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.17 / PASS 0.83); quality 1.86/4; rug risk 0.48. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=pass; L7_bundles=pass; L8_holders=warn",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 16:43:48"
-   }
-  },
-  {
-   "id": 616,
-   "mint": "SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE",
-   "symbol": "SQQQ",
-   "name": "ProShares UltraPro Short QQQ - Backpack Securities",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 47.51,
-   "mcap_usd": 560645.0,
-   "liquidity_usd": 306427.6,
-   "created_at": "2026-11-05 16:33:57",
-   "audit_id": 620,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "fail"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "fail"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "warn"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L2_mint_authority, L3_freeze_authority",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 16:35:25"
-   }
   }
  ],
- "generated_at": "2026-11-05T18:06:30+00:00"
+ "generated_at": "2026-11-05T18:07:32+00:00"
 }
