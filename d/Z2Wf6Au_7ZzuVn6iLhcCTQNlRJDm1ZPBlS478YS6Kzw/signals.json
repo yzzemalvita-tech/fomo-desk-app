@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 643,
-   "mint": "BjHBKCrjziCWU6QBsDRtm1TypmV6LzaigkUp9NExpump",
+   "id": 645,
+   "mint": "634vrPzhHXvBLTTWrWj4CnXgdpixUgC8uXA5wrC6pump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,12 +13,77 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 17:31:10",
+   "created_at": "2026-11-05 17:32:29",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/BjHBKCrjziCWU6QBsDRtm1TypmV6LzaigkUp9NExpump",
+   "coin_url": "https://pump.fun/coin/634vrPzhHXvBLTTWrWj4CnXgdpixUgC8uXA5wrC6pump",
    "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 644,
+   "mint": "26CyDATMVZ7xsv5CgRpKFjz2Md5GTpMbpGD3zawxj9pV",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 17:32:08",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/26CyDATMVZ7xsv5CgRpKFjz2Md5GTpMbpGD3zawxj9pV",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 643,
+   "mint": "BjHBKCrjziCWU6QBsDRtm1TypmV6LzaigkUp9NExpump",
+   "symbol": "SI",
+   "name": "Somali Inu",
+   "source": "pumpportal_migration",
+   "status": "auditing",
+   "mode": "LIVE",
+   "price_usd": 1.921e-05,
+   "mcap_usd": 19192.0,
+   "liquidity_usd": 9664.59,
+   "created_at": "2026-11-05 17:31:10",
+   "audit_id": 647,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/BjHBKCrjziCWU6QBsDRtm1TypmV6LzaigkUp9NExpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3029,135 +3094,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 15:55:59"
    }
-  },
-  {
-   "id": 595,
-   "mint": "gQ6G1hEc79JqCY56p6EZ3dAjGTbzXo1EWMqgXdjpump",
-   "symbol": "THD",
-   "name": "THE HOE DEPOT ",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 0.0,
-   "mcap_usd": null,
-   "liquidity_usd": null,
-   "created_at": "2026-11-05 15:51:25",
-   "audit_id": 599,
-   "audit_passed": 1,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/gQ6G1hEc79JqCY56p6EZ3dAjGTbzXo1EWMqgXdjpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "error"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "fail"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "2 bundled ? 13/13 checked",
-    "bundled_pct": 15.4,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.08/4; rug risk 0.83. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=fail; L7_bundles=pass; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 15:53:20"
-   }
-  },
-  {
-   "id": 594,
-   "mint": "3NqTFdpu4HQWShbGzuy75CYbh6nvmBh5AV72eVaRpump",
-   "symbol": "AODF",
-   "name": "AODF",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 3.004e-06,
-   "mcap_usd": 3004.0,
-   "liquidity_usd": 2816.22,
-   "created_at": "2026-11-05 15:51:24",
-   "audit_id": 598,
-   "audit_passed": 0,
-   "audit_score": 0.625,
-   "coin_url": "https://pump.fun/coin/3NqTFdpu4HQWShbGzuy75CYbh6nvmBh5AV72eVaRpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "3 bundled ? 20/20 checked",
-    "bundled_pct": 15.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 15:53:21"
-   }
   }
  ],
- "generated_at": "2026-11-05T17:31:36+00:00"
+ "generated_at": "2026-11-05T17:32:38+00:00"
 }
