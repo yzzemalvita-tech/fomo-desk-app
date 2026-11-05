@@ -8,47 +8,47 @@
    {
     "agent": "Analyst",
     "status": "ok",
-    "detail": "verdicts=24 jev_calls=11 queue=0",
-    "last_beat": "2026-11-05 22:35:59",
-    "age_s": 20.1
+    "detail": "verdicts=25 jev_calls=11 queue=0",
+    "last_beat": "2026-11-05 22:38:00",
+    "age_s": 23.3
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=24 queue=0 busy=None",
-    "last_beat": "2026-11-05 22:35:59",
-    "age_s": 20.1
+    "detail": "audited=25 queue=0 busy=None",
+    "last_beat": "2026-11-05 22:37:59",
+    "age_s": 24.3
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=PAPER stats={'429': 1015, 'errors': 0, 'jev_in': 10196, 'jev_out': 781, 'jev_calls': 11, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 40}",
-    "last_beat": "2026-11-05 22:35:58",
-    "age_s": 21.1
+    "detail": "mode=PAPER stats={'429': 1045, 'errors': 0, 'jev_in': 10196, 'jev_out': 781, 'jev_calls': 11, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 42}",
+    "last_beat": "2026-11-05 22:37:58",
+    "age_s": 25.3
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=PAPER opened=0 closed=0 live_alerts=0",
-    "last_beat": "2026-11-05 22:35:59",
-    "age_s": 20.1
+    "last_beat": "2026-11-05 22:37:59",
+    "age_s": 24.3
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=204 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-05 22:35:59",
-    "age_s": 20.1
+    "detail": "checks=212 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-05 22:37:59",
+    "age_s": 24.3
    },
    {
     "agent": "Scanner",
     "status": "ok",
     "detail": "seen=23 connected=True reconnects=0",
-    "last_beat": "2026-11-05 22:35:59",
-    "age_s": 20.1
+    "last_beat": "2026-11-05 22:37:59",
+    "age_s": 24.3
    }
   ],
-  "last_update": "2026-11-05 22:35:59"
+  "last_update": "2026-11-05 22:38:00"
  },
- "generated_at": "2026-11-05T22:36:19+00:00"
+ "generated_at": "2026-11-05T22:38:23+00:00"
 }
