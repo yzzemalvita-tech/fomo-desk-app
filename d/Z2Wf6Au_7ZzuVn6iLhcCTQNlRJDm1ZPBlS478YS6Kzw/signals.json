@@ -5,62 +5,156 @@
   {
    "id": 285,
    "mint": "EyaGSPxwnYcudzYK2EtWmc5MVAhJu1cnfcWHhjsFpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Dumbcoin",
+   "name": "Dumbcoin",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.484e-05,
+   "mcap_usd": 34850.0,
+   "liquidity_usd": 13781.03,
    "created_at": "2026-11-05 03:36:37",
-   "audit_id": null,
+   "audit_id": 287,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=EyaGSPxwnYcudzYK2EtWmc5MVAhJu1cnfcWHhjsFpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 284,
    "mint": "GSVmbouXzb2ueVMVTkbzgNugPs1miiXKUEPZLuBtpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "MGOAT",
+   "name": "MoonGoat",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.749e-09,
+   "mcap_usd": 7.0,
+   "liquidity_usd": 11.47,
    "created_at": "2026-11-05 03:36:33",
-   "audit_id": null,
+   "audit_id": 286,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=GSVmbouXzb2ueVMVTkbzgNugPs1miiXKUEPZLuBtpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 283,
    "mint": "5DjgZSW4hErRYcVa1qMYTxEVZzqmimUd4smVFBXjpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "USBC",
+   "name": "USBC",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.828e-08,
+   "mcap_usd": 37.0,
+   "liquidity_usd": 67.0,
    "created_at": "2026-11-05 03:35:47",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 285,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=5DjgZSW4hErRYcVa1qMYTxEVZzqmimUd4smVFBXjpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 13/13 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 03:37:05"
+   }
   },
   {
    "id": 282,
@@ -3071,5 +3165,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T03:36:46+00:00"
+ "generated_at": "2026-11-05T03:37:48+00:00"
 }
