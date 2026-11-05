@@ -5,20 +5,45 @@
   {
    "id": 824,
    "mint": "5gjdQkg1XkUPVNhLRnD4iCAGgq3263S2dwktm78Epump",
-   "symbol": null,
-   "name": null,
+   "symbol": "BOB",
+   "name": "Brainless Bob",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.705e-05,
+   "mcap_usd": 37002.0,
+   "liquidity_usd": 13732.26,
    "created_at": "2026-11-05 21:00:53",
-   "audit_id": null,
+   "audit_id": 828,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/5gjdQkg1XkUPVNhLRnD4iCAGgq3263S2dwktm78Epump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T21:00:53+00:00"
+ "generated_at": "2026-11-05T21:01:56+00:00"
 }
