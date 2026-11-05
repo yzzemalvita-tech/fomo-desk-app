@@ -8,15 +8,15 @@
    "symbol": "SQQQ",
    "name": "ProShares UltraPro Short QQQ - Backpack Securities",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 47.51,
    "mcap_usd": 560645.0,
    "liquidity_usd": 306427.6,
    "created_at": "2026-11-05 16:33:57",
    "audit_id": 620,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE",
    "layers": {
     "1": {
@@ -42,10 +42,29 @@
     "6": {
      "name": "activity",
      "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "warn"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L2_mint_authority, L3_freeze_authority",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 16:35:25"
+   }
   },
   {
    "id": 615,
@@ -3184,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T16:35:07+00:00"
+ "generated_at": "2026-11-05T16:36:09+00:00"
 }
