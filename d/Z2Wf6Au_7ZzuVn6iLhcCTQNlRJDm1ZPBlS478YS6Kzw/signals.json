@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 841,
-   "mint": "GpfmUxYENkQhcYk5kXC4mc5TCv5NJaqfPZ1WyioKpump",
+   "id": 842,
+   "mint": "Fnq7DvaL3pjPb8gy2297XBqKQpKtomNAZskJbEwwpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 21:41:43",
+   "created_at": "2026-11-05 21:43:23",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/GpfmUxYENkQhcYk5kXC4mc5TCv5NJaqfPZ1WyioKpump",
+   "coin_url": "https://pump.fun/coin/Fnq7DvaL3pjPb8gy2297XBqKQpKtomNAZskJbEwwpump",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 841,
+   "mint": "GpfmUxYENkQhcYk5kXC4mc5TCv5NJaqfPZ1WyioKpump",
+   "symbol": "BAD",
+   "name": "Bad Fucking Nigger",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "LIVE",
+   "price_usd": 3.7e-05,
+   "mcap_usd": 37007.98,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 21:41:43",
+   "audit_id": 846,
+   "audit_passed": 1,
+   "audit_score": 0.625,
+   "coin_url": "https://pump.fun/coin/GpfmUxYENkQhcYk5kXC4mc5TCv5NJaqfPZ1WyioKpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "warn"
+    }
+   },
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.8,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.13 / PASS 0.87); quality 1.75/4; rug risk 0.47. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=pass; L7_bundles=pass; L8_holders=warn",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 21:43:13"
+   }
   },
   {
    "id": 840,
@@ -3093,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 20:24:49"
    }
-  },
-  {
-   "id": 792,
-   "mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
-   "symbol": "SPYx",
-   "name": "SP500 xStock",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 741.64,
-   "mcap_usd": 61863653.0,
-   "liquidity_usd": 370796.99,
-   "created_at": "2026-11-05 20:22:31",
-   "audit_id": 796,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "fail"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "fail"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L2_mint_authority, L3_freeze_authority",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 20:24:10"
-   }
   }
  ],
- "generated_at": "2026-11-05T21:42:26+00:00"
+ "generated_at": "2026-11-05T21:43:28+00:00"
 }
