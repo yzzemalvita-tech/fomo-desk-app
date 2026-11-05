@@ -45,62 +45,156 @@
   {
    "id": 654,
    "mint": "49pm8vQtwDRi1RsjRRvMe2sRSxpL2xCbFQEsKJYfpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "DORA",
+   "name": "Dora Bulking",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 5.619e-08,
+   "mcap_usd": 46.0,
+   "liquidity_usd": 13.01,
    "created_at": "2026-11-05 17:52:33",
-   "audit_id": null,
+   "audit_id": 658,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/49pm8vQtwDRi1RsjRRvMe2sRSxpL2xCbFQEsKJYfpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 653,
    "mint": "HGVHqmBvrcByPe8EVEE34FCSk1FU7v5a7fEjSUEhpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "XTO",
+   "name": "XTO",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.03511,
+   "mcap_usd": 35114813.0,
+   "liquidity_usd": 468081.68,
    "created_at": "2026-11-05 17:52:32",
-   "audit_id": null,
+   "audit_id": 657,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/HGVHqmBvrcByPe8EVEE34FCSk1FU7v5a7fEjSUEhpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 652,
    "mint": "BHCrqpy7i1KMvmjskaFaSWZG27e3wg9cQwdx3U1Bpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "wind",
+   "name": "wind",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 5.746e-09,
+   "mcap_usd": 11.0,
+   "liquidity_usd": 17.64,
    "created_at": "2026-11-05 17:52:30",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 656,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/BHCrqpy7i1KMvmjskaFaSWZG27e3wg9cQwdx3U1Bpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None ? 16/16 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 17:54:01"
+   }
   },
   {
    "id": 651,
@@ -2983,5 +3077,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T17:53:06+00:00"
+ "generated_at": "2026-11-05T17:54:08+00:00"
 }
