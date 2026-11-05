@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 725,
-   "mint": "Hdk8SqspxLWKVG4i6b8P6GuwF9PonngxD8MZc4w4pump",
+   "id": 726,
+   "mint": "Bj9Bqi3rcJfdLpRj3DwneegHiiedeER7DYuf9wUnpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,34 +13,123 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 19:16:10",
+   "created_at": "2026-11-05 19:16:46",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/Hdk8SqspxLWKVG4i6b8P6GuwF9PonngxD8MZc4w4pump",
+   "coin_url": "https://pump.fun/coin/Bj9Bqi3rcJfdLpRj3DwneegHiiedeER7DYuf9wUnpump",
    "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 725,
+   "mint": "Hdk8SqspxLWKVG4i6b8P6GuwF9PonngxD8MZc4w4pump",
+   "symbol": "Coca-Cola",
+   "name": "Coca-Cola",
+   "source": "pumpportal_migration",
+   "status": "auditing",
+   "mode": "LIVE",
+   "price_usd": 0.0001148,
+   "mcap_usd": 114763.0,
+   "liquidity_usd": 25337.93,
+   "created_at": "2026-11-05 19:16:10",
+   "audit_id": 729,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/Hdk8SqspxLWKVG4i6b8P6GuwF9PonngxD8MZc4w4pump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 724,
    "mint": "HrfZ5b7YksdgPtiMxDaRwFCgXw819zB5brXxJaE6pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "HALH",
+   "name": "Haaland Hair",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 6.66e-09,
+   "mcap_usd": 13.0,
+   "liquidity_usd": 30.02,
    "created_at": "2026-11-05 19:15:30",
    "audit_id": 728,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/HrfZ5b7YksdgPtiMxDaRwFCgXw819zB5brXxJaE6pump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None ? 16/16 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 19:16:57"
+   }
   },
   {
    "id": 723,
@@ -3049,71 +3138,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 18:27:57"
    }
-  },
-  {
-   "id": 676,
-   "mint": "2bn7MEma3t73Js5DgvJcZDRUN1KzhjxTEYndgCpHpump",
-   "symbol": "MCCAT",
-   "name": "McCat",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 3.489e-05,
-   "mcap_usd": 34857.0,
-   "liquidity_usd": 13235.56,
-   "created_at": "2026-11-05 18:21:25",
-   "audit_id": 680,
-   "audit_passed": 1,
-   "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/2bn7MEma3t73Js5DgvJcZDRUN1KzhjxTEYndgCpHpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "WATCH",
-    "confidence": 0.62,
-    "size_sol": null,
-    "reasoning": "Jev: WATCH (P BUY 0.06 / WATCH 0.75 / PASS 0.19); quality 2.20/4; rug risk 0.16. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=pass; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 18:23:00"
-   }
   }
  ],
- "generated_at": "2026-11-05T19:16:31+00:00"
+ "generated_at": "2026-11-05T19:17:35+00:00"
 }
