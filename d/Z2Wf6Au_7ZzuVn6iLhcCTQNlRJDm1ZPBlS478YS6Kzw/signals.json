@@ -5,20 +5,45 @@
   {
    "id": 438,
    "mint": "BPuU1xQozekFiBwiL9n7KnhwuXALQJaQa3DNjsMMpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "HALH",
+   "name": "Haaland Hair",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 5.871e-09,
+   "mcap_usd": 12.0,
+   "liquidity_usd": 8.25,
    "created_at": "2026-11-05 08:59:28",
-   "audit_id": null,
+   "audit_id": 440,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=BPuU1xQozekFiBwiL9n7KnhwuXALQJaQa3DNjsMMpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -28,15 +53,15 @@
    "symbol": "roognilS",
    "name": "roognilS",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 0.0,
    "mcap_usd": null,
    "liquidity_usd": null,
    "created_at": "2026-11-05 08:58:40",
    "audit_id": 439,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.375,
    "coin_url": "https://fomo.family/coin?address=dL1fEUnYngqZfCeLouiCfqPA813qnwicHU3QGErpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
@@ -62,10 +87,29 @@
     "6": {
      "name": "activity",
      "result": "fail"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None \u00b7 2/2 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.03/4; rug risk 0.93. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=error; L5_rugcheck=fail; L6_activity=fail; L7_bundles=pass; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 08:59:43"
+   }
   },
   {
    "id": 436,
@@ -3140,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T08:59:41+00:00"
+ "generated_at": "2026-11-05T09:00:43+00:00"
 }
