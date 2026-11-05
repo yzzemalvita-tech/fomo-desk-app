@@ -9,46 +9,46 @@
     "agent": "Analyst",
     "status": "ok",
     "detail": "verdicts=235 jev_calls=149 queue=0",
-    "last_beat": "2026-11-05 07:48:56",
-    "age_s": 3.2
+    "last_beat": "2026-11-05 07:50:56",
+    "age_s": 4.9
    },
    {
     "agent": "Auditor",
     "status": "ok",
     "detail": "audited=235 queue=0 busy=None",
-    "last_beat": "2026-11-05 07:48:56",
-    "age_s": 3.2
+    "last_beat": "2026-11-05 07:50:56",
+    "age_s": 4.9
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=PAPER stats={'429': 9705, '429_by_host': {}, 'errors': 1, 'jev_in': 139483, 'jev_out': 10579, 'jev_calls': 149, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 400}",
-    "last_beat": "2026-11-05 07:48:18",
-    "age_s": 41.2
+    "detail": "mode=PAPER stats={'429': 9735, '429_by_host': {}, 'errors': 1, 'jev_in': 139483, 'jev_out': 10579, 'jev_calls': 149, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 401}",
+    "last_beat": "2026-11-05 07:50:18",
+    "age_s": 42.9
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=PAPER opened=0 closed=0 live_alerts=0",
-    "last_beat": "2026-11-05 07:48:56",
-    "age_s": 3.2
+    "last_beat": "2026-11-05 07:50:56",
+    "age_s": 4.9
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=1938 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-05 07:48:56",
-    "age_s": 3.2
+    "detail": "checks=1946 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-05 07:50:56",
+    "age_s": 4.9
    },
    {
     "agent": "Scanner",
     "status": "ok",
-    "detail": "seen=236 connected=True reconnects=1",
-    "last_beat": "2026-11-05 07:48:53",
-    "age_s": 6.2
+    "detail": "seen=238 connected=True reconnects=1",
+    "last_beat": "2026-11-05 07:50:53",
+    "age_s": 7.9
    }
   ],
-  "last_update": "2026-11-05 07:48:56"
+  "last_update": "2026-11-05 07:50:56"
  },
- "generated_at": "2026-11-05T07:48:59+00:00"
+ "generated_at": "2026-11-05T07:51:00+00:00"
 }
