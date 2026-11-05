@@ -3,6 +3,46 @@
  "version": 1,
  "data": [
   {
+   "id": 836,
+   "mint": "8LQz96uRnfHHXGRojPnRc73XJcrNGkjr54F6PbuZpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 21:20:09",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/8LQz96uRnfHHXGRojPnRc73XJcrNGkjr54F6PbuZpump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 835,
+   "mint": "Bi59TGKZgLa7zVRz1BX3yPg6Cj8wWfZwfNc5FaCApump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 21:19:55",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/Bi59TGKZgLa7zVRz1BX3yPg6Cj8wWfZwfNc5FaCApump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 834,
    "mint": "EA4aPPXD3rvoB2NzcLu9RZdJu92Le3VPY6M1snibpump",
    "symbol": "$MAYHEM",
@@ -3073,135 +3113,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 20:21:22"
    }
-  },
-  {
-   "id": 786,
-   "mint": "6m6UXpzMCHpNrpvUftzyvNxsPjYX7mFUxRcLULKFXzKf",
-   "symbol": "PRM",
-   "name": "Penguin Raccoon Monkey",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 6.279e-06,
-   "mcap_usd": 6270.0,
-   "liquidity_usd": 5173.62,
-   "created_at": "2026-11-05 20:17:40",
-   "audit_id": 790,
-   "audit_passed": 1,
-   "audit_score": 0.625,
-   "coin_url": "https://pump.fun/coin/6m6UXpzMCHpNrpvUftzyvNxsPjYX7mFUxRcLULKFXzKf",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "warn"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "2 bundled ? 6/13 checked",
-    "bundled_pct": 15.4,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.96,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.03 / PASS 0.97); quality 0.76/4; rug risk 0.66. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 20:21:06"
-   }
-  },
-  {
-   "id": 785,
-   "mint": "AgKirYQRS47YUzZUBppYE9g22g9n7KCojf6kGZj7pump",
-   "symbol": "MEMECOIN",
-   "name": "Memecoin",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 4.895e-06,
-   "mcap_usd": 4850.0,
-   "liquidity_usd": 4320.55,
-   "created_at": "2026-11-05 20:17:26",
-   "audit_id": 789,
-   "audit_passed": 0,
-   "audit_score": 0.625,
-   "coin_url": "https://pump.fun/coin/AgKirYQRS47YUzZUBppYE9g22g9n7KCojf6kGZj7pump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "2 bundled ? 19/19 checked",
-    "bundled_pct": 10.5,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 20:20:23"
-   }
   }
  ],
- "generated_at": "2026-11-05T21:17:30+00:00"
+ "generated_at": "2026-11-05T21:20:36+00:00"
 }
