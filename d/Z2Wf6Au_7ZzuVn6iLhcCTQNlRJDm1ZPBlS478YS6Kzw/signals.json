@@ -8,13 +8,13 @@
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
    "created_at": "2026-11-05 20:21:07",
-   "audit_id": null,
+   "audit_id": 795,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/EyuBtUJnpZBAJfU9hh5bh2Gcnu4GvxrLyMSyuPwBpump",
@@ -25,59 +25,19 @@
   {
    "id": 790,
    "mint": "54zSTXvPyjcASLHv5PDfCtbZb9Hjtqv5dsdQdJxLpump",
-   "symbol": null,
-   "name": null,
-   "source": "pumpportal_migration",
-   "status": "new",
-   "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
-   "created_at": "2026-11-05 20:19:44",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
-   "coin_url": "https://pump.fun/coin/54zSTXvPyjcASLHv5PDfCtbZb9Hjtqv5dsdQdJxLpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
-  },
-  {
-   "id": 789,
-   "mint": "9rP4zAP7TXFD3kCdst4NCwrPEA6BMA6emEwSdP3Tpump",
-   "symbol": null,
-   "name": null,
-   "source": "pumpportal_migration",
-   "status": "auditing",
-   "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
-   "created_at": "2026-11-05 20:18:59",
-   "audit_id": 793,
-   "audit_passed": null,
-   "audit_score": null,
-   "coin_url": "https://pump.fun/coin/9rP4zAP7TXFD3kCdst4NCwrPEA6BMA6emEwSdP3Tpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
-  },
-  {
-   "id": 788,
-   "mint": "CFKQQnZHW9EopJsMcZdt3FK5ubLTKqWKgaKaGT4Bpump",
    "symbol": "PVE",
    "name": "PenguinMonkeyRaccoon",
    "source": "pumpportal_migration",
    "status": "auditing",
    "mode": "LIVE",
-   "price_usd": 1.817e-05,
-   "mcap_usd": 18126.0,
-   "liquidity_usd": 10978.65,
-   "created_at": "2026-11-05 20:18:40",
-   "audit_id": 792,
+   "price_usd": 3.77e-05,
+   "mcap_usd": 37643.0,
+   "liquidity_usd": 13888.75,
+   "created_at": "2026-11-05 20:19:44",
+   "audit_id": 794,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/CFKQQnZHW9EopJsMcZdt3FK5ubLTKqWKgaKaGT4Bpump",
+   "coin_url": "https://pump.fun/coin/54zSTXvPyjcASLHv5PDfCtbZb9Hjtqv5dsdQdJxLpump",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -108,12 +68,133 @@
    "verdict": null
   },
   {
+   "id": 789,
+   "mint": "9rP4zAP7TXFD3kCdst4NCwrPEA6BMA6emEwSdP3Tpump",
+   "symbol": "PENGUIN",
+   "name": "The Penguin",
+   "source": "pumpportal_migration",
+   "status": "audited",
+   "mode": "LIVE",
+   "price_usd": 4.244e-05,
+   "mcap_usd": 42376.0,
+   "liquidity_usd": 14867.26,
+   "created_at": "2026-11-05 20:18:59",
+   "audit_id": 793,
+   "audit_passed": 1,
+   "audit_score": 1.0,
+   "coin_url": "https://pump.fun/coin/9rP4zAP7TXFD3kCdst4NCwrPEA6BMA6emEwSdP3Tpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": null
+  },
+  {
+   "id": 788,
+   "mint": "CFKQQnZHW9EopJsMcZdt3FK5ubLTKqWKgaKaGT4Bpump",
+   "symbol": "PVE",
+   "name": "PenguinMonkeyRaccoon",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "LIVE",
+   "price_usd": 1.817e-05,
+   "mcap_usd": 18126.0,
+   "liquidity_usd": 10978.65,
+   "created_at": "2026-11-05 20:18:40",
+   "audit_id": 792,
+   "audit_passed": 1,
+   "audit_score": 1.0,
+   "coin_url": "https://pump.fun/coin/CFKQQnZHW9EopJsMcZdt3FK5ubLTKqWKgaKaGT4Bpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "None ? 14/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.13,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.20 / WATCH 0.42 / PASS 0.38); quality 1.95/4; rug risk 0.19. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 20:22:07"
+   }
+  },
+  {
    "id": 787,
    "mint": "G4KVVfiapdQq78RyCsTN2RSa9fr2WP7XL36fpCjFpump",
    "symbol": "PRM",
    "name": "Penguin Raccoon Monkey",
    "source": "pumpportal_migration",
-   "status": "audited",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 2.458e-05,
    "mcap_usd": 24542.0,
@@ -162,7 +243,14 @@
     "bundled_pct": 0.0,
     "partial": 0
    },
-   "verdict": null
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.89,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.07 / PASS 0.93); quality 1.41/4; rug risk 0.47. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=pass; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 20:21:22"
+   }
   },
   {
    "id": 786,
@@ -3045,5 +3133,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T20:21:22+00:00"
+ "generated_at": "2026-11-05T20:22:24+00:00"
 }
