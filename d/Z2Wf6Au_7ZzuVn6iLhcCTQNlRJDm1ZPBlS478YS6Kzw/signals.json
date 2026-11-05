@@ -5,22 +5,66 @@
   {
    "id": 823,
    "mint": "4j5LiZ15D84bkZWUZCYnY97rN2EJP8EH6bkQNABMpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "TRUMP.FUN",
+   "name": "TRUMP.FUN",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.093e-05,
+   "mcap_usd": 30898.0,
+   "liquidity_usd": 12508.39,
    "created_at": "2026-11-05 20:57:57",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 827,
+   "audit_passed": 1,
+   "audit_score": 1.0,
    "coin_url": "https://pump.fun/coin/4j5LiZ15D84bkZWUZCYnY97rN2EJP8EH6bkQNABMpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "BUY",
+    "confidence": 0.37,
+    "size_sol": 0.185,
+    "reasoning": "Jev: BUY (P BUY 0.58 / WATCH 0.30 / PASS 0.12); quality 2.50/4; rug risk 0.11. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=pass; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 20:59:29"
+   }
   },
   {
    "id": 822,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T20:58:48+00:00"
+ "generated_at": "2026-11-05T20:59:51+00:00"
 }
