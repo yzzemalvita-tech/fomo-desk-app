@@ -5,20 +5,45 @@
   {
    "id": 539,
    "mint": "J4rP3zhpvk3r2tFasTAecU4g9gnxDDpaR2xAXnz873fu",
-   "symbol": null,
-   "name": null,
+   "symbol": "LIBRE",
+   "name": "Libre Paraguay",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.869e-05,
+   "mcap_usd": 48694.0,
+   "liquidity_usd": 16438.0,
    "created_at": "2026-11-05 14:33:50",
-   "audit_id": null,
+   "audit_id": 543,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/J4rP3zhpvk3r2tFasTAecU4g9gnxDDpaR2xAXnz873fu",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3155,5 +3180,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T14:34:12+00:00"
+ "generated_at": "2026-11-05T14:35:15+00:00"
 }
