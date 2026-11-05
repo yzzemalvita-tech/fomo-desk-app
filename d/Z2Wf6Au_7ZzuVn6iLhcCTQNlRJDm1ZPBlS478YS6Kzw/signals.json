@@ -5,20 +5,45 @@
   {
    "id": 201,
    "mint": "9CZWhMmPzj2UdgGhAMvaXETVBJ7yEyLyQ8vQXiuTpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "CS",
+   "name": "chickenshrimp",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.218e-05,
+   "mcap_usd": 42183.0,
+   "liquidity_usd": 15203.41,
    "created_at": "2026-11-05 00:37:27",
-   "audit_id": null,
+   "audit_id": 203,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=9CZWhMmPzj2UdgGhAMvaXETVBJ7yEyLyQ8vQXiuTpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T00:37:30+00:00"
+ "generated_at": "2026-11-05T00:38:32+00:00"
 }
