@@ -5,22 +5,66 @@
   {
    "id": 590,
    "mint": "6mczCVnS1VdfZYuYPu9FSFgjcprdckeDeLsi7d5ppump",
-   "symbol": null,
-   "name": null,
+   "symbol": "XTO",
+   "name": "XTO",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.02201,
+   "mcap_usd": 22010127.0,
+   "liquidity_usd": 374739.12,
    "created_at": "2026-11-05 15:47:56",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 594,
+   "audit_passed": 1,
+   "audit_score": 0.625,
    "coin_url": "https://pump.fun/coin/6mczCVnS1VdfZYuYPu9FSFgjcprdckeDeLsi7d5ppump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None ? 8/8 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.53/4; rug risk 0.86. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=fail; L7_bundles=pass; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 15:49:00"
+   }
   },
   {
    "id": 589,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T15:48:30+00:00"
+ "generated_at": "2026-11-05T15:49:32+00:00"
 }
