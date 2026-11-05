@@ -8,15 +8,15 @@
    "symbol": "GOODTIME",
    "name": "GOODTIME - LEONIDA",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 3.458e-05,
    "mcap_usd": 34548.0,
    "liquidity_usd": 13294.85,
    "created_at": "2026-11-05 16:24:42",
    "audit_id": 618,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.875,
    "coin_url": "https://pump.fun/coin/Eyo1o3QYKQwdvP6UtK9dQLTZj2BBtoJdN4tMWB2Dpump",
    "layers": {
     "1": {
@@ -42,10 +42,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "5 bundled ? 20/20 checked",
+    "bundled_pct": 25.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.26,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.04 / WATCH 0.45 / PASS 0.51); quality 2.33/4; rug risk 0.13. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=pass; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 16:26:07"
+   }
   },
   {
    "id": 613,
@@ -3184,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T16:25:55+00:00"
+ "generated_at": "2026-11-05T16:26:57+00:00"
 }
