@@ -3,20 +3,40 @@
  "version": 1,
  "data": [
   {
+   "id": 324,
+   "mint": "4k3zCb26ds44uy4q4XyB7PuJV1jaFaShqXYuYrPNpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 04:35:56",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=4k3zCb26ds44uy4q4XyB7PuJV1jaFaShqXYuYrPNpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 323,
    "mint": "DbTiWUwbg4aEjurrAWfR8mHzYiXqgdtRWc2Nf5sJpump",
    "symbol": "HALH",
    "name": "Haaland Hair",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 2.048e-07,
    "mcap_usd": 410.0,
    "liquidity_usd": 31.7,
    "created_at": "2026-11-05 04:34:03",
    "audit_id": 325,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=DbTiWUwbg4aEjurrAWfR8mHzYiXqgdtRWc2Nf5sJpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
@@ -42,10 +62,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None \u00b7 10/16 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 04:35:24"
+   }
   },
   {
    "id": 322,
@@ -3118,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 03:23:00"
    }
-  },
-  {
-   "id": 274,
-   "mint": "Cf97CK1ofKrDLXM7etCuhbWdG589VSWcuNyrdMUspump",
-   "symbol": "caso",
-   "name": "songcaso",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 4.354e-05,
-   "mcap_usd": 43470.0,
-   "liquidity_usd": 15514.56,
-   "created_at": "2026-11-05 03:21:11",
-   "audit_id": 276,
-   "audit_passed": 1,
-   "audit_score": 0.625,
-   "coin_url": "https://fomo.family/coin?address=Cf97CK1ofKrDLXM7etCuhbWdG589VSWcuNyrdMUspump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "warn"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "2 bundled \u00b7 10/20 checked",
-    "bundled_pct": 10.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.98,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 1.15/4; rug risk 0.63. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 03:22:33"
-   }
   }
  ],
- "generated_at": "2026-11-05T04:35:19+00:00"
+ "generated_at": "2026-11-05T04:36:21+00:00"
 }
