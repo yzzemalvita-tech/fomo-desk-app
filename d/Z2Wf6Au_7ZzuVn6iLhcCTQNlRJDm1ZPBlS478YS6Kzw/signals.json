@@ -8,15 +8,15 @@
    "symbol": "UTT",
    "name": "Under the Table",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 3.735e-05,
    "mcap_usd": 37357.0,
    "liquidity_usd": 14176.42,
    "created_at": "2026-11-05 05:24:07",
    "audit_id": 348,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.875,
    "coin_url": "https://fomo.family/coin?address=Diob9X1HTEGsFpp6iuBSXyr91HF3pw7iKM8AEhHppump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
@@ -46,6 +46,10 @@
     "7": {
      "name": "bundles",
      "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
     }
    },
    "bundles": {
@@ -53,7 +57,14 @@
     "bundled_pct": 0.0,
     "partial": 1
    },
-   "verdict": null
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.86,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.02 / WATCH 0.91 / PASS 0.07); quality 2.19/4; rug risk 0.19. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 05:25:31"
+   }
   },
   {
    "id": 345,
@@ -61,15 +72,15 @@
    "symbol": "WBTC",
    "name": "Wrapped BTC (Wormhole)",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 80202.52,
    "mcap_usd": 309525265.0,
    "liquidity_usd": 1846872.7,
    "created_at": "2026-11-05 05:23:45",
    "audit_id": 347,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.625,
    "coin_url": "https://fomo.family/coin?address=3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
@@ -99,6 +110,10 @@
     "7": {
      "name": "bundles",
      "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
    "bundles": {
@@ -106,7 +121,14 @@
     "bundled_pct": 0.0,
     "partial": 1
    },
-   "verdict": null
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L2_mint_authority",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 05:25:31"
+   }
   },
   {
    "id": 344,
@@ -3181,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T05:25:30+00:00"
+ "generated_at": "2026-11-05T05:26:32+00:00"
 }
