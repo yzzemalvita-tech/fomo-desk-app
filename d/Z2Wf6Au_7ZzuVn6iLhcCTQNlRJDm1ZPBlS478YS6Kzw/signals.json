@@ -5,20 +5,45 @@
   {
    "id": 356,
    "mint": "FracBXwyzFNqzQ2XXUshNayrbvgQySknYZxMyuadpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "CF",
+   "name": "CATFISH",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 7.552e-07,
+   "mcap_usd": 1511.0,
+   "liquidity_usd": 346.34,
    "created_at": "2026-11-05 05:51:56",
-   "audit_id": null,
+   "audit_id": 358,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=FracBXwyzFNqzQ2XXUshNayrbvgQySknYZxMyuadpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T05:52:11+00:00"
+ "generated_at": "2026-11-05T05:53:13+00:00"
 }
