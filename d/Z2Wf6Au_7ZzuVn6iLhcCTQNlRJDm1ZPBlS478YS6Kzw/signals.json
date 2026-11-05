@@ -8,15 +8,15 @@
    "symbol": "MGOAT",
    "name": "MoonGoat",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 3.569e-07,
    "mcap_usd": 714.0,
    "liquidity_usd": 167.41,
    "created_at": "2026-11-05 16:55:00",
    "audit_id": 633,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/H9iJWXtF8FkrQYJPEYG9ZLSpepHKbuCg5264Hprgpump",
    "layers": {
     "1": {
@@ -42,10 +42,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 16:56:45"
+   }
   },
   {
    "id": 628,
@@ -3184,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T16:56:41+00:00"
+ "generated_at": "2026-11-05T16:57:43+00:00"
 }
