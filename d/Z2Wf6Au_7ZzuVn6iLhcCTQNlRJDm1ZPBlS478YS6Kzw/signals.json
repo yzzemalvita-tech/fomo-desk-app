@@ -5,42 +5,111 @@
   {
    "id": 380,
    "mint": "cvtua4o4Kj66VeProPghw6KymHqbtHqWvX8UHGcpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "AODT",
+   "name": "American Oil Dividend Trust",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.007044,
+   "mcap_usd": 7044924.0,
+   "liquidity_usd": 216530.93,
    "created_at": "2026-11-05 06:28:53",
-   "audit_id": null,
+   "audit_id": 382,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=cvtua4o4Kj66VeProPghw6KymHqbtHqWvX8UHGcpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 379,
    "mint": "27YmaKQkMR9PnWRFrV5DWWWNqyoTVXmMzNNZFarypump",
-   "symbol": null,
-   "name": null,
+   "symbol": "DJT",
+   "name": "Trump",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.246e-08,
+   "mcap_usd": 25.0,
+   "liquidity_usd": 7.46,
    "created_at": "2026-11-05 06:28:29",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 381,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=27YmaKQkMR9PnWRFrV5DWWWNqyoTVXmMzNNZFarypump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 11/11 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 06:29:48"
+   }
   },
   {
    "id": 378,
@@ -3115,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T06:29:06+00:00"
+ "generated_at": "2026-11-05T06:30:08+00:00"
 }
