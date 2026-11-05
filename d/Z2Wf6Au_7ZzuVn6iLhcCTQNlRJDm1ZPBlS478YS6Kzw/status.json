@@ -8,47 +8,47 @@
    {
     "agent": "Analyst",
     "status": "ok",
-    "detail": "verdicts=14 jev_calls=8 queue=0",
-    "last_beat": "2026-11-05 22:19:29",
-    "age_s": 22.2
+    "detail": "verdicts=15 jev_calls=9 queue=0",
+    "last_beat": "2026-11-05 22:21:29",
+    "age_s": 26.1
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=14 queue=0 busy=None",
-    "last_beat": "2026-11-05 22:19:29",
-    "age_s": 22.2
+    "detail": "audited=15 queue=0 busy=None",
+    "last_beat": "2026-11-05 22:21:29",
+    "age_s": 26.1
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=PAPER stats={'429': 560, 'errors': 0, 'jev_in': 6451, 'jev_out': 497, 'jev_calls': 7, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 26}",
-    "last_beat": "2026-11-05 22:18:58",
-    "age_s": 53.2
+    "detail": "mode=PAPER stats={'429': 656, 'errors': 0, 'jev_in': 8333, 'jev_out': 639, 'jev_calls': 9, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 28}",
+    "last_beat": "2026-11-05 22:20:58",
+    "age_s": 57.1
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=PAPER opened=0 closed=0 live_alerts=0",
-    "last_beat": "2026-11-05 22:19:29",
-    "age_s": 22.2
+    "last_beat": "2026-11-05 22:21:29",
+    "age_s": 26.1
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=138 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-05 22:19:29",
-    "age_s": 22.2
+    "detail": "checks=146 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-05 22:21:29",
+    "age_s": 26.1
    },
    {
     "agent": "Scanner",
     "status": "ok",
     "detail": "seen=13 connected=True reconnects=0",
-    "last_beat": "2026-11-05 22:19:29",
-    "age_s": 22.2
+    "last_beat": "2026-11-05 22:21:29",
+    "age_s": 26.1
    }
   ],
-  "last_update": "2026-11-05 22:19:29"
+  "last_update": "2026-11-05 22:21:29"
  },
- "generated_at": "2026-11-05T22:19:51+00:00"
+ "generated_at": "2026-11-05T22:21:55+00:00"
 }
