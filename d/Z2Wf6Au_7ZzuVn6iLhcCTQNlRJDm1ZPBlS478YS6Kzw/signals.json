@@ -5,40 +5,70 @@
   {
    "id": 453,
    "mint": "AB3ALGScbBrh3Ag78dVR3ogMvqFzRj1yZsaWvjgfpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "DOGE PAID",
+   "name": "DOGE PAID",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 8.271e-09,
+   "mcap_usd": 17.0,
+   "liquidity_usd": 5.08,
    "created_at": "2026-11-05 09:33:36",
-   "audit_id": null,
+   "audit_id": 455,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=AB3ALGScbBrh3Ag78dVR3ogMvqFzRj1yZsaWvjgfpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 452,
    "mint": "7rHiFzDPqJMJrWCgRhr4J4ytYXhqkRsnvtpUpKdpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "BOBAMEW",
+   "name": "Boba Mew",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.000132,
+   "mcap_usd": 132020.0,
+   "liquidity_usd": 28298.97,
    "created_at": "2026-11-05 09:33:26",
-   "audit_id": null,
+   "audit_id": 454,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=7rHiFzDPqJMJrWCgRhr4J4ytYXhqkRsnvtpUpKdpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3115,5 +3145,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T09:33:37+00:00"
+ "generated_at": "2026-11-05T09:34:39+00:00"
 }
