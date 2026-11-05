@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 733,
-   "mint": "3x4hjYJzZbZETMYx6ucKGqx4zxb8y9XEWoR4stJdpump",
+   "id": 734,
+   "mint": "C4hz46DvQ5sYqh5R57mBZBhhjNBPGeztKu1h6S19pump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 19:25:14",
+   "created_at": "2026-11-05 19:26:13",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/3x4hjYJzZbZETMYx6ucKGqx4zxb8y9XEWoR4stJdpump",
+   "coin_url": "https://pump.fun/coin/C4hz46DvQ5sYqh5R57mBZBhhjNBPGeztKu1h6S19pump",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 733,
+   "mint": "3x4hjYJzZbZETMYx6ucKGqx4zxb8y9XEWoR4stJdpump",
+   "symbol": "FI",
+   "name": "Frontier Inu",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "LIVE",
+   "price_usd": 2.645e-05,
+   "mcap_usd": 26403.0,
+   "liquidity_usd": 11340.08,
+   "created_at": "2026-11-05 19:25:14",
+   "audit_id": 737,
+   "audit_passed": 1,
+   "audit_score": 0.875,
+   "coin_url": "https://pump.fun/coin/3x4hjYJzZbZETMYx6ucKGqx4zxb8y9XEWoR4stJdpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.56,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.02 / WATCH 0.71 / PASS 0.27); quality 1.91/4; rug risk 0.18. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=pass; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 19:26:48"
+   }
   },
   {
    "id": 732,
@@ -3093,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 18:37:27"
    }
-  },
-  {
-   "id": 684,
-   "mint": "8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump",
-   "symbol": "TOLLS",
-   "name": "Tolls",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 3.674e-05,
-   "mcap_usd": 36740.9,
-   "liquidity_usd": null,
-   "created_at": "2026-11-05 18:31:11",
-   "audit_id": 688,
-   "audit_passed": 1,
-   "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/8hzQwmdpmNkXGBTnP9kmd2Tx8zg3cSAz9Y6AFdbxpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "error"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "2 bundled ? 20/20 checked",
-    "bundled_pct": 10.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.94,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.04 / PASS 0.96); quality 1.82/4; rug risk 0.49. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=pass; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 18:32:51"
-   }
   }
  ],
- "generated_at": "2026-11-05T19:25:52+00:00"
+ "generated_at": "2026-11-05T19:26:55+00:00"
 }
