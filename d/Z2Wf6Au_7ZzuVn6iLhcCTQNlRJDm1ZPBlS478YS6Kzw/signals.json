@@ -5,20 +5,45 @@
   {
    "id": 238,
    "mint": "PbrRWmsiMsL2WWgAbdS7qAcNT8veFeNSvraSozQpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "TRUMP",
+   "name": "TRUPM",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
+   "price_usd": 9.428e-08,
+   "mcap_usd": 94.28,
    "liquidity_usd": null,
    "created_at": "2026-11-05 02:23:44",
-   "audit_id": null,
+   "audit_id": 240,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=PbrRWmsiMsL2WWgAbdS7qAcNT8veFeNSvraSozQpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T02:23:55+00:00"
+ "generated_at": "2026-11-05T02:24:57+00:00"
 }
