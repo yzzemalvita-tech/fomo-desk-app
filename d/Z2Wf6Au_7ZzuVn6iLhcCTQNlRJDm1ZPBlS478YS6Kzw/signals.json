@@ -3,6 +3,46 @@
  "version": 1,
  "data": [
   {
+   "id": 771,
+   "mint": "F7RK6wKWmProrihi2zbWTCc5eKRRit8vypcupykspump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 20:06:07",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/F7RK6wKWmProrihi2zbWTCc5eKRRit8vypcupykspump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 770,
+   "mint": "8bugeCJA2yBe7r1EBMd93kscNr9wmSHDubbrS5rKpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 20:05:53",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/8bugeCJA2yBe7r1EBMd93kscNr9wmSHDubbrS5rKpump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 769,
    "mint": "B4JgFy8jyzfrTvLrxLYPCD3JavAF4XPK2suU4HEKpump",
    "symbol": "Fucker",
@@ -3073,135 +3113,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 19:14:13"
    }
-  },
-  {
-   "id": 721,
-   "mint": "DeECcjPpQWoCY3PsviuRyiM9sF8j8WU2F8368kFPpump",
-   "symbol": "B.I.G",
-   "name": "LETS BOND B.I.G",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 2.165e-09,
-   "mcap_usd": 4.0,
-   "liquidity_usd": 4.03,
-   "created_at": "2026-11-05 19:11:14",
-   "audit_id": 725,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/DeECcjPpQWoCY3PsviuRyiM9sF8j8WU2F8368kFPpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 12/18 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 19:14:01"
-   }
-  },
-  {
-   "id": 720,
-   "mint": "F2HwFZy2HQxU7q6suG47ugbkvLDmwmG4X8CJEwyipump",
-   "symbol": "CLAUDE",
-   "name": "Claudecoin",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 3.635e-05,
-   "mcap_usd": 36297.0,
-   "liquidity_usd": 13562.15,
-   "created_at": "2026-11-05 19:11:00",
-   "audit_id": 724,
-   "audit_passed": 1,
-   "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/F2HwFZy2HQxU7q6suG47ugbkvLDmwmG4X8CJEwyipump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None ? 16/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "WATCH",
-    "confidence": 0.58,
-    "size_sol": null,
-    "reasoning": "Jev: WATCH (P BUY 0.02 / WATCH 0.72 / PASS 0.26); quality 1.87/4; rug risk 0.22. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 19:13:01"
-   }
   }
  ],
- "generated_at": "2026-11-05T20:05:39+00:00"
+ "generated_at": "2026-11-05T20:06:42+00:00"
 }
