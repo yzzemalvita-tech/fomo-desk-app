@@ -8,47 +8,47 @@
    {
     "agent": "Analyst",
     "status": "ok",
-    "detail": "verdicts=208 jev_calls=149 queue=0",
-    "last_beat": "2026-11-05 19:05:56",
-    "age_s": 14.6
+    "detail": "verdicts=209 jev_calls=149 queue=0",
+    "last_beat": "2026-11-05 19:07:56",
+    "age_s": 17.2
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=208 queue=0 busy=716",
-    "last_beat": "2026-11-05 19:05:57",
-    "age_s": 13.6
+    "detail": "audited=209 queue=0 busy=None",
+    "last_beat": "2026-11-05 19:07:57",
+    "age_s": 16.2
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=LIVE stats={'429': 2277, '429_by_host': {}, 'errors': 6, 'jev_in': 158035, 'jev_out': 10579, 'jev_calls': 149, 'tg': {'in': 0, 'ignored': 0, 'sent': 18, 'send_err': 0}, 'publishes': 273}",
-    "last_beat": "2026-11-05 19:05:50",
-    "age_s": 20.6
+    "detail": "mode=LIVE stats={'429': 2286, '429_by_host': {}, 'errors': 6, 'jev_in': 158035, 'jev_out': 10579, 'jev_calls': 149, 'tg': {'in': 0, 'ignored': 0, 'sent': 18, 'send_err': 0}, 'publishes': 274}",
+    "last_beat": "2026-11-05 19:07:50",
+    "age_s": 23.2
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=LIVE opened=0 closed=0 live_alerts=18",
-    "last_beat": "2026-11-05 19:05:57",
-    "age_s": 13.6
+    "last_beat": "2026-11-05 19:07:57",
+    "age_s": 16.2
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=1284 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-05 19:05:58",
-    "age_s": 12.6
+    "detail": "checks=1292 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-05 19:07:58",
+    "age_s": 15.2
    },
    {
     "agent": "Scanner",
     "status": "ok",
     "detail": "seen=242 connected=True reconnects=2",
-    "last_beat": "2026-11-05 19:05:55",
-    "age_s": 15.6
+    "last_beat": "2026-11-05 19:07:55",
+    "age_s": 18.2
    }
   ],
-  "last_update": "2026-11-05 19:05:58"
+  "last_update": "2026-11-05 19:07:58"
  },
- "generated_at": "2026-11-05T19:06:10+00:00"
+ "generated_at": "2026-11-05T19:08:13+00:00"
 }
