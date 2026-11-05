@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 870,
+   "mint": "B6URJpLTt9NacTjreVFBfB1M1vNvXeYvn4ZywUVPpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 22:48:44",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=B6URJpLTt9NacTjreVFBfB1M1vNvXeYvn4ZywUVPpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 869,
    "mint": "6AMFXdrqusZCdhSNwwFqJCwQzC1CChWnsiZCZXFmpump",
    "symbol": "GHOST",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 20:55:31"
    }
-  },
-  {
-   "id": 820,
-   "mint": "67RMRTvPsHJVbehDrmDJGvc23ERA74dHqkoHa4RBpump",
-   "symbol": "DOGCOIN",
-   "name": "DOGCOIN",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 2.269e-07,
-   "mcap_usd": 454.0,
-   "liquidity_usd": 110.22,
-   "created_at": "2026-11-05 20:51:49",
-   "audit_id": 824,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://fomo.family/coin?address=67RMRTvPsHJVbehDrmDJGvc23ERA74dHqkoHa4RBpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 16/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 20:53:50"
-   }
   }
  ],
- "generated_at": "2026-11-05T22:48:42+00:00"
+ "generated_at": "2026-11-05T22:49:44+00:00"
 }
