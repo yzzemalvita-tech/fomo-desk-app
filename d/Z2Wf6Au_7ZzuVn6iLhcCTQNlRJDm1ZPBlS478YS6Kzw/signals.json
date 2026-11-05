@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 715,
-   "mint": "DoPVZ1mzngKLURuPHpBHLSmGi3RdnBUcZCVbqrwjpump",
+   "id": 716,
+   "mint": "4tjw5NNwCk2N2NdG6Mbc7M5HjgCjbYinQXpYirJypump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 19:03:06",
+   "created_at": "2026-11-05 19:04:35",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/DoPVZ1mzngKLURuPHpBHLSmGi3RdnBUcZCVbqrwjpump",
+   "coin_url": "https://pump.fun/coin/4tjw5NNwCk2N2NdG6Mbc7M5HjgCjbYinQXpYirJypump",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 715,
+   "mint": "DoPVZ1mzngKLURuPHpBHLSmGi3RdnBUcZCVbqrwjpump",
+   "symbol": "HALH",
+   "name": "Haaland Hair",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "LIVE",
+   "price_usd": 9.349e-08,
+   "mcap_usd": 187.0,
+   "liquidity_usd": 75.15,
+   "created_at": "2026-11-05 19:03:06",
+   "audit_id": 719,
+   "audit_passed": 0,
+   "audit_score": 0.5,
+   "coin_url": "https://pump.fun/coin/DoPVZ1mzngKLURuPHpBHLSmGi3RdnBUcZCVbqrwjpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None ? 15/15 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 19:04:37"
+   }
   },
   {
    "id": 714,
@@ -28,15 +92,15 @@
    "symbol": "$GOAT",
    "name": "goat coin",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 1.466e-08,
    "mcap_usd": 29.0,
    "liquidity_usd": 23.63,
    "created_at": "2026-11-05 19:02:14",
    "audit_id": 718,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/7ynb7NoY7Re7ML1tjpG1hupEPG5bNgTgGytj6g1Qpump",
    "layers": {
     "1": {
@@ -62,10 +126,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 18/18 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 19:04:09"
+   }
   },
   {
    "id": 713,
@@ -73,15 +156,15 @@
    "symbol": "COGE",
    "name": "COGE COIN",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 3.921e-05,
    "mcap_usd": 39149.0,
    "liquidity_usd": 14217.76,
    "created_at": "2026-11-05 19:02:10",
    "audit_id": 717,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.875,
    "coin_url": "https://pump.fun/coin/M5gr5LtdPHNS3SsKx7qeC4cqznxFbJNVqEkUyxqpump",
    "layers": {
     "1": {
@@ -107,10 +190,29 @@
     "6": {
      "name": "activity",
      "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.92,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.05 / PASS 0.95); quality 1.24/4; rug risk 0.64. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=pass; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 19:04:08"
+   }
   },
   {
    "id": 712,
@@ -3055,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 18:08:43"
    }
-  },
-  {
-   "id": 666,
-   "mint": "B4v6q2oJfAbu1f6BZ9WkQpn3wViWnmxNjNQ6GEUtpump",
-   "symbol": "COB ",
-   "name": "Cobble",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 4.202e-09,
-   "mcap_usd": 8.0,
-   "liquidity_usd": 8.45,
-   "created_at": "2026-11-05 18:06:32",
-   "audit_id": 670,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/B4v6q2oJfAbu1f6BZ9WkQpn3wViWnmxNjNQ6GEUtpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 17/17 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 18:08:26"
-   }
   }
  ],
- "generated_at": "2026-11-05T19:04:05+00:00"
+ "generated_at": "2026-11-05T19:05:07+00:00"
 }
