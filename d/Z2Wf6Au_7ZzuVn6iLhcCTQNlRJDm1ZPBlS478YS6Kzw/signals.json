@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 849,
+   "mint": "Eo8SAmD3K5bsdYJ7xGLGvpjJNHpWRVb7LpnRPA7Xpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 22:06:45",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=Eo8SAmD3K5bsdYJ7xGLGvpjJNHpWRVb7LpnRPA7Xpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 848,
    "mint": "FtzEV8xXUXQutLvTAKeiYZT5oUGqx9sDHDedc5oApump",
    "symbol": "Phyton",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 20:31:50"
    }
-  },
-  {
-   "id": 799,
-   "mint": "E339LCMzTWZXyM4hGGTKKcuFCJWJNtDkRshuLmVzpump",
-   "symbol": "Punjimoguin",
-   "name": "The Nietzschean Punjimoguin",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 4.064e-05,
-   "mcap_usd": 40601.0,
-   "liquidity_usd": 14666.14,
-   "created_at": "2026-11-05 20:28:38",
-   "audit_id": 803,
-   "audit_passed": 1,
-   "audit_score": 1.0,
-   "coin_url": "https://fomo.family/coin?address=E339LCMzTWZXyM4hGGTKKcuFCJWJNtDkRshuLmVzpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "BUY",
-    "confidence": 0.77,
-    "size_sol": 0.385,
-    "reasoning": "Jev: BUY (P BUY 0.85 / WATCH 0.13 / PASS 0.02); quality 3.04/4; rug risk 0.11. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=pass; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 20:30:08"
-   }
   }
  ],
- "generated_at": "2026-11-05T22:05:30+00:00"
+ "generated_at": "2026-11-05T22:07:32+00:00"
 }
