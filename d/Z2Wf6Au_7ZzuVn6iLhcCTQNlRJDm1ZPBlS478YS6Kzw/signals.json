@@ -3,6 +3,46 @@
  "version": 1,
  "data": [
   {
+   "id": 695,
+   "mint": "Fa93AEKdk5GJovkJseEjQ4geYuadFLimbKgy3BiPwiwS",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 18:44:48",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/Fa93AEKdk5GJovkJseEjQ4geYuadFLimbKgy3BiPwiwS",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 694,
+   "mint": "GenkAAcnY3BSJ6x2AERQcu7MF1mCuEjz58VBot6Mpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 18:44:44",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/GenkAAcnY3BSJ6x2AERQcu7MF1mCuEjz58VBot6Mpump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 693,
    "mint": "D71m9SV4dqPFHvkSAnCVAYmcyBpWBoXG1ne32Xv9pump",
    "symbol": null,
@@ -45,40 +85,90 @@
   {
    "id": 691,
    "mint": "Gi6TTJfRiS7vct9yMHAEd58NiLv9Ywg87LErLpKiHaQb",
-   "symbol": null,
-   "name": null,
+   "symbol": "COGE",
+   "name": "Cogecoin",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.813e-06,
+   "mcap_usd": 4808.0,
+   "liquidity_usd": 4075.58,
    "created_at": "2026-11-05 18:43:53",
-   "audit_id": null,
+   "audit_id": 695,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/Gi6TTJfRiS7vct9yMHAEd58NiLv9Ywg87LErLpKiHaQb",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 690,
    "mint": "Ch24dNtXQNWVsXEJvWihzbhzfggtMHumwKu9gVLQpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "COGE",
+   "name": "Cogecoin",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 6.774e-05,
+   "mcap_usd": 67747.0,
+   "liquidity_usd": 20276.44,
    "created_at": "2026-11-05 18:43:40",
-   "audit_id": null,
+   "audit_id": 694,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/Ch24dNtXQNWVsXEJvWihzbhzfggtMHumwKu9gVLQpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -88,15 +178,15 @@
    "symbol": "Amika ",
    "name": "OpenAmika",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 3.425e-05,
    "mcap_usd": 34254.0,
    "liquidity_usd": 13099.36,
    "created_at": "2026-11-05 18:43:26",
    "audit_id": 693,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.875,
    "coin_url": "https://pump.fun/coin/6NkaU1hq3MqwPapru9uLyKaKGQwAZR1Uf6SHGLHQpump",
    "layers": {
     "1": {
@@ -122,10 +212,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 19/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.58,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.13 / WATCH 0.72 / PASS 0.15); quality 2.34/4; rug risk 0.16. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 18:45:27"
+   }
   },
   {
    "id": 688,
@@ -2878,135 +2987,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 17:39:21"
    }
-  },
-  {
-   "id": 645,
-   "mint": "634vrPzhHXvBLTTWrWj4CnXgdpixUgC8uXA5wrC6pump",
-   "symbol": "crypto",
-   "name": "pivot to crypto",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 3.886e-05,
-   "mcap_usd": 38793.0,
-   "liquidity_usd": 14099.95,
-   "created_at": "2026-11-05 17:32:29",
-   "audit_id": 649,
-   "audit_passed": 1,
-   "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/634vrPzhHXvBLTTWrWj4CnXgdpixUgC8uXA5wrC6pump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "warn"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "WATCH",
-    "confidence": 0.43,
-    "size_sol": null,
-    "reasoning": "Jev: WATCH (P BUY 0.03 / WATCH 0.62 / PASS 0.35); quality 2.25/4; rug risk 0.21. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=pass; L7_bundles=pass; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 17:34:12"
-   }
-  },
-  {
-   "id": 644,
-   "mint": "26CyDATMVZ7xsv5CgRpKFjz2Md5GTpMbpGD3zawxj9pV",
-   "symbol": "SI",
-   "name": "Somali Inu",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 3.46e-05,
-   "mcap_usd": 34534.0,
-   "liquidity_usd": 13356.51,
-   "created_at": "2026-11-05 17:32:08",
-   "audit_id": 648,
-   "audit_passed": 1,
-   "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/26CyDATMVZ7xsv5CgRpKFjz2Md5GTpMbpGD3zawxj9pV",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "WATCH",
-    "confidence": 0.62,
-    "size_sol": null,
-    "reasoning": "Jev: WATCH (P BUY 0.06 / WATCH 0.75 / PASS 0.19); quality 2.04/4; rug risk 0.14. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=pass; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 17:33:33"
-   }
   }
  ],
- "generated_at": "2026-11-05T18:44:37+00:00"
+ "generated_at": "2026-11-05T18:45:39+00:00"
 }
