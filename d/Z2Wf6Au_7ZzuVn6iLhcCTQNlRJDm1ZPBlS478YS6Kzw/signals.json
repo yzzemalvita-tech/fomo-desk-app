@@ -5,20 +5,45 @@
   {
    "id": 450,
    "mint": "83jT6uCNS6hBYTrLvaVSd5s1qvtA6RK1frg6amzheywE",
-   "symbol": null,
-   "name": null,
+   "symbol": "DEVSELL1M",
+   "name": "Dev Sells In One Minute",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.163e-07,
+   "mcap_usd": 233.0,
+   "liquidity_usd": 47.9,
    "created_at": "2026-11-05 09:30:19",
-   "audit_id": null,
+   "audit_id": 452,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=83jT6uCNS6hBYTrLvaVSd5s1qvtA6RK1frg6amzheywE&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T09:30:32+00:00"
+ "generated_at": "2026-11-05T09:31:33+00:00"
 }
