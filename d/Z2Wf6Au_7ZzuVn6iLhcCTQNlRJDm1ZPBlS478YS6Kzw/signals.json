@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 863,
+   "mint": "Ca64hAuZNSdBvD3MhGjTM6kSs82ets5b1WgKDpRVpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 22:35:46",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=Ca64hAuZNSdBvD3MhGjTM6kSs82ets5b1WgKDpRVpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 862,
    "mint": "27b7tLNyZzRQme7oUF7NwebjXwPdyhQ4xT5CJuGVpump",
    "symbol": "VETO",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 20:48:22"
    }
-  },
-  {
-   "id": 813,
-   "mint": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
-   "symbol": "PHP",
-   "name": "PHP-UP-2026",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 1.715e-05,
-   "mcap_usd": 16752.0,
-   "liquidity_usd": 12435.76,
-   "created_at": "2026-11-05 20:44:51",
-   "audit_id": 817,
-   "audit_passed": 1,
-   "audit_score": 0.875,
-   "coin_url": "https://fomo.family/coin?address=Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "fail"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "2 bundled ? 20/20 checked",
-    "bundled_pct": 10.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.3,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.03 / WATCH 0.44 / PASS 0.53); quality 2.00/4; rug risk 0.18. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=fail; L7_bundles=pass; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 20:46:57"
-   }
   }
  ],
- "generated_at": "2026-11-05T22:35:17+00:00"
+ "generated_at": "2026-11-05T22:36:19+00:00"
 }
