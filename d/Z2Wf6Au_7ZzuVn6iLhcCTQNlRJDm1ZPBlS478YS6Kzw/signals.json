@@ -8,15 +8,15 @@
    "symbol": "$CAT",
    "name": "CATECOIN",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 7.679e-08,
    "mcap_usd": 154.0,
    "liquidity_usd": 21.12,
    "created_at": "2026-11-05 17:41:41",
    "audit_id": 653,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/BghSMVVCPLFrhbp9ccoXkU7Qb773YNBeX6AC14Mgpump",
    "layers": {
     "1": {
@@ -42,10 +42,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 17:43:10"
+   }
   },
   {
    "id": 648,
@@ -3184,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T17:42:52+00:00"
+ "generated_at": "2026-11-05T17:43:54+00:00"
 }
