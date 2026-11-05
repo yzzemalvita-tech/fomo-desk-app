@@ -3,6 +3,19 @@
  "version": 1,
  "data": [
   {
+   "id": 28,
+   "verdict_id": 798,
+   "mint": "E339LCMzTWZXyM4hGGTKKcuFCJWJNtDkRshuLmVzpump",
+   "size_sol": 0.385,
+   "entry_usd": 3.888e-05,
+   "stop_loss_usd": 2.7215999999999998e-05,
+   "take_profit_usd": 7.776e-05,
+   "est_fees_sol": 0.02112989323843416,
+   "breakeven_pct": 8.8606972791895,
+   "created_at": "2026-11-05 20:30:08",
+   "coin_url": "https://pump.fun/coin/E339LCMzTWZXyM4hGGTKKcuFCJWJNtDkRshuLmVzpump"
+  },
+  {
    "id": 27,
    "verdict_id": 789,
    "mint": "54zSTXvPyjcASLHv5PDfCtbZb9Hjtqv5dsdQdJxLpump",
@@ -354,5 +367,5 @@
    "coin_url": "https://pump.fun/coin/Bu3h78FY2fsWVZ1MdyQVpFTvv5XsRotWX6VjszQTpump"
   }
  ],
- "generated_at": "2026-11-05T20:23:27+00:00"
+ "generated_at": "2026-11-05T20:30:43+00:00"
 }
