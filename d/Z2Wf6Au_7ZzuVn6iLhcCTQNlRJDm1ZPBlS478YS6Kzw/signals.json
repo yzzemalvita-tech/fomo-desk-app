@@ -5,20 +5,45 @@
   {
    "id": 519,
    "mint": "WpcMYbrXVWmEvphqUPsBGW2wVj62Vx7EingpDUrpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Trump",
+   "name": "Trump Coin",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001165,
+   "mcap_usd": 116483.0,
+   "liquidity_usd": 26293.7,
    "created_at": "2026-11-05 13:56:42",
-   "audit_id": null,
+   "audit_id": 523,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/WpcMYbrXVWmEvphqUPsBGW2wVj62Vx7EingpDUrpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -28,15 +53,15 @@
    "symbol": "SOUNDER",
    "name": "Sounder",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 4.638e-05,
    "mcap_usd": 46260.0,
    "liquidity_usd": 16123.02,
    "created_at": "2026-11-05 13:56:05",
    "audit_id": 522,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 1.0,
    "coin_url": "https://pump.fun/coin/DBhWAqpAJFNM1A9XY6DDb1SJVkNCv87hRdYCoCoypump",
    "layers": {
     "1": {
@@ -62,10 +87,29 @@
     "6": {
      "name": "activity",
      "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "2 bundled ? 20/20 checked",
+    "bundled_pct": 10.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "BUY",
+    "confidence": 0.04,
+    "size_sol": 0.02,
+    "reasoning": "Jev: BUY (P BUY 0.36 / WATCH 0.29 / PASS 0.35); quality 3.02/4; rug risk 0.10. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=pass; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 13:57:33"
+   }
   },
   {
    "id": 517,
@@ -3136,5 +3180,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T13:57:07+00:00"
+ "generated_at": "2026-11-05T13:58:09+00:00"
 }
