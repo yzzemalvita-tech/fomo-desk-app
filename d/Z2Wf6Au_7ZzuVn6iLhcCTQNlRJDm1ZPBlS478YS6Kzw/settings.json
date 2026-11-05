@@ -3,7 +3,7 @@
  "version": 1,
  "data": {
   "mode": {
-   "value": "PAPER",
+   "value": "LIVE",
    "default": "PAPER",
    "type": "str",
    "desc": "PAPER = simulated fills; LIVE = signal-only alerts, you trade manually on FOMO. Change only via /mode",
@@ -355,5 +355,5 @@
    "restart": false
   }
  },
- "generated_at": "2026-11-05T12:50:33+00:00"
+ "generated_at": "2026-11-05T13:31:31+00:00"
 }

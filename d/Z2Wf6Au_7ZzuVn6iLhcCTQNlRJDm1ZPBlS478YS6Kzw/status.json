@@ -2,53 +2,53 @@
  "schema": "fomo-desk/status",
  "version": 1,
  "data": {
-  "mode": "PAPER",
+  "mode": "LIVE",
   "kill_switch": false,
   "heartbeats": [
    {
     "agent": "Analyst",
     "status": "ok",
-    "detail": "verdicts=22 jev_calls=13 queue=0",
-    "last_beat": "2026-11-05 13:30:05",
-    "age_s": 25.1
+    "detail": "verdicts=0 jev_calls=13 queue=0",
+    "last_beat": "2026-11-05 13:31:08",
+    "age_s": 23.9
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=22 queue=0 busy=497",
-    "last_beat": "2026-11-05 13:30:05",
-    "age_s": 25.1
+    "detail": "audited=0 queue=0 busy=None",
+    "last_beat": "2026-11-05 13:31:08",
+    "age_s": 23.9
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=PAPER stats={'429': 194, '429_by_host': {}, 'errors': 18, 'jev_in': 13580, 'jev_out': 923, 'jev_calls': 13, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 18}",
-    "last_beat": "2026-11-05 13:29:34",
-    "age_s": 56.1
+    "detail": "mode=PAPER stats={'429': 194, '429_by_host': {}, 'errors': 18, 'jev_in': 13580, 'jev_out': 923, 'jev_calls': 13, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 19}",
+    "last_beat": "2026-11-05 13:30:34",
+    "age_s": 57.9
    },
    {
     "agent": "Executor",
     "status": "ok",
-    "detail": "mode=PAPER opened=0 closed=0 live_alerts=0",
-    "last_beat": "2026-11-05 13:30:05",
-    "age_s": 25.1
+    "detail": "mode=LIVE opened=0 closed=0 live_alerts=0",
+    "last_beat": "2026-11-05 13:31:08",
+    "age_s": 23.9
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=158 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-05 13:30:05",
-    "age_s": 25.1
+    "detail": "checks=3 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-05 13:31:08",
+    "age_s": 23.9
    },
    {
     "agent": "Scanner",
     "status": "ok",
-    "detail": "seen=26 connected=True reconnects=0",
-    "last_beat": "2026-11-05 13:30:05",
-    "age_s": 25.1
+    "detail": "seen=0 connected=True reconnects=0",
+    "last_beat": "2026-11-05 13:31:08",
+    "age_s": 23.9
    }
   ],
-  "last_update": "2026-11-05 13:30:05"
+  "last_update": "2026-11-05 13:31:08"
  },
- "generated_at": "2026-11-05T13:30:30+00:00"
+ "generated_at": "2026-11-05T13:31:31+00:00"
 }
