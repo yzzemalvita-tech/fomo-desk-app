@@ -5,20 +5,45 @@
   {
    "id": 614,
    "mint": "Eyo1o3QYKQwdvP6UtK9dQLTZj2BBtoJdN4tMWB2Dpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "GOODTIME",
+   "name": "GOODTIME - LEONIDA",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.458e-05,
+   "mcap_usd": 34548.0,
+   "liquidity_usd": 13294.85,
    "created_at": "2026-11-05 16:24:42",
-   "audit_id": null,
+   "audit_id": 618,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/Eyo1o3QYKQwdvP6UtK9dQLTZj2BBtoJdN4tMWB2Dpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T16:24:54+00:00"
+ "generated_at": "2026-11-05T16:25:55+00:00"
 }
