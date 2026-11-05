@@ -5,39 +5,19 @@
   {
    "id": 230,
    "mint": "8fKMEX6qLfiBAkHhZbFHjop8A9pxZ8MCBcapaG1Gpump",
-   "symbol": null,
-   "name": null,
-   "source": "pumpportal_migration",
-   "status": "new",
-   "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
-   "created_at": "2026-11-05 02:04:22",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=8fKMEX6qLfiBAkHhZbFHjop8A9pxZ8MCBcapaG1Gpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
-  },
-  {
-   "id": 229,
-   "mint": "EeNPJJfGrHSyiatRELkxQ5iX5e8vtF5WU4anwLj7pump",
-   "symbol": "beer",
-   "name": "beer",
+   "symbol": "DFTWC",
+   "name": "DEMS FOR THE WIN",
    "source": "pumpportal_migration",
    "status": "auditing",
    "mode": "PAPER",
-   "price_usd": 3.952e-08,
-   "mcap_usd": 79.0,
-   "liquidity_usd": 18.32,
-   "created_at": "2026-11-05 02:03:14",
-   "audit_id": 231,
+   "price_usd": 9.176e-09,
+   "mcap_usd": 18.0,
+   "liquidity_usd": 31.74,
+   "created_at": "2026-11-05 02:04:22",
+   "audit_id": 232,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=EeNPJJfGrHSyiatRELkxQ5iX5e8vtF5WU4anwLj7pump&chainId=1399811149&r=savipww&source=share_link",
+   "coin_url": "https://fomo.family/coin?address=8fKMEX6qLfiBAkHhZbFHjop8A9pxZ8MCBcapaG1Gpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -66,6 +46,70 @@
    },
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 229,
+   "mint": "EeNPJJfGrHSyiatRELkxQ5iX5e8vtF5WU4anwLj7pump",
+   "symbol": "beer",
+   "name": "beer",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 3.952e-08,
+   "mcap_usd": 79.0,
+   "liquidity_usd": 18.32,
+   "created_at": "2026-11-05 02:03:14",
+   "audit_id": 231,
+   "audit_passed": 0,
+   "audit_score": 0.5,
+   "coin_url": "https://fomo.family/coin?address=EeNPJJfGrHSyiatRELkxQ5iX5e8vtF5WU4anwLj7pump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/17 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 02:04:37"
+   }
   },
   {
    "id": 228,
@@ -3140,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T02:04:28+00:00"
+ "generated_at": "2026-11-05T02:05:30+00:00"
 }
