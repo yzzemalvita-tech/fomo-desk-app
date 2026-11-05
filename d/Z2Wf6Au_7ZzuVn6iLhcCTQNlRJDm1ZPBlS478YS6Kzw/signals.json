@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 854,
+   "mint": "DWRMrZJRNQ9H3785otWbvnKvbvdUpFtpHAWWhT4zpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 22:23:24",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=DWRMrZJRNQ9H3785otWbvnKvbvdUpFtpHAWWhT4zpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 853,
    "mint": "7KxJBFUKidCXZzkxJsYu6BLRBhxNzkfFHm6c7cdApump",
    "symbol": "OpenClaw",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 20:37:59"
    }
-  },
-  {
-   "id": 804,
-   "mint": "A39Hh55RxZghdkzstSrreS2oMKNfsW5xFo6fDwQspump",
-   "symbol": "ANSEM",
-   "name": "The Black Bear",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 0.0,
-   "mcap_usd": null,
-   "liquidity_usd": null,
-   "created_at": "2026-11-05 20:35:56",
-   "audit_id": 808,
-   "audit_passed": 1,
-   "audit_score": 0.375,
-   "coin_url": "https://fomo.family/coin?address=A39Hh55RxZghdkzstSrreS2oMKNfsW5xFo6fDwQspump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "error"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "error"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 8/8 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.06/4; rug risk 0.93. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=error; L5_rugcheck=fail; L6_activity=warn; L7_bundles=pass; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 20:37:00"
-   }
   }
  ],
- "generated_at": "2026-11-05T22:20:53+00:00"
+ "generated_at": "2026-11-05T22:23:57+00:00"
 }
