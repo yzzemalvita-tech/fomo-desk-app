@@ -9,46 +9,46 @@
     "agent": "Analyst",
     "status": "ok",
     "detail": "verdicts=123 jev_calls=93 queue=0",
-    "last_beat": "2026-11-05 17:05:52",
-    "age_s": 1.5
+    "last_beat": "2026-11-05 17:07:52",
+    "age_s": 3.3
    },
    {
     "agent": "Auditor",
     "status": "ok",
     "detail": "audited=123 queue=0 busy=None",
-    "last_beat": "2026-11-05 17:05:52",
-    "age_s": 1.5
+    "last_beat": "2026-11-05 17:07:52",
+    "age_s": 3.3
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=LIVE stats={'429': 1291, '429_by_host': {}, 'errors': 4, 'jev_in': 98352, 'jev_out': 6603, 'jev_calls': 93, 'tg': {'in': 0, 'ignored': 0, 'sent': 11, 'send_err': 0}, 'publishes': 167}",
-    "last_beat": "2026-11-05 17:05:48",
-    "age_s": 5.5
+    "detail": "mode=LIVE stats={'429': 1291, '429_by_host': {}, 'errors': 4, 'jev_in': 98352, 'jev_out': 6603, 'jev_calls': 93, 'tg': {'in': 0, 'ignored': 0, 'sent': 11, 'send_err': 0}, 'publishes': 168}",
+    "last_beat": "2026-11-05 17:07:48",
+    "age_s": 7.3
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=LIVE opened=0 closed=0 live_alerts=11",
-    "last_beat": "2026-11-05 17:05:52",
-    "age_s": 1.5
+    "last_beat": "2026-11-05 17:07:52",
+    "age_s": 3.3
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=804 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-05 17:05:52",
-    "age_s": 1.5
+    "detail": "checks=812 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-05 17:07:52",
+    "age_s": 3.3
    },
    {
     "agent": "Scanner",
     "status": "ok",
-    "detail": "seen=129 connected=True reconnects=0",
-    "last_beat": "2026-11-05 17:05:51",
-    "age_s": 2.5
+    "detail": "seen=130 connected=True reconnects=0",
+    "last_beat": "2026-11-05 17:07:51",
+    "age_s": 4.3
    }
   ],
-  "last_update": "2026-11-05 17:05:52"
+  "last_update": "2026-11-05 17:07:52"
  },
- "generated_at": "2026-11-05T17:05:53+00:00"
+ "generated_at": "2026-11-05T17:07:55+00:00"
 }
