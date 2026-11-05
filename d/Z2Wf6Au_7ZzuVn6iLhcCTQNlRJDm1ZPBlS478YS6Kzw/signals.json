@@ -5,40 +5,70 @@
   {
    "id": 299,
    "mint": "EUhoRE8YVSU6ZeEMa3Zd6qZ2hxVRGAu7uxoDNaNspump",
-   "symbol": null,
-   "name": null,
+   "symbol": "GTA6",
+   "name": "GTA VI",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001134,
+   "mcap_usd": 113369.0,
+   "liquidity_usd": 26042.04,
    "created_at": "2026-11-05 03:58:13",
-   "audit_id": null,
+   "audit_id": 301,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=EUhoRE8YVSU6ZeEMa3Zd6qZ2hxVRGAu7uxoDNaNspump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 298,
    "mint": "8LE65NsUJk3QfR385RLZKwTC2DRmX65CVRKmDkvvpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Look",
+   "name": "Look At Coins",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
+   "price_usd": 3.958e-05,
+   "mcap_usd": 39588.3,
    "liquidity_usd": null,
    "created_at": "2026-11-05 03:58:07",
-   "audit_id": null,
+   "audit_id": 300,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=8LE65NsUJk3QfR385RLZKwTC2DRmX65CVRKmDkvvpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3115,5 +3145,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T03:58:20+00:00"
+ "generated_at": "2026-11-05T03:59:22+00:00"
 }
