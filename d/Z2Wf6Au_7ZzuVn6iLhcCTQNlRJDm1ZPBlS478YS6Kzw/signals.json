@@ -3,6 +3,46 @@
  "version": 1,
  "data": [
   {
+   "id": 897,
+   "mint": "GaFz9YNqoL6U64TDD8Y41SNVa7Ez1z8oDzBqSmb7pump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 23:45:10",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=GaFz9YNqoL6U64TDD8Y41SNVa7Ez1z8oDzBqSmb7pump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 896,
+   "mint": "HW6aSJadzAzux3dzYDfJzDhJPBgatPTz85woKZFFpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 23:44:45",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=HW6aSJadzAzux3dzYDfJzDhJPBgatPTz85woKZFFpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 895,
    "mint": "s8NeMtT12E7sNmyKUxTPEBmm9UK3yxh9M5fnyXqpump",
    "symbol": "casinu",
@@ -3073,135 +3113,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 22:05:11"
    }
-  },
-  {
-   "id": 847,
-   "mint": "BBCfXbkcjkt2NdvGJFm4eB9APSRpLUSdqPkbLweGpump",
-   "symbol": "TOAD",
-   "name": "The Toad Cat",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 5.895e-09,
-   "mcap_usd": 12.0,
-   "liquidity_usd": 5.41,
-   "created_at": "2026-11-05 21:59:31",
-   "audit_id": 852,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://fomo.family/coin?address=BBCfXbkcjkt2NdvGJFm4eB9APSRpLUSdqPkbLweGpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "2 bundled \u00b7 10/16 checked",
-    "bundled_pct": 12.5,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 22:00:53"
-   }
-  },
-  {
-   "id": 846,
-   "mint": "6EjKPPPCcdJL8e85xc4ykAqfL1od34PENBzEFL7Qpump",
-   "symbol": "LMC",
-   "name": "Laughing Monkey Coin",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 5.287e-09,
-   "mcap_usd": 11.0,
-   "liquidity_usd": 3.09,
-   "created_at": "2026-11-05 21:58:54",
-   "audit_id": 851,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://fomo.family/coin?address=6EjKPPPCcdJL8e85xc4ykAqfL1od34PENBzEFL7Qpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "2 bundled \u00b7 10/18 checked",
-    "bundled_pct": 11.1,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 22:00:16"
-   }
   }
  ],
- "generated_at": "2026-11-05T23:44:31+00:00"
+ "generated_at": "2026-11-05T23:45:33+00:00"
 }
