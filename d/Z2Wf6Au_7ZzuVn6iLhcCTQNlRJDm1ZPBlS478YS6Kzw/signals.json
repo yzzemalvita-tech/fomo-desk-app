@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 876,
+   "mint": "2wWSGXQ3xWTc65BxMXYe82Pzw2oHw5N7TRhC3Tkcpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 23:03:50",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=2wWSGXQ3xWTc65BxMXYe82Pzw2oHw5N7TRhC3Tkcpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 875,
    "mint": "E4fQ4HB4fReqJzqSLSktdXAP11JfhRToenYC6G6Xpump",
    "symbol": "CLWN",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 21:05:49"
    }
-  },
-  {
-   "id": 826,
-   "mint": "5rWGUB4FV8ocE9X7QhBbBJ2QsQaQgFryLwtPYmBnpump",
-   "symbol": "ALICE",
-   "name": "Alice Huang",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 4.183e-05,
-   "mcap_usd": 41795.0,
-   "liquidity_usd": 14691.98,
-   "created_at": "2026-11-05 21:02:30",
-   "audit_id": 830,
-   "audit_passed": 1,
-   "audit_score": 0.875,
-   "coin_url": "https://fomo.family/coin?address=5rWGUB4FV8ocE9X7QhBbBJ2QsQaQgFryLwtPYmBnpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None ? 10/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "BUY",
-    "confidence": 0.58,
-    "size_sol": 0.29,
-    "reasoning": "Jev: BUY (P BUY 0.72 / WATCH 0.25 / PASS 0.03); quality 2.70/4; rug risk 0.13. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 21:04:31"
-   }
   }
  ],
- "generated_at": "2026-11-05T23:00:04+00:00"
+ "generated_at": "2026-11-05T23:04:09+00:00"
 }
