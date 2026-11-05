@@ -5,40 +5,90 @@
   {
    "id": 536,
    "mint": "DanEBJBoTurSmaALtYk26zjLmjkjWzHgHuFfimn8pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "homo",
+   "name": "fomo.gay",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
+   "price_usd": 3.91e-05,
+   "mcap_usd": 39107.57,
    "liquidity_usd": null,
    "created_at": "2026-11-05 14:27:58",
-   "audit_id": null,
+   "audit_id": 540,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/DanEBJBoTurSmaALtYk26zjLmjkjWzHgHuFfimn8pump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 535,
    "mint": "8sueo1w4Xq7itXDDak8NfupD83ipdv5CWHggtxYBpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "AOTF",
+   "name": "American Oil Trust Fund\ud83d\udd25",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.704e-06,
+   "mcap_usd": 3705.0,
+   "liquidity_usd": 3339.33,
    "created_at": "2026-11-05 14:27:51",
-   "audit_id": null,
+   "audit_id": 539,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/8sueo1w4Xq7itXDDak8NfupD83ipdv5CWHggtxYBpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3111,5 +3161,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T14:28:00+00:00"
+ "generated_at": "2026-11-05T14:29:02+00:00"
 }
