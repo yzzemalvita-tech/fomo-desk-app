@@ -5,22 +5,66 @@
   {
    "id": 877,
    "mint": "HBeA4xbYXqqdvUqbxMpZgmweAtgxEAabz6oVEtspump",
-   "symbol": null,
-   "name": null,
+   "symbol": "HYDRA",
+   "name": "\ud83d\udc09 Chaos Rage Hydra",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 5.611e-08,
+   "mcap_usd": 112.0,
+   "liquidity_usd": 87.88,
    "created_at": "2026-11-05 23:05:54",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 882,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=HBeA4xbYXqqdvUqbxMpZgmweAtgxEAabz6oVEtspump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "2 bundled \u00b7 11/14 checked",
+    "bundled_pct": 14.3,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 23:07:15"
+   }
   },
   {
    "id": 876,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T23:06:13+00:00"
+ "generated_at": "2026-11-05T23:07:15+00:00"
 }
