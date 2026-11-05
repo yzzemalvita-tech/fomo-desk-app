@@ -5,20 +5,45 @@
   {
    "id": 188,
    "mint": "GMq13dUzG1wBTKHPFb9Bencgejji1g8Js22Dc95Qpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "ABTC",
+   "name": "Anime Bitcoin",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.689e-09,
+   "mcap_usd": 7.0,
+   "liquidity_usd": 2.21,
    "created_at": "2026-11-05 00:02:33",
-   "audit_id": null,
+   "audit_id": 190,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=GMq13dUzG1wBTKHPFb9Bencgejji1g8Js22Dc95Qpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3151,5 +3176,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T00:02:41+00:00"
+ "generated_at": "2026-11-05T00:03:43+00:00"
 }
