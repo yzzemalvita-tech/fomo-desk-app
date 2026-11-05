@@ -5,42 +5,130 @@
   {
    "id": 895,
    "mint": "s8NeMtT12E7sNmyKUxTPEBmm9UK3yxh9M5fnyXqpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "casinu",
+   "name": "casinu",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
+   "price_usd": 0.0,
    "mcap_usd": null,
    "liquidity_usd": null,
    "created_at": "2026-11-05 23:42:43",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 900,
+   "audit_passed": 1,
+   "audit_score": 0.375,
    "coin_url": "https://fomo.family/coin?address=s8NeMtT12E7sNmyKUxTPEBmm9UK3yxh9M5fnyXqpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "error"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 2/2 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.02/4; rug risk 0.93. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=error; L5_rugcheck=fail; L6_activity=fail; L7_bundles=pass; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 23:43:51"
+   }
   },
   {
    "id": 894,
    "mint": "2zNTogrhqSnpQBDETwbspAn5bt7LuMriJx5N76EVpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "ISILWY",
+   "name": "IM SO IN LOVE WITH YOU",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 5.412e-08,
+   "mcap_usd": 108.0,
+   "liquidity_usd": 15.9,
    "created_at": "2026-11-05 23:42:40",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 899,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=2zNTogrhqSnpQBDETwbspAn5bt7LuMriJx5N76EVpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 6/6 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 23:43:50"
+   }
   },
   {
    "id": 893,
@@ -3115,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T23:43:29+00:00"
+ "generated_at": "2026-11-05T23:44:31+00:00"
 }
