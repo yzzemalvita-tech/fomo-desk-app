@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 842,
-   "mint": "Fnq7DvaL3pjPb8gy2297XBqKQpKtomNAZskJbEwwpump",
+   "id": 840,
+   "mint": "4Rfd9KJmKKo1MfpdYvAFbkvfdFQzQGkz5ffPLgRFpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,142 +13,14 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 21:43:23",
+   "created_at": "2026-11-05 21:24:39",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/Fnq7DvaL3pjPb8gy2297XBqKQpKtomNAZskJbEwwpump",
+   "coin_url": "https://fomo.family/coin?address=4Rfd9KJmKKo1MfpdYvAFbkvfdFQzQGkz5ffPLgRFpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {},
    "bundles": null,
    "verdict": null
-  },
-  {
-   "id": 841,
-   "mint": "GpfmUxYENkQhcYk5kXC4mc5TCv5NJaqfPZ1WyioKpump",
-   "symbol": "BAD",
-   "name": "Bad Fucking Nigger",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 3.7e-05,
-   "mcap_usd": 37007.98,
-   "liquidity_usd": null,
-   "created_at": "2026-11-05 21:41:43",
-   "audit_id": 846,
-   "audit_passed": 1,
-   "audit_score": 0.625,
-   "coin_url": "https://pump.fun/coin/GpfmUxYENkQhcYk5kXC4mc5TCv5NJaqfPZ1WyioKpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "error"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "warn"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "warn"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.8,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.13 / PASS 0.87); quality 1.75/4; rug risk 0.47. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=pass; L7_bundles=pass; L8_holders=warn",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 21:43:13"
-   }
-  },
-  {
-   "id": 840,
-   "mint": "4Rfd9KJmKKo1MfpdYvAFbkvfdFQzQGkz5ffPLgRFpump",
-   "symbol": "MrBeast",
-   "name": "MrBeast",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 0.0001397,
-   "mcap_usd": 139677.0,
-   "liquidity_usd": 28216.76,
-   "created_at": "2026-11-05 21:24:39",
-   "audit_id": 844,
-   "audit_passed": 1,
-   "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/4Rfd9KJmKKo1MfpdYvAFbkvfdFQzQGkz5ffPLgRFpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "fail"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "8 bundled ? 20/20 checked",
-    "bundled_pct": 40.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.67,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.01 / WATCH 0.21 / PASS 0.78); quality 2.20/4; rug risk 0.28. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=fail; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 21:42:22"
-   }
   },
   {
    "id": 839,
@@ -156,20 +28,20 @@
    "symbol": "Screaming",
    "name": "Screaming Coin",
    "source": "pumpportal_migration",
-   "status": "analysed",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": 1.785e-06,
-   "mcap_usd": 1784.0,
-   "liquidity_usd": 1839.72,
+   "price_usd": 3.437e-05,
+   "mcap_usd": 34338.0,
+   "liquidity_usd": 13135.91,
    "created_at": "2026-11-05 21:23:50",
-   "audit_id": 845,
-   "audit_passed": 0,
-   "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/7LRfD9Bf8YWGhqtWmGGAQ7M4v5PDRdW5f8SJ25JNpump",
+   "audit_id": 843,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=7LRfD9Bf8YWGhqtWmGGAQ7M4v5PDRdW5f8SJ25JNpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
-     "result": "fail"
+     "result": "pass"
     },
     "2": {
      "name": "mint_authority",
@@ -185,34 +57,23 @@
     },
     "5": {
      "name": "rugcheck",
-     "result": "fail"
+     "result": "pass"
     },
     "6": {
      "name": "activity",
-     "result": "pass"
+     "result": "warn"
     },
     "7": {
      "name": "bundles",
      "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
     }
    },
    "bundles": {
-    "label": "2 bundled ? 20/20 checked",
-    "bundled_pct": 10.0,
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
     "partial": 0
    },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 21:42:07"
-   }
+   "verdict": null
   },
   {
    "id": 838,
@@ -229,7 +90,7 @@
    "audit_id": 842,
    "audit_passed": 1,
    "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/G3be68K15Rq15WDFBuKufSJ3nZJpZmk8P1rg2JXSpump",
+   "coin_url": "https://fomo.family/coin?address=G3be68K15Rq15WDFBuKufSJ3nZJpZmk8P1rg2JXSpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -293,7 +154,7 @@
    "audit_id": 841,
    "audit_passed": 1,
    "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/5yKjUtPPPGNBhYL9BcV5AL896U3qtsfhMZw5Zck3pump",
+   "coin_url": "https://fomo.family/coin?address=5yKjUtPPPGNBhYL9BcV5AL896U3qtsfhMZw5Zck3pump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -357,7 +218,7 @@
    "audit_id": 840,
    "audit_passed": 1,
    "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/8LQz96uRnfHHXGRojPnRc73XJcrNGkjr54F6PbuZpump",
+   "coin_url": "https://fomo.family/coin?address=8LQz96uRnfHHXGRojPnRc73XJcrNGkjr54F6PbuZpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -421,7 +282,7 @@
    "audit_id": 839,
    "audit_passed": 1,
    "audit_score": 1.0,
-   "coin_url": "https://pump.fun/coin/Bi59TGKZgLa7zVRz1BX3yPg6Cj8wWfZwfNc5FaCApump",
+   "coin_url": "https://fomo.family/coin?address=Bi59TGKZgLa7zVRz1BX3yPg6Cj8wWfZwfNc5FaCApump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -485,7 +346,7 @@
    "audit_id": 838,
    "audit_passed": 0,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/EA4aPPXD3rvoB2NzcLu9RZdJu92Le3VPY6M1snibpump",
+   "coin_url": "https://fomo.family/coin?address=EA4aPPXD3rvoB2NzcLu9RZdJu92Le3VPY6M1snibpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -549,7 +410,7 @@
    "audit_id": 837,
    "audit_passed": 0,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/HAaaw6zYFbj6FvsBw1dnBcyXyApi4XrLuE8U7ipVpump",
+   "coin_url": "https://fomo.family/coin?address=HAaaw6zYFbj6FvsBw1dnBcyXyApi4XrLuE8U7ipVpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -613,7 +474,7 @@
    "audit_id": 836,
    "audit_passed": 1,
    "audit_score": 0.625,
-   "coin_url": "https://pump.fun/coin/GGVs673aVEFBvNZ6ZE4fPhojDSveWuatA1FgAD7Wpump",
+   "coin_url": "https://fomo.family/coin?address=GGVs673aVEFBvNZ6ZE4fPhojDSveWuatA1FgAD7Wpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -677,7 +538,7 @@
    "audit_id": 835,
    "audit_passed": 1,
    "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/FYW93q9tCDtsJNzBE4xWK6Tiy1BRmt1sDAoTapShpump",
+   "coin_url": "https://fomo.family/coin?address=FYW93q9tCDtsJNzBE4xWK6Tiy1BRmt1sDAoTapShpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -741,7 +602,7 @@
    "audit_id": 834,
    "audit_passed": 1,
    "audit_score": 1.0,
-   "coin_url": "https://pump.fun/coin/HSF72vVdbSAbjjAfru1d6PhTavbSo3pd2gJvKVLvpump",
+   "coin_url": "https://fomo.family/coin?address=HSF72vVdbSAbjjAfru1d6PhTavbSo3pd2gJvKVLvpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -805,7 +666,7 @@
    "audit_id": 833,
    "audit_passed": 1,
    "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/CsnZJW2fGZsBShxiyoptd2fYDkKrDspsoT8AcfbQpump",
+   "coin_url": "https://fomo.family/coin?address=CsnZJW2fGZsBShxiyoptd2fYDkKrDspsoT8AcfbQpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -869,7 +730,7 @@
    "audit_id": 832,
    "audit_passed": 1,
    "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/CVS8ZTMURaozLQ868AFUV4wphKzYRVJetXrZoMSk34Xa",
+   "coin_url": "https://fomo.family/coin?address=CVS8ZTMURaozLQ868AFUV4wphKzYRVJetXrZoMSk34Xa&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -933,7 +794,7 @@
    "audit_id": 831,
    "audit_passed": 1,
    "audit_score": 0.625,
-   "coin_url": "https://pump.fun/coin/HTANshxTecR9EZSTvh6NG6C3F8BCc1TrP1Ak1FLVpump",
+   "coin_url": "https://fomo.family/coin?address=HTANshxTecR9EZSTvh6NG6C3F8BCc1TrP1Ak1FLVpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -997,7 +858,7 @@
    "audit_id": 830,
    "audit_passed": 1,
    "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/5rWGUB4FV8ocE9X7QhBbBJ2QsQaQgFryLwtPYmBnpump",
+   "coin_url": "https://fomo.family/coin?address=5rWGUB4FV8ocE9X7QhBbBJ2QsQaQgFryLwtPYmBnpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1061,7 +922,7 @@
    "audit_id": 829,
    "audit_passed": 0,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/Arkd1v37y5frwMadoMvQduyhUFNoyVzbar3wooQxpump",
+   "coin_url": "https://fomo.family/coin?address=Arkd1v37y5frwMadoMvQduyhUFNoyVzbar3wooQxpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1125,7 +986,7 @@
    "audit_id": 828,
    "audit_passed": 1,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/5gjdQkg1XkUPVNhLRnD4iCAGgq3263S2dwktm78Epump",
+   "coin_url": "https://fomo.family/coin?address=5gjdQkg1XkUPVNhLRnD4iCAGgq3263S2dwktm78Epump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1189,7 +1050,7 @@
    "audit_id": 827,
    "audit_passed": 1,
    "audit_score": 1.0,
-   "coin_url": "https://pump.fun/coin/4j5LiZ15D84bkZWUZCYnY97rN2EJP8EH6bkQNABMpump",
+   "coin_url": "https://fomo.family/coin?address=4j5LiZ15D84bkZWUZCYnY97rN2EJP8EH6bkQNABMpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1253,7 +1114,7 @@
    "audit_id": 826,
    "audit_passed": 0,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/2panGWSYVV9Lb8SyTKSNhEBxpj8HPCXo5CC4QkWtpump",
+   "coin_url": "https://fomo.family/coin?address=2panGWSYVV9Lb8SyTKSNhEBxpj8HPCXo5CC4QkWtpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1317,7 +1178,7 @@
    "audit_id": 825,
    "audit_passed": 1,
    "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/9gdvQduqDXtzV2Y1FGMVS21ap3mibwPTZ1Y2iQXApump",
+   "coin_url": "https://fomo.family/coin?address=9gdvQduqDXtzV2Y1FGMVS21ap3mibwPTZ1Y2iQXApump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1381,7 +1242,7 @@
    "audit_id": 824,
    "audit_passed": 0,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/67RMRTvPsHJVbehDrmDJGvc23ERA74dHqkoHa4RBpump",
+   "coin_url": "https://fomo.family/coin?address=67RMRTvPsHJVbehDrmDJGvc23ERA74dHqkoHa4RBpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1445,7 +1306,7 @@
    "audit_id": 823,
    "audit_passed": 0,
    "audit_score": 0.625,
-   "coin_url": "https://pump.fun/coin/2qgnTgJbZU6Tu6CMrm5Z5ePDGuUAyGTACbBoBCw6pump",
+   "coin_url": "https://fomo.family/coin?address=2qgnTgJbZU6Tu6CMrm5Z5ePDGuUAyGTACbBoBCw6pump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1509,7 +1370,7 @@
    "audit_id": 822,
    "audit_passed": 0,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/3EnzipbzpH9gosScLjfyz8uTNmSC7aFfGzThkKy5pump",
+   "coin_url": "https://fomo.family/coin?address=3EnzipbzpH9gosScLjfyz8uTNmSC7aFfGzThkKy5pump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1573,7 +1434,7 @@
    "audit_id": 821,
    "audit_passed": 1,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/HssJCmNuHRSdxDyufmZBaBtMua6nxw3jXQasyQt9pump",
+   "coin_url": "https://fomo.family/coin?address=HssJCmNuHRSdxDyufmZBaBtMua6nxw3jXQasyQt9pump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1637,7 +1498,7 @@
    "audit_id": 820,
    "audit_passed": 0,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/AZjGd97QBYuVJjkcTHg1c3xSzQhZ68qRp2foVhkApump",
+   "coin_url": "https://fomo.family/coin?address=AZjGd97QBYuVJjkcTHg1c3xSzQhZ68qRp2foVhkApump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1701,7 +1562,7 @@
    "audit_id": 819,
    "audit_passed": 1,
    "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/CNa16F6danxsGauVS8C4KwiE6E6RjXHAfPX3Gh78pump",
+   "coin_url": "https://fomo.family/coin?address=CNa16F6danxsGauVS8C4KwiE6E6RjXHAfPX3Gh78pump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1765,7 +1626,7 @@
    "audit_id": 818,
    "audit_passed": 1,
    "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/7L7zYqVXDdN1mZTTSenfV7zdX6LAZBgP7QwXbndXpump",
+   "coin_url": "https://fomo.family/coin?address=7L7zYqVXDdN1mZTTSenfV7zdX6LAZBgP7QwXbndXpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1829,7 +1690,7 @@
    "audit_id": 817,
    "audit_passed": 1,
    "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
+   "coin_url": "https://fomo.family/coin?address=Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1893,7 +1754,7 @@
    "audit_id": 816,
    "audit_passed": 1,
    "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/89SBAzehncAYDWFZxrqfV4rZoWcRmSs1E2k43haApump",
+   "coin_url": "https://fomo.family/coin?address=89SBAzehncAYDWFZxrqfV4rZoWcRmSs1E2k43haApump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -1957,7 +1818,7 @@
    "audit_id": 815,
    "audit_passed": 1,
    "audit_score": 1.0,
-   "coin_url": "https://pump.fun/coin/C8REjvuyWGFzL6AV33dAuL5AW4ksQeWmKfhtNhtUpump",
+   "coin_url": "https://fomo.family/coin?address=C8REjvuyWGFzL6AV33dAuL5AW4ksQeWmKfhtNhtUpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2021,7 +1882,7 @@
    "audit_id": 814,
    "audit_passed": 0,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/2vTSKhtJuaBoCBpRmT66eUkRawfxdPRHwRBbXhaApump",
+   "coin_url": "https://fomo.family/coin?address=2vTSKhtJuaBoCBpRmT66eUkRawfxdPRHwRBbXhaApump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2085,7 +1946,7 @@
    "audit_id": 813,
    "audit_passed": 1,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/Ge9u2FUrrcDVZmEpQgyRqPhcxXABWDz4kJWQ2KQBpump",
+   "coin_url": "https://fomo.family/coin?address=Ge9u2FUrrcDVZmEpQgyRqPhcxXABWDz4kJWQ2KQBpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2149,7 +2010,7 @@
    "audit_id": 812,
    "audit_passed": 1,
    "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/EfRnwABuWZKxri55se639twy4jy3FRgYfri7wLJ5pump",
+   "coin_url": "https://fomo.family/coin?address=EfRnwABuWZKxri55se639twy4jy3FRgYfri7wLJ5pump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2213,7 +2074,7 @@
    "audit_id": 811,
    "audit_passed": 1,
    "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/BR7M8TKkb8AnbWDEeAAzqjnh7J2t4gXnGcPixzbhpump",
+   "coin_url": "https://fomo.family/coin?address=BR7M8TKkb8AnbWDEeAAzqjnh7J2t4gXnGcPixzbhpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2277,7 +2138,7 @@
    "audit_id": 810,
    "audit_passed": 1,
    "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/J1DUE6yxhWsfh1o8eyLtBpuGWJ6os7pCV7huwMhVpump",
+   "coin_url": "https://fomo.family/coin?address=J1DUE6yxhWsfh1o8eyLtBpuGWJ6os7pCV7huwMhVpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2341,7 +2202,7 @@
    "audit_id": 809,
    "audit_passed": 1,
    "audit_score": 0.625,
-   "coin_url": "https://pump.fun/coin/6CJ4KBTxxNYhWMVRvbASVNwVfcDiZa2viaE8MdaGpump",
+   "coin_url": "https://fomo.family/coin?address=6CJ4KBTxxNYhWMVRvbASVNwVfcDiZa2viaE8MdaGpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2405,7 +2266,7 @@
    "audit_id": 808,
    "audit_passed": 1,
    "audit_score": 0.375,
-   "coin_url": "https://pump.fun/coin/A39Hh55RxZghdkzstSrreS2oMKNfsW5xFo6fDwQspump",
+   "coin_url": "https://fomo.family/coin?address=A39Hh55RxZghdkzstSrreS2oMKNfsW5xFo6fDwQspump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2469,7 +2330,7 @@
    "audit_id": 807,
    "audit_passed": 0,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/w7LB4V3zKhmDSGvaTn8LiCx52rmf4t11BDrn5W1pump",
+   "coin_url": "https://fomo.family/coin?address=w7LB4V3zKhmDSGvaTn8LiCx52rmf4t11BDrn5W1pump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2533,7 +2394,7 @@
    "audit_id": 806,
    "audit_passed": 1,
    "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump",
+   "coin_url": "https://fomo.family/coin?address=9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2597,7 +2458,7 @@
    "audit_id": 805,
    "audit_passed": 1,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump",
+   "coin_url": "https://fomo.family/coin?address=9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2661,7 +2522,7 @@
    "audit_id": 804,
    "audit_passed": 1,
    "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/2YqgVvMcWdrwxk1fYbDADtpYEVejaVyRdGAZLBFEpump",
+   "coin_url": "https://fomo.family/coin?address=2YqgVvMcWdrwxk1fYbDADtpYEVejaVyRdGAZLBFEpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2725,7 +2586,7 @@
    "audit_id": 803,
    "audit_passed": 1,
    "audit_score": 1.0,
-   "coin_url": "https://pump.fun/coin/E339LCMzTWZXyM4hGGTKKcuFCJWJNtDkRshuLmVzpump",
+   "coin_url": "https://fomo.family/coin?address=E339LCMzTWZXyM4hGGTKKcuFCJWJNtDkRshuLmVzpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2789,7 +2650,7 @@
    "audit_id": 802,
    "audit_passed": 1,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/CzQxrx2HM6T5S1VRVA6U285HKjQNgVb1HXdYv3hUpump",
+   "coin_url": "https://fomo.family/coin?address=CzQxrx2HM6T5S1VRVA6U285HKjQNgVb1HXdYv3hUpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2853,7 +2714,7 @@
    "audit_id": 801,
    "audit_passed": 1,
    "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/HejWMxavRVDgA2MTjx4uYqS5bU94xLKDc3Sf8CdZpump",
+   "coin_url": "https://fomo.family/coin?address=HejWMxavRVDgA2MTjx4uYqS5bU94xLKDc3Sf8CdZpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2917,7 +2778,7 @@
    "audit_id": 800,
    "audit_passed": 1,
    "audit_score": 0.375,
-   "coin_url": "https://pump.fun/coin/GCyZ5Ka9RP8cQSX4YCCHhYpEWC4pQoRfKzQtmk8Apump",
+   "coin_url": "https://fomo.family/coin?address=GCyZ5Ka9RP8cQSX4YCCHhYpEWC4pQoRfKzQtmk8Apump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -2981,7 +2842,7 @@
    "audit_id": 799,
    "audit_passed": 1,
    "audit_score": 0.375,
-   "coin_url": "https://pump.fun/coin/6jjiqCVF8kXKkQYYhRdRvyU3wYMNxAYFGfDWVe7EL3a9",
+   "coin_url": "https://fomo.family/coin?address=6jjiqCVF8kXKkQYYhRdRvyU3wYMNxAYFGfDWVe7EL3a9&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -3045,7 +2906,7 @@
    "audit_id": 798,
    "audit_passed": 1,
    "audit_score": 0.375,
-   "coin_url": "https://pump.fun/coin/FPHk3KgMHsFAyWki2zsg1WeEx4qty1hxJhbKbtPXpump",
+   "coin_url": "https://fomo.family/coin?address=FPHk3KgMHsFAyWki2zsg1WeEx4qty1hxJhbKbtPXpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -3109,7 +2970,7 @@
    "audit_id": 797,
    "audit_passed": 1,
    "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/2QyrUfc4yGzh8AKmLqVH1Fyeh8ELAXphDAKXAmZFpump",
+   "coin_url": "https://fomo.family/coin?address=2QyrUfc4yGzh8AKmLqVH1Fyeh8ELAXphDAKXAmZFpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -3157,7 +3018,135 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 20:24:49"
    }
+  },
+  {
+   "id": 792,
+   "mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+   "symbol": "SPYx",
+   "name": "SP500 xStock",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "LIVE",
+   "price_usd": 741.64,
+   "mcap_usd": 61863653.0,
+   "liquidity_usd": 370796.99,
+   "created_at": "2026-11-05 20:22:31",
+   "audit_id": 796,
+   "audit_passed": 0,
+   "audit_score": 0.5,
+   "coin_url": "https://fomo.family/coin?address=XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "fail"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "fail"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L2_mint_authority, L3_freeze_authority",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 20:24:10"
+   }
+  },
+  {
+   "id": 791,
+   "mint": "EyuBtUJnpZBAJfU9hh5bh2Gcnu4GvxrLyMSyuPwBpump",
+   "symbol": "ATTENTION",
+   "name": "Attention Coin",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "LIVE",
+   "price_usd": 1.641e-05,
+   "mcap_usd": 16388.0,
+   "liquidity_usd": 9468.51,
+   "created_at": "2026-11-05 20:21:07",
+   "audit_id": 795,
+   "audit_passed": 1,
+   "audit_score": 1.0,
+   "coin_url": "https://fomo.family/coin?address=EyuBtUJnpZBAJfU9hh5bh2Gcnu4GvxrLyMSyuPwBpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "None ? 13/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.19,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.11 / WATCH 0.46 / PASS 0.43); quality 1.96/4; rug risk 0.18. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 20:23:26"
+   }
   }
  ],
- "generated_at": "2026-11-05T21:43:28+00:00"
+ "generated_at": "2026-11-05T21:44:58+00:00"
 }

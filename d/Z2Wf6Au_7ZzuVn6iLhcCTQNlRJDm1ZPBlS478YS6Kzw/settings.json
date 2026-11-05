@@ -3,7 +3,7 @@
  "version": 1,
  "data": {
   "mode": {
-   "value": "LIVE",
+   "value": "PAPER",
    "default": "PAPER",
    "type": "str",
    "desc": "PAPER = simulated fills; LIVE = signal-only alerts, you trade manually on FOMO. Change only via /mode",
@@ -84,34 +84,6 @@
    "restart": false,
    "min": 1,
    "max": 1000
-  },
-  "ladder_enabled": {
-   "value": "1",
-   "default": 1,
-   "type": "bool",
-   "desc": "1 = take-profit ladder (partial sells + runner trail + breakeven floor); 0 = old full take-profit",
-   "editable": true,
-   "restart": false,
-   "min": 0,
-   "max": 1
-  },
-  "tp_ladder": {
-   "value": "100:50,200:25",
-   "default": "100:50,200:25",
-   "type": "ladder",
-   "desc": "Ladder steps gain_pct:sell_pct,... (sell_pct = % of ORIGINAL qty, gains after est. fees)",
-   "editable": true,
-   "restart": false
-  },
-  "runner_trail_pct": {
-   "value": "30",
-   "default": 30.0,
-   "type": "float",
-   "desc": "After ladder step 1: sell the rest if price falls this % from its peak",
-   "editable": true,
-   "restart": false,
-   "min": 1,
-   "max": 95
   },
   "max_hold_min": {
    "value": "60",
@@ -236,26 +208,6 @@
    "min": 1,
    "max": 16
   },
-  "bundle_hold_s": {
-   "value": "60",
-   "default": 60.0,
-   "type": "float",
-   "desc": "Audit layer 7: Jev waits up to this long (s) for a complete 20/20 bundle check before marking it partial",
-   "editable": true,
-   "restart": false,
-   "min": 10,
-   "max": 180
-  },
-  "bundle_rpc_rps": {
-   "value": "4",
-   "default": 4.0,
-   "type": "float",
-   "desc": "RPC budget: max public-RPC requests/s (shared L2/L7/L8; auto-slows on 429)",
-   "editable": true,
-   "restart": false,
-   "min": 0.5,
-   "max": 20
-  },
   "daily_loss_limit_sol": {
    "value": "2",
    "default": 2.0,
@@ -285,36 +237,6 @@
    "restart": false,
    "min": 5,
    "max": 300
-  },
-  "price_cache_s": {
-   "value": "5",
-   "default": 5,
-   "type": "int",
-   "desc": "Per-mint price cache (s); shared by risk, executor, Telegram",
-   "editable": true,
-   "restart": false,
-   "min": 0,
-   "max": 60
-  },
-  "dex_rpm": {
-   "value": "55",
-   "default": 55,
-   "type": "int",
-   "desc": "DexScreener request budget per minute (their limit ~60)",
-   "editable": true,
-   "restart": false,
-   "min": 5,
-   "max": 300
-  },
-  "price_stale_alert_s": {
-   "value": "60",
-   "default": 60,
-   "type": "int",
-   "desc": "Alert owner once if an open position has no price for this long (s)",
-   "editable": true,
-   "restart": false,
-   "min": 20,
-   "max": 3600
   },
   "publish_interval": {
    "value": "60",
@@ -355,5 +277,5 @@
    "restart": false
   }
  },
- "generated_at": "2026-11-05T13:31:31+00:00"
+ "generated_at": "2026-11-05T21:44:58+00:00"
 }
