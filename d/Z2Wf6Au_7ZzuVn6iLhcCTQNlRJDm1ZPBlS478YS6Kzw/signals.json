@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 854,
-   "mint": "DWRMrZJRNQ9H3785otWbvnKvbvdUpFtpHAWWhT4zpump",
+   "id": 855,
+   "mint": "27b6aLAwbbg2qr58WmatSkBAJy2a2PHd654dAcsQpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 22:23:24",
+   "created_at": "2026-11-05 22:24:49",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=DWRMrZJRNQ9H3785otWbvnKvbvdUpFtpHAWWhT4zpump&chainId=1399811149&r=savipww&source=share_link",
+   "coin_url": "https://fomo.family/coin?address=27b6aLAwbbg2qr58WmatSkBAJy2a2PHd654dAcsQpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 854,
+   "mint": "DWRMrZJRNQ9H3785otWbvnKvbvdUpFtpHAWWhT4zpump",
+   "symbol": "FERSPE",
+   "name": "Feral Specter",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 9.204e-10,
+   "mcap_usd": 2.0,
+   "liquidity_usd": 3.28,
+   "created_at": "2026-11-05 22:23:24",
+   "audit_id": 859,
+   "audit_passed": 0,
+   "audit_score": 0.5,
+   "coin_url": "https://fomo.family/coin?address=DWRMrZJRNQ9H3785otWbvnKvbvdUpFtpHAWWhT4zpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "2 bundled \u00b7 12/18 checked",
+    "bundled_pct": 11.1,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 22:24:47"
+   }
   },
   {
    "id": 853,
@@ -3093,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 20:38:38"
    }
-  },
-  {
-   "id": 805,
-   "mint": "6CJ4KBTxxNYhWMVRvbASVNwVfcDiZa2viaE8MdaGpump",
-   "symbol": "ZOH",
-   "name": "Zohcoin",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 4.481e-05,
-   "mcap_usd": 44778.0,
-   "liquidity_usd": 14521.49,
-   "created_at": "2026-11-05 20:36:32",
-   "audit_id": 809,
-   "audit_passed": 1,
-   "audit_score": 0.625,
-   "coin_url": "https://fomo.family/coin?address=6CJ4KBTxxNYhWMVRvbASVNwVfcDiZa2viaE8MdaGpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "fail"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.98,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.80/4; rug risk 0.85. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=fail; L5_rugcheck=fail; L6_activity=pass; L7_bundles=pass; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 20:37:59"
-   }
   }
  ],
- "generated_at": "2026-11-05T22:23:57+00:00"
+ "generated_at": "2026-11-05T22:24:59+00:00"
 }
