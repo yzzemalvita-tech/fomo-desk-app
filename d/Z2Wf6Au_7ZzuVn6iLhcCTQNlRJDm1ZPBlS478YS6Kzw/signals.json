@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 237,
-   "mint": "6Mt1oHb12F7JvJhFqcYERPJ3YqKgMGF9b8623uFYpump",
+   "id": 238,
+   "mint": "PbrRWmsiMsL2WWgAbdS7qAcNT8veFeNSvraSozQpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 02:22:01",
+   "created_at": "2026-11-05 02:23:44",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=6Mt1oHb12F7JvJhFqcYERPJ3YqKgMGF9b8623uFYpump&chainId=1399811149&r=savipww&source=share_link",
+   "coin_url": "https://fomo.family/coin?address=PbrRWmsiMsL2WWgAbdS7qAcNT8veFeNSvraSozQpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 237,
+   "mint": "6Mt1oHb12F7JvJhFqcYERPJ3YqKgMGF9b8623uFYpump",
+   "symbol": "AMC",
+   "name": "A Meme Crypto",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 0.0001238,
+   "mcap_usd": 123880.0,
+   "liquidity_usd": 27323.21,
+   "created_at": "2026-11-05 02:22:01",
+   "audit_id": 239,
+   "audit_passed": 1,
+   "audit_score": 0.625,
+   "coin_url": "https://fomo.family/coin?address=6Mt1oHb12F7JvJhFqcYERPJ3YqKgMGF9b8623uFYpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "4 bundled \u00b7 4/20 checked",
+    "bundled_pct": 20.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 1.06/4; rug risk 0.67. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 02:23:25"
+   }
   },
   {
    "id": 236,
@@ -3093,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 00:08:39"
    }
-  },
-  {
-   "id": 188,
-   "mint": "GMq13dUzG1wBTKHPFb9Bencgejji1g8Js22Dc95Qpump",
-   "symbol": "ABTC",
-   "name": "Anime Bitcoin",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 3.689e-09,
-   "mcap_usd": 7.0,
-   "liquidity_usd": 2.21,
-   "created_at": "2026-11-05 00:02:33",
-   "audit_id": 190,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://fomo.family/coin?address=GMq13dUzG1wBTKHPFb9Bencgejji1g8Js22Dc95Qpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 11/13 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 00:03:57"
-   }
   }
  ],
- "generated_at": "2026-11-05T02:22:53+00:00"
+ "generated_at": "2026-11-05T02:23:55+00:00"
 }
