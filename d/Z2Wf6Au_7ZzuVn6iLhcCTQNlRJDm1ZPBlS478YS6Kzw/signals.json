@@ -5,20 +5,45 @@
   {
    "id": 589,
    "mint": "HxSYidnUE936rweAJauW6F8h5o81SA7A7QZczYLvpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "GTAVI",
+   "name": "Grand Theft Auto VI",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001095,
+   "mcap_usd": 109508.0,
+   "liquidity_usd": 25452.85,
    "created_at": "2026-11-05 15:44:59",
-   "audit_id": null,
+   "audit_id": 593,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/HxSYidnUE936rweAJauW6F8h5o81SA7A7QZczYLvpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T15:45:24+00:00"
+ "generated_at": "2026-11-05T15:46:26+00:00"
 }
