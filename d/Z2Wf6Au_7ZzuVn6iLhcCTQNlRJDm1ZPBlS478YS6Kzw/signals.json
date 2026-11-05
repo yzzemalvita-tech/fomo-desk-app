@@ -8,17 +8,42 @@
    "symbol": "ZEC",
    "name": "Zcash",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1223.11,
+   "mcap_usd": 30207.0,
+   "liquidity_usd": 3967233.82,
    "created_at": "2026-11-05 19:12:37",
-   "audit_id": null,
+   "audit_id": 727,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "fail"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -28,15 +53,15 @@
    "symbol": "COGE",
    "name": "COGE",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 1.237e-08,
    "mcap_usd": 25.0,
    "liquidity_usd": 23.47,
    "created_at": "2026-11-05 19:12:16",
    "audit_id": 726,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/D8tC1q3pC1bJVFJEgRW298TuYauwbw63EvjuE43kpump",
    "layers": {
     "1": {
@@ -62,10 +87,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 18/18 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 19:14:13"
+   }
   },
   {
    "id": 721,
@@ -73,15 +117,15 @@
    "symbol": "B.I.G",
    "name": "LETS BOND B.I.G",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 2.165e-09,
    "mcap_usd": 4.0,
    "liquidity_usd": 4.03,
    "created_at": "2026-11-05 19:11:14",
    "audit_id": 725,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/DeECcjPpQWoCY3PsviuRyiM9sF8j8WU2F8368kFPpump",
    "layers": {
     "1": {
@@ -107,10 +151,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 12/18 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 19:14:01"
+   }
   },
   {
    "id": 720,
@@ -3121,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T19:13:23+00:00"
+ "generated_at": "2026-11-05T19:14:25+00:00"
 }
