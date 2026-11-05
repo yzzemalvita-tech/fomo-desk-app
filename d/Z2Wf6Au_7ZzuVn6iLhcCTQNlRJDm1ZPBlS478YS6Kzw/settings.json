@@ -236,6 +236,26 @@
    "min": 1,
    "max": 16
   },
+  "bundle_hold_s": {
+   "value": "60",
+   "default": 60.0,
+   "type": "float",
+   "desc": "Audit layer 7: Jev waits up to this long (s) for a complete 20/20 bundle check before marking it partial",
+   "editable": true,
+   "restart": false,
+   "min": 10,
+   "max": 180
+  },
+  "bundle_rpc_rps": {
+   "value": "4",
+   "default": 4.0,
+   "type": "float",
+   "desc": "RPC budget: max public-RPC requests/s (shared L2/L7/L8; auto-slows on 429)",
+   "editable": true,
+   "restart": false,
+   "min": 0.5,
+   "max": 20
+  },
   "daily_loss_limit_sol": {
    "value": "2",
    "default": 2.0,
@@ -335,5 +355,5 @@
    "restart": false
   }
  },
- "generated_at": "2026-11-04T23:44:13+00:00"
+ "generated_at": "2026-11-05T12:50:33+00:00"
 }
