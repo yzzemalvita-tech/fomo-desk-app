@@ -5,22 +5,66 @@
   {
    "id": 716,
    "mint": "4tjw5NNwCk2N2NdG6Mbc7M5HjgCjbYinQXpYirJypump",
-   "symbol": null,
-   "name": null,
+   "symbol": "JEANPHIL",
+   "name": "Jean Phil",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.781e-06,
+   "mcap_usd": 1781.0,
+   "liquidity_usd": 1813.86,
    "created_at": "2026-11-05 19:04:35",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 720,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/4tjw5NNwCk2N2NdG6Mbc7M5HjgCjbYinQXpYirJypump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "3 bundled ? 20/20 checked",
+    "bundled_pct": 15.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 19:06:04"
+   }
   },
   {
    "id": 715,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T19:05:07+00:00"
+ "generated_at": "2026-11-05T19:06:10+00:00"
 }
