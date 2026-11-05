@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 795,
-   "mint": "6jjiqCVF8kXKkQYYhRdRvyU3wYMNxAYFGfDWVe7EL3a9",
+   "id": 796,
+   "mint": "GCyZ5Ka9RP8cQSX4YCCHhYpEWC4pQoRfKzQtmk8Apump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 20:24:37",
+   "created_at": "2026-11-05 20:25:39",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/6jjiqCVF8kXKkQYYhRdRvyU3wYMNxAYFGfDWVe7EL3a9",
+   "coin_url": "https://pump.fun/coin/GCyZ5Ka9RP8cQSX4YCCHhYpEWC4pQoRfKzQtmk8Apump",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 795,
+   "mint": "6jjiqCVF8kXKkQYYhRdRvyU3wYMNxAYFGfDWVe7EL3a9",
+   "symbol": "WORM",
+   "name": "AI Worms",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "LIVE",
+   "price_usd": 0.0,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 20:24:37",
+   "audit_id": 799,
+   "audit_passed": 1,
+   "audit_score": 0.375,
+   "coin_url": "https://pump.fun/coin/6jjiqCVF8kXKkQYYhRdRvyU3wYMNxAYFGfDWVe7EL3a9",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "error"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None ? 0/0 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.02/4; rug risk 0.92. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=error; L5_rugcheck=fail; L6_activity=fail; L7_bundles=pass; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 20:25:39"
+   }
   },
   {
    "id": 794,
@@ -3093,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 19:42:11"
    }
-  },
-  {
-   "id": 746,
-   "mint": "FXRj1jJCBXMmtgT7eycyY7dWc2tRQtVyVi2sxjACpump",
-   "symbol": "AMAZON",
-   "name": "Amazon.com, Inc.",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 0.0001136,
-   "mcap_usd": 113600.0,
-   "liquidity_usd": 25191.78,
-   "created_at": "2026-11-05 19:39:27",
-   "audit_id": 750,
-   "audit_passed": 1,
-   "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/FXRj1jJCBXMmtgT7eycyY7dWc2tRQtVyVi2sxjACpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "warn"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.97,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.02 / PASS 0.98); quality 1.42/4; rug risk 0.59. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=pass; L7_bundles=pass; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 19:40:58"
-   }
   }
  ],
- "generated_at": "2026-11-05T20:25:31+00:00"
+ "generated_at": "2026-11-05T20:26:34+00:00"
 }
