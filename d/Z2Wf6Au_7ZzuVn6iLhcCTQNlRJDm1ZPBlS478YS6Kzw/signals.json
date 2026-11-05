@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 765,
+   "mint": "27aWfydbKQqvkCGLDNNJCPJZFp9ddgFzEXf8Zku3pump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 20:00:13",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/27aWfydbKQqvkCGLDNNJCPJZFp9ddgFzEXf8Zku3pump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 764,
    "mint": "AiEycYEXteAGLB2WKFscTyHS4Eexyu8jHv8ykCc9pump",
    "symbol": "BART",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 19:06:04"
    }
-  },
-  {
-   "id": 715,
-   "mint": "DoPVZ1mzngKLURuPHpBHLSmGi3RdnBUcZCVbqrwjpump",
-   "symbol": "HALH",
-   "name": "Haaland Hair",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 9.349e-08,
-   "mcap_usd": 187.0,
-   "liquidity_usd": 75.15,
-   "created_at": "2026-11-05 19:03:06",
-   "audit_id": 719,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/DoPVZ1mzngKLURuPHpBHLSmGi3RdnBUcZCVbqrwjpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 15/15 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 19:04:37"
-   }
   }
  ],
- "generated_at": "2026-11-05T19:59:22+00:00"
+ "generated_at": "2026-11-05T20:00:25+00:00"
 }
