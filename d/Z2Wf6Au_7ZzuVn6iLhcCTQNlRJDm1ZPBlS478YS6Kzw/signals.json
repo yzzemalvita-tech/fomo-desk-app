@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 187,
+   "mint": "7UooapEDmXmP5hRJPoYvXqYDWMVh15Gi59gYu7hopump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 00:01:04",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=7UooapEDmXmP5hRJPoYvXqYDWMVh15Gi59gYu7hopump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 186,
    "mint": "4VCMyD2KH8kGt6faEtckanB6Ko2sgEKzMuqsLMNepump",
    "symbol": "ZEC",
@@ -3129,71 +3149,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-04 21:29:48"
    }
-  },
-  {
-   "id": 137,
-   "mint": "C6tpniqo8XkcU4bzgiRb9K8Wpp3v73C33oeujvVfpump",
-   "symbol": "CHAROC",
-   "name": "Chaotic Rocket",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 4.08e-08,
-   "mcap_usd": 40.81,
-   "liquidity_usd": null,
-   "created_at": "2026-11-04 21:25:32",
-   "audit_id": 139,
-   "audit_passed": 1,
-   "audit_score": 0.5,
-   "coin_url": "https://fomo.family/coin?address=C6tpniqo8XkcU4bzgiRb9K8Wpp3v73C33oeujvVfpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "error"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 13/13 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.05/4; rug risk 0.94. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=warn; L7_bundles=pass; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-04 21:26:43"
-   }
   }
  ],
- "generated_at": "2026-11-04T23:56:32+00:00"
+ "generated_at": "2026-11-05T00:01:39+00:00"
 }
