@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 891,
-   "mint": "DMA8hhpXbo3ffehFhpmZJJnVKH1NsZRpTnyeFBBZpump",
+   "id": 892,
+   "mint": "F55yBFwc5pZ4KCU23KSZNYit129FuUNzgiYGnizNpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,34 +13,142 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 23:38:53",
+   "created_at": "2026-11-05 23:40:15",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=DMA8hhpXbo3ffehFhpmZJJnVKH1NsZRpTnyeFBBZpump&chainId=1399811149&r=savipww&source=share_link",
+   "coin_url": "https://fomo.family/coin?address=F55yBFwc5pZ4KCU23KSZNYit129FuUNzgiYGnizNpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {},
    "bundles": null,
    "verdict": null
   },
   {
+   "id": 891,
+   "mint": "DMA8hhpXbo3ffehFhpmZJJnVKH1NsZRpTnyeFBBZpump",
+   "symbol": "Boots",
+   "name": "Boots",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 3.745e-08,
+   "mcap_usd": 33.0,
+   "liquidity_usd": 137.66,
+   "created_at": "2026-11-05 23:38:53",
+   "audit_id": 896,
+   "audit_passed": 0,
+   "audit_score": 0.5,
+   "coin_url": "https://fomo.family/coin?address=DMA8hhpXbo3ffehFhpmZJJnVKH1NsZRpTnyeFBBZpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 9/9 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 23:40:14"
+   }
+  },
+  {
    "id": 890,
    "mint": "45vfEpnuRCAYD9yr8xUPYsZdc5tHk89JKgDguGtfLoat",
-   "symbol": null,
-   "name": null,
+   "symbol": "sssdfg",
+   "name": "sssdfg",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001044,
+   "mcap_usd": 104481.0,
+   "liquidity_usd": 62991.13,
    "created_at": "2026-11-05 23:38:28",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 895,
+   "audit_passed": 1,
+   "audit_score": 0.875,
    "coin_url": "https://fomo.family/coin?address=45vfEpnuRCAYD9yr8xUPYsZdc5tHk89JKgDguGtfLoat&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "warn"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.31,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.00 / WATCH 0.54 / PASS 0.46); quality 2.24/4; rug risk 0.28. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=warn",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 23:39:51"
+   }
   },
   {
    "id": 889,
@@ -3049,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 21:55:39"
    }
-  },
-  {
-   "id": 842,
-   "mint": "EwFvbV28uzafHpDxLLufUytk86zRTkFzvnCPxD95pump",
-   "symbol": "EvilGPT",
-   "name": "EvilGPT",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 3.439e-05,
-   "mcap_usd": 34349.0,
-   "liquidity_usd": 13166.24,
-   "created_at": "2026-11-05 21:53:37",
-   "audit_id": 847,
-   "audit_passed": 1,
-   "audit_score": 0.875,
-   "coin_url": "https://fomo.family/coin?address=EwFvbV28uzafHpDxLLufUytk86zRTkFzvnCPxD95pump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 4/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "WATCH",
-    "confidence": 0.83,
-    "size_sol": null,
-    "reasoning": "Jev: WATCH (P BUY 0.00 / WATCH 0.89 / PASS 0.11); quality 1.78/4; rug risk 0.26. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 21:54:59"
-   }
   }
  ],
- "generated_at": "2026-11-05T23:39:22+00:00"
+ "generated_at": "2026-11-05T23:40:24+00:00"
 }
