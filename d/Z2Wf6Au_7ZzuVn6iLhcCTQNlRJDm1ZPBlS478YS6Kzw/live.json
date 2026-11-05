@@ -1,6 +1,20 @@
 {
  "schema": "fomo-desk/live",
  "version": 1,
- "data": [],
- "generated_at": "2026-11-04T17:16:11+00:00"
+ "data": [
+  {
+   "id": 1,
+   "verdict_id": 507,
+   "mint": "Bu3h78FY2fsWVZ1MdyQVpFTvv5XsRotWX6VjszQTpump",
+   "size_sol": 0.36,
+   "entry_usd": 8.118e-05,
+   "stop_loss_usd": 5.6826e-05,
+   "take_profit_usd": 0.00016236,
+   "est_fees_sol": 0.019926586261143155,
+   "breakeven_pct": 8.911780737914366,
+   "created_at": "2026-11-05 13:45:46",
+   "coin_url": "https://pump.fun/coin/Bu3h78FY2fsWVZ1MdyQVpFTvv5XsRotWX6VjszQTpump"
+  }
+ ],
+ "generated_at": "2026-11-05T13:45:47+00:00"
 }
