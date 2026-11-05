@@ -5,20 +5,45 @@
   {
    "id": 373,
    "mint": "An2r9uFsEeHDhxhbkzFWVNtKB7LwHuEkCRUqqNTJpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "ASOL",
+   "name": "Anime Solana",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 8.342e-05,
+   "mcap_usd": 83340.0,
+   "liquidity_usd": 22094.57,
    "created_at": "2026-11-05 06:13:29",
-   "audit_id": null,
+   "audit_id": 375,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=An2r9uFsEeHDhxhbkzFWVNtKB7LwHuEkCRUqqNTJpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T06:13:45+00:00"
+ "generated_at": "2026-11-05T06:14:46+00:00"
 }
