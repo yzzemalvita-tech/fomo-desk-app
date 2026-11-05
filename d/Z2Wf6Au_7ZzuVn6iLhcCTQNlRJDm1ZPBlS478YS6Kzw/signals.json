@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 865,
+   "mint": "B5e3KjRV6ThFRpqHi82eeKJxn16Xw57Dqso1ftfdpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 22:41:26",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=B5e3KjRV6ThFRpqHi82eeKJxn16Xw57Dqso1ftfdpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 864,
    "mint": "7F84sCENPQ2my9FatFzJ4gnfE1vv53zHyJQCSTRvpump",
    "symbol": "STRIPCLUB",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 20:49:38"
    }
-  },
-  {
-   "id": 815,
-   "mint": "CNa16F6danxsGauVS8C4KwiE6E6RjXHAfPX3Gh78pump",
-   "symbol": "ELON",
-   "name": "I SUPPORT ELON MUSK",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 3.646e-05,
-   "mcap_usd": 36463.68,
-   "liquidity_usd": null,
-   "created_at": "2026-11-05 20:47:39",
-   "audit_id": 819,
-   "audit_passed": 1,
-   "audit_score": 0.75,
-   "coin_url": "https://fomo.family/coin?address=CNa16F6danxsGauVS8C4KwiE6E6RjXHAfPX3Gh78pump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "error"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "warn"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.28,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.01 / WATCH 0.47 / PASS 0.52); quality 2.02/4; rug risk 0.26. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=pass; L8_holders=warn",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 20:49:16"
-   }
   }
  ],
- "generated_at": "2026-11-05T22:40:26+00:00"
+ "generated_at": "2026-11-05T22:41:28+00:00"
 }
