@@ -8,15 +8,15 @@
    "symbol": "LIBRE",
    "name": "Libre Paraguay",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 4.869e-05,
    "mcap_usd": 48694.0,
    "liquidity_usd": 16438.0,
    "created_at": "2026-11-05 14:33:50",
    "audit_id": 543,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 1.0,
    "coin_url": "https://pump.fun/coin/J4rP3zhpvk3r2tFasTAecU4g9gnxDDpaR2xAXnz873fu",
    "layers": {
     "1": {
@@ -42,10 +42,29 @@
     "6": {
      "name": "activity",
      "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "BUY",
+    "confidence": 0.76,
+    "size_sol": 0.38,
+    "reasoning": "Jev: BUY (P BUY 0.84 / WATCH 0.14 / PASS 0.02); quality 3.01/4; rug risk 0.09. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=pass; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 14:35:19"
+   }
   },
   {
    "id": 538,
@@ -3180,5 +3199,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T14:35:15+00:00"
+ "generated_at": "2026-11-05T14:36:17+00:00"
 }
