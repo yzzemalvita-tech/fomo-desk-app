@@ -5,20 +5,45 @@
   {
    "id": 331,
    "mint": "6ANAwTmy4aSKKvPwTq3LEFXzALTngb6dQpaFHsqXpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "DERP",
+   "name": "DERPCAT",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.003e-09,
+   "mcap_usd": 2.0,
+   "liquidity_usd": 3.21,
    "created_at": "2026-11-05 04:50:28",
-   "audit_id": null,
+   "audit_id": 333,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=6ANAwTmy4aSKKvPwTq3LEFXzALTngb6dQpaFHsqXpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -28,15 +53,15 @@
    "symbol": "SAPPER",
    "name": "Sapper",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 4.958e-05,
    "mcap_usd": 49502.0,
    "liquidity_usd": 16693.58,
    "created_at": "2026-11-05 04:49:33",
    "audit_id": 332,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 1.0,
    "coin_url": "https://fomo.family/coin?address=5mH1uJuffiRFXhyVpnf1qYFLSUU3c71H3rARE9NMV59W&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
@@ -62,10 +87,29 @@
     "6": {
      "name": "activity",
      "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "2 bundled \u00b7 10/20 checked",
+    "bundled_pct": 10.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.66,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.02 / WATCH 0.77 / PASS 0.21); quality 2.67/4; rug risk 0.17. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 04:50:55"
+   }
   },
   {
    "id": 329,
@@ -3140,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T04:50:40+00:00"
+ "generated_at": "2026-11-05T04:51:41+00:00"
 }
