@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 447,
-   "mint": "DynVDdmd8qpkeZyvomGfh42449XkqQVAd2jAPcZpump",
+   "id": 448,
+   "mint": "2CG7SCxXcZgkKoqmzGDPtMCwAfQooaUzNhfG7DVDpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 09:22:58",
+   "created_at": "2026-11-05 09:23:50",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=DynVDdmd8qpkeZyvomGfh42449XkqQVAd2jAPcZpump&chainId=1399811149&r=savipww&source=share_link",
+   "coin_url": "https://fomo.family/coin?address=2CG7SCxXcZgkKoqmzGDPtMCwAfQooaUzNhfG7DVDpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 447,
+   "mint": "DynVDdmd8qpkeZyvomGfh42449XkqQVAd2jAPcZpump",
+   "symbol": "USTED",
+   "name": "USTED",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 6.159e-09,
+   "mcap_usd": 12.0,
+   "liquidity_usd": 11.48,
+   "created_at": "2026-11-05 09:22:58",
+   "audit_id": 449,
+   "audit_passed": 0,
+   "audit_score": 0.5,
+   "coin_url": "https://fomo.family/coin?address=DynVDdmd8qpkeZyvomGfh42449XkqQVAd2jAPcZpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 11/11 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 09:24:19"
+   }
   },
   {
    "id": 446,
@@ -3093,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 07:13:41"
    }
-  },
-  {
-   "id": 398,
-   "mint": "CRVqV1s9H1GiPMUt9dF26CPQTDrapCqsPb1QvQA4pump",
-   "symbol": "FLYBER",
-   "name": "Flying Tesla Cybertruck",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 3.466e-09,
-   "mcap_usd": 7.0,
-   "liquidity_usd": 5.85,
-   "created_at": "2026-11-05 07:12:14",
-   "audit_id": 400,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://fomo.family/coin?address=CRVqV1s9H1GiPMUt9dF26CPQTDrapCqsPb1QvQA4pump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/14 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 07:13:36"
-   }
   }
  ],
- "generated_at": "2026-11-05T09:23:21+00:00"
+ "generated_at": "2026-11-05T09:24:22+00:00"
 }
