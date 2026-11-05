@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 800,
-   "mint": "2YqgVvMcWdrwxk1fYbDADtpYEVejaVyRdGAZLBFEpump",
+   "id": 802,
+   "mint": "9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,12 +13,77 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 20:30:23",
+   "created_at": "2026-11-05 20:31:30",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/2YqgVvMcWdrwxk1fYbDADtpYEVejaVyRdGAZLBFEpump",
+   "coin_url": "https://pump.fun/coin/9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump",
    "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 801,
+   "mint": "9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 20:30:46",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 800,
+   "mint": "2YqgVvMcWdrwxk1fYbDADtpYEVejaVyRdGAZLBFEpump",
+   "symbol": "CARDIFIER",
+   "name": "CARDIFIER",
+   "source": "pumpportal_migration",
+   "status": "auditing",
+   "mode": "LIVE",
+   "price_usd": 4.163e-05,
+   "mcap_usd": 41571.0,
+   "liquidity_usd": 16082.79,
+   "created_at": "2026-11-05 20:30:23",
+   "audit_id": 804,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/2YqgVvMcWdrwxk1fYbDADtpYEVejaVyRdGAZLBFEpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3029,135 +3094,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 19:49:07"
    }
-  },
-  {
-   "id": 752,
-   "mint": "DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk",
-   "symbol": "DNUT",
-   "name": "Krispy Kreme, Inc. Common Stock - Backpack Securities",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 4.85,
-   "mcap_usd": 245196.0,
-   "liquidity_usd": 158745.41,
-   "created_at": "2026-11-05 19:42:07",
-   "audit_id": 756,
-   "audit_passed": 0,
-   "audit_score": 0.375,
-   "coin_url": "https://pump.fun/coin/DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "fail"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "fail"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "error"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 20/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L2_mint_authority, L3_freeze_authority",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 19:44:23"
-   }
-  },
-  {
-   "id": 751,
-   "mint": "8j6ttHGqvCiMm5fATQKwWBeSnoEGj3iBt8fjdir7pump",
-   "symbol": "BESTDEV",
-   "name": "LETS BOND ME",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 1.182e-08,
-   "mcap_usd": 24.0,
-   "liquidity_usd": 20.81,
-   "created_at": "2026-11-05 19:41:25",
-   "audit_id": 755,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/8j6ttHGqvCiMm5fATQKwWBeSnoEGj3iBt8fjdir7pump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 19/19 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 19:43:56"
-   }
   }
  ],
- "generated_at": "2026-11-05T20:30:43+00:00"
+ "generated_at": "2026-11-05T20:31:46+00:00"
 }
