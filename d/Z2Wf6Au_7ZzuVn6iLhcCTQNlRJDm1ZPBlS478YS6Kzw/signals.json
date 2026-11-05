@@ -8,15 +8,15 @@
    "symbol": "SAVPIR",
    "name": "Savage Piranha",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 3.33e-08,
    "mcap_usd": 67.0,
    "liquidity_usd": 11.13,
    "created_at": "2026-11-05 18:12:34",
    "audit_id": 674,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/52Hpzq9Y4CVfEaA8pxQmHFnWmRU3hwfyG3dmtDNpump",
    "layers": {
     "1": {
@@ -42,10 +42,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 12/12 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 18:14:05"
+   }
   },
   {
    "id": 669,
@@ -53,15 +72,15 @@
    "symbol": "TOAD",
    "name": "The Toad Cat",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 5.679e-08,
    "mcap_usd": 114.0,
    "liquidity_usd": 23.85,
    "created_at": "2026-11-05 18:12:13",
    "audit_id": 673,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/EzWEpUK63UMMFdCMMrQMhB4hKeugeic6GFFSJKZ7pump",
    "layers": {
     "1": {
@@ -87,10 +106,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 20/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 18:14:05"
+   }
   },
   {
    "id": 668,
@@ -3165,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T18:13:41+00:00"
+ "generated_at": "2026-11-05T18:14:43+00:00"
 }
