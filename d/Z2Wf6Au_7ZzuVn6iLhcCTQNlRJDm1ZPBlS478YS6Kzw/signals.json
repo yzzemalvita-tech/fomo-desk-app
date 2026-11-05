@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 470,
-   "mint": "pw9GogapzC4A5T8g69xdAcbqmJtz3srvnKhF3cSpump",
+   "id": 471,
+   "mint": "7C8Up3xn1S5AHngdBjY3CRF3tezbe9rR37UvtpRopump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 12:39:32",
+   "created_at": "2026-11-05 12:40:41",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=pw9GogapzC4A5T8g69xdAcbqmJtz3srvnKhF3cSpump&chainId=1399811149&r=savipww&source=share_link",
+   "coin_url": "https://fomo.family/coin?address=7C8Up3xn1S5AHngdBjY3CRF3tezbe9rR37UvtpRopump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 470,
+   "mint": "pw9GogapzC4A5T8g69xdAcbqmJtz3srvnKhF3cSpump",
+   "symbol": "NADF",
+   "name": "NADF",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 0.1831,
+   "mcap_usd": 183103494.0,
+   "liquidity_usd": 1107000.05,
+   "created_at": "2026-11-05 12:39:32",
+   "audit_id": 472,
+   "audit_passed": 1,
+   "audit_score": 0.625,
+   "coin_url": "https://fomo.family/coin?address=pw9GogapzC4A5T8g69xdAcbqmJtz3srvnKhF3cSpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 9/9 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.47/4; rug risk 0.85. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=fail; L7_bundles=pass; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 12:40:40"
+   }
   },
   {
    "id": 469,
@@ -3093,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 08:12:07"
    }
-  },
-  {
-   "id": 421,
-   "mint": "98gozdwm1ZGJkKJ4SrbPgTEugkFW1sVk7htQVw7Kpump",
-   "symbol": "Gemini",
-   "name": "Google Gemini",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 0.0001191,
-   "mcap_usd": 119147.0,
-   "liquidity_usd": 26659.89,
-   "created_at": "2026-11-05 08:09:07",
-   "audit_id": 423,
-   "audit_passed": 1,
-   "audit_score": 0.75,
-   "coin_url": "https://fomo.family/coin?address=98gozdwm1ZGJkKJ4SrbPgTEugkFW1sVk7htQVw7Kpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 0/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.85/4; rug risk 0.86. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 08:10:29"
-   }
   }
  ],
- "generated_at": "2026-11-05T12:40:27+00:00"
+ "generated_at": "2026-11-05T12:41:29+00:00"
 }
