@@ -5,20 +5,45 @@
   {
    "id": 435,
    "mint": "FJ5GyzzD9yGxhiGgReY3ZUCTffsX552wPxcax3Lkpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "AMAZON",
+   "name": "Amazon",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.563e-09,
+   "mcap_usd": 7.0,
+   "liquidity_usd": 8.39,
    "created_at": "2026-11-05 08:55:24",
-   "audit_id": null,
+   "audit_id": 437,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=FJ5GyzzD9yGxhiGgReY3ZUCTffsX552wPxcax3Lkpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T08:55:34+00:00"
+ "generated_at": "2026-11-05T08:56:36+00:00"
 }
