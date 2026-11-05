@@ -5,20 +5,45 @@
   {
    "id": 862,
    "mint": "27b7tLNyZzRQme7oUF7NwebjXwPdyhQ4xT5CJuGVpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "VETO",
+   "name": "Mr. VETO",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 7.127e-09,
+   "mcap_usd": 14.0,
+   "liquidity_usd": 3.13,
    "created_at": "2026-11-05 22:33:11",
-   "audit_id": null,
+   "audit_id": 867,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=27b7tLNyZzRQme7oUF7NwebjXwPdyhQ4xT5CJuGVpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -28,15 +53,15 @@
    "symbol": "ENTREPRENEURS",
    "name": "Young Entrepreneurs",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 4.234e-05,
    "mcap_usd": 42267.0,
    "liquidity_usd": 14772.55,
    "created_at": "2026-11-05 22:32:11",
    "audit_id": 866,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.875,
    "coin_url": "https://fomo.family/coin?address=DLPHgMT6n1gj2MRTZouX6jrbmm8YwQC4TJTdnMEVpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
@@ -62,10 +87,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None \u00b7 0/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.73,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.16 / WATCH 0.82 / PASS 0.02); quality 2.65/4; rug risk 0.15. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 22:33:34"
+   }
   },
   {
    "id": 860,
@@ -73,15 +117,15 @@
    "symbol": "BYTECOIN",
    "name": "BYTECOIN",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 3.113e-06,
    "mcap_usd": 6227.0,
    "liquidity_usd": 816.89,
    "created_at": "2026-11-05 22:32:06",
    "audit_id": 865,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=C6vavVxBSPNzjTjnNEyvDUWAQ519dK4sPNZ7C73rpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
@@ -107,10 +151,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 22:33:29"
+   }
   },
   {
    "id": 859,
@@ -3121,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T22:33:12+00:00"
+ "generated_at": "2026-11-05T22:34:14+00:00"
 }
