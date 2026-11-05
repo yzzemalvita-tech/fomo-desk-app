@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 309,
+   "mint": "HzMF5YvQGtyZCGGPGYiB2L1bFdk8sBuXDhodGF9Wpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 04:15:32",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=HzMF5YvQGtyZCGGPGYiB2L1bFdk8sBuXDhodGF9Wpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 308,
    "mint": "2XbjtNXPQudzNmRaXoPvAApDLcotZ4pFi1Tzhapppump",
    "symbol": "NORTHKOREA",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 02:58:12"
    }
-  },
-  {
-   "id": 259,
-   "mint": "79zuA7obQuVMdCWTdkS7uEY7KkctYyZF9nSjaFPVpump",
-   "symbol": "CALLINU",
-   "name": "Callout Inu",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 4.594e-05,
-   "mcap_usd": 45947.07,
-   "liquidity_usd": null,
-   "created_at": "2026-11-05 02:56:00",
-   "audit_id": 261,
-   "audit_passed": 1,
-   "audit_score": 0.625,
-   "coin_url": "https://fomo.family/coin?address=79zuA7obQuVMdCWTdkS7uEY7KkctYyZF9nSjaFPVpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "error"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "2 bundled \u00b7 10/20 checked",
-    "bundled_pct": 10.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.77/4; rug risk 0.84. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 02:57:23"
-   }
   }
  ],
- "generated_at": "2026-11-05T04:14:46+00:00"
+ "generated_at": "2026-11-05T04:15:48+00:00"
 }
