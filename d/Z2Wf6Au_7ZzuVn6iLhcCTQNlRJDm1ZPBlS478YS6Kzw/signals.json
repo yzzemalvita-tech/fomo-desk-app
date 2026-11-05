@@ -5,22 +5,66 @@
   {
    "id": 464,
    "mint": "8XtVWLNWtB11EivGAF8n2MJbac4RzyqDgQshtjYypump",
-   "symbol": null,
-   "name": null,
+   "symbol": "THRUSTER",
+   "name": "THRUSTER",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.444e-08,
+   "mcap_usd": 69.0,
+   "liquidity_usd": 18.89,
    "created_at": "2026-11-05 09:50:21",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 466,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=8XtVWLNWtB11EivGAF8n2MJbac4RzyqDgQshtjYypump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "2 bundled \u00b7 10/13 checked",
+    "bundled_pct": 15.4,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 09:51:46"
+   }
   },
   {
    "id": 463,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T09:51:06+00:00"
+ "generated_at": "2026-11-05T09:52:08+00:00"
 }
