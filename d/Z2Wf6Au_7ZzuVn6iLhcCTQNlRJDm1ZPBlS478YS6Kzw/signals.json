@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 689,
+   "mint": "6NkaU1hq3MqwPapru9uLyKaKGQwAZR1Uf6SHGLHQpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "LIVE",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-05 18:43:26",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/6NkaU1hq3MqwPapru9uLyKaKGQwAZR1Uf6SHGLHQpump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 688,
    "mint": "Ap2FR6CBsRVFnbEfRc26v9eAN6e9PdgYxF5y3Buepump",
    "symbol": "$RCK",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 17:23:40"
    }
-  },
-  {
-   "id": 639,
-   "mint": "7Ks2QJmc6sSptsLPaoGoJqmUkdi1u31C2UPDGgdPpump",
-   "symbol": "CANCERD",
-   "name": "Cancelled Trump",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "LIVE",
-   "price_usd": 3.062e-08,
-   "mcap_usd": 61.0,
-   "liquidity_usd": 8.9,
-   "created_at": "2026-11-05 17:21:08",
-   "audit_id": 643,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/7Ks2QJmc6sSptsLPaoGoJqmUkdi1u31C2UPDGgdPpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None ? 15/15 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 17:23:04"
-   }
   }
  ],
- "generated_at": "2026-11-05T18:42:33+00:00"
+ "generated_at": "2026-11-05T18:43:35+00:00"
 }
