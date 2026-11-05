@@ -5,41 +5,107 @@
   {
    "id": 346,
    "mint": "Diob9X1HTEGsFpp6iuBSXyr91HF3pw7iKM8AEhHppump",
-   "symbol": null,
-   "name": null,
+   "symbol": "UTT",
+   "name": "Under the Table",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.735e-05,
+   "mcap_usd": 37357.0,
+   "liquidity_usd": 14176.42,
    "created_at": "2026-11-05 05:24:07",
-   "audit_id": null,
+   "audit_id": 348,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=Diob9X1HTEGsFpp6iuBSXyr91HF3pw7iKM8AEhHppump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 2/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
    "verdict": null
   },
   {
    "id": 345,
    "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
-   "symbol": null,
-   "name": null,
+   "symbol": "WBTC",
+   "name": "Wrapped BTC (Wormhole)",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 80202.52,
+   "mcap_usd": 309525265.0,
+   "liquidity_usd": 1846872.7,
    "created_at": "2026-11-05 05:23:45",
-   "audit_id": null,
+   "audit_id": 347,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "fail"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
    "verdict": null
   },
   {
@@ -3115,5 +3181,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T05:24:28+00:00"
+ "generated_at": "2026-11-05T05:25:30+00:00"
 }
