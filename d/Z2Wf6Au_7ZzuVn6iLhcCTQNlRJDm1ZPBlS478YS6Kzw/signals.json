@@ -5,20 +5,45 @@
   {
    "id": 444,
    "mint": "AHeKGpTDydsbjAUKbP9cTgUeehtzP3kWp1GknMy7pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "EFUEL ",
+   "name": "EAGLE FUEL ",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.801e-08,
+   "mcap_usd": 36.0,
+   "liquidity_usd": 15.28,
    "created_at": "2026-11-05 09:15:52",
-   "audit_id": null,
+   "audit_id": 446,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=AHeKGpTDydsbjAUKbP9cTgUeehtzP3kWp1GknMy7pump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T09:16:08+00:00"
+ "generated_at": "2026-11-05T09:17:10+00:00"
 }
