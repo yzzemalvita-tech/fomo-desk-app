@@ -5,39 +5,19 @@
   {
    "id": 698,
    "mint": "D67HoCu2tiUJNm2qw8wufRPiBhGh2hR5P2HTX9mfpump",
-   "symbol": null,
-   "name": null,
-   "source": "pumpportal_migration",
-   "status": "new",
-   "mode": "LIVE",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
-   "created_at": "2026-11-05 18:48:30",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
-   "coin_url": "https://pump.fun/coin/D67HoCu2tiUJNm2qw8wufRPiBhGh2hR5P2HTX9mfpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
-  },
-  {
-   "id": 697,
-   "mint": "6KVwQMbMZj6WJH6i9SKHqS6o1AWAA762Sba5w8Ybpump",
    "symbol": "COGE",
-   "name": "Cogecoin",
+   "name": "CommissionOnGovernmentEfficiency",
    "source": "pumpportal_migration",
    "status": "auditing",
    "mode": "LIVE",
-   "price_usd": 3.515e-05,
-   "mcap_usd": 35120.0,
-   "liquidity_usd": 13280.32,
-   "created_at": "2026-11-05 18:47:18",
-   "audit_id": 701,
+   "price_usd": 3.933e-05,
+   "mcap_usd": 39295.0,
+   "liquidity_usd": 14157.98,
+   "created_at": "2026-11-05 18:48:30",
+   "audit_id": 702,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/6KVwQMbMZj6WJH6i9SKHqS6o1AWAA762Sba5w8Ybpump",
+   "coin_url": "https://pump.fun/coin/D67HoCu2tiUJNm2qw8wufRPiBhGh2hR5P2HTX9mfpump",
    "layers": {
     "1": {
      "name": "liquidity",
@@ -68,20 +48,84 @@
    "verdict": null
   },
   {
+   "id": 697,
+   "mint": "6KVwQMbMZj6WJH6i9SKHqS6o1AWAA762Sba5w8Ybpump",
+   "symbol": "COGE",
+   "name": "Cogecoin",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "LIVE",
+   "price_usd": 3.515e-05,
+   "mcap_usd": 35120.0,
+   "liquidity_usd": 13280.32,
+   "created_at": "2026-11-05 18:47:18",
+   "audit_id": 701,
+   "audit_passed": 1,
+   "audit_score": 0.875,
+   "coin_url": "https://pump.fun/coin/6KVwQMbMZj6WJH6i9SKHqS6o1AWAA762Sba5w8Ybpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "None ? 16/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.53,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.16 / WATCH 0.69 / PASS 0.15); quality 2.42/4; rug risk 0.14. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 18:49:21"
+   }
+  },
+  {
    "id": 696,
    "mint": "C5J337Jivdhvo81R85TmW52xbtRHV9DJYBUPZeNCsXCS",
    "symbol": "COGE",
    "name": "CommissionOnGovernmentEfficiency",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "LIVE",
    "price_usd": 1.011e-05,
    "mcap_usd": 10079.0,
    "liquidity_usd": 6502.68,
    "created_at": "2026-11-05 18:47:02",
    "audit_id": 700,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 1.0,
    "coin_url": "https://pump.fun/coin/C5J337Jivdhvo81R85TmW52xbtRHV9DJYBUPZeNCsXCS",
    "layers": {
     "1": {
@@ -107,10 +151,29 @@
     "6": {
      "name": "activity",
      "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None ? 17/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.1,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.23 / WATCH 0.40 / PASS 0.37); quality 2.15/4; rug risk 0.15. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 18:49:05"
+   }
   },
   {
    "id": 695,
@@ -3121,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T18:48:44+00:00"
+ "generated_at": "2026-11-05T18:49:46+00:00"
 }
