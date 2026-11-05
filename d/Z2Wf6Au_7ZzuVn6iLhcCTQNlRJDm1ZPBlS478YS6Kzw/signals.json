@@ -5,42 +5,119 @@
   {
    "id": 421,
    "mint": "98gozdwm1ZGJkKJ4SrbPgTEugkFW1sVk7htQVw7Kpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Gemini",
+   "name": "Google Gemini",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001191,
+   "mcap_usd": 119147.0,
+   "liquidity_usd": 26659.89,
    "created_at": "2026-11-05 08:09:07",
-   "audit_id": null,
+   "audit_id": 423,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=98gozdwm1ZGJkKJ4SrbPgTEugkFW1sVk7htQVw7Kpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 0/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
    "verdict": null
   },
   {
    "id": 420,
    "mint": "7dwkwnq95twVXLBS9j8xpVPtcwtPA2LFoxyap3ppump",
-   "symbol": null,
-   "name": null,
+   "symbol": "RICH",
+   "name": "DoubleRicherMakeMeRich",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
+   "price_usd": 3.065e-08,
+   "mcap_usd": 30.66,
    "liquidity_usd": null,
    "created_at": "2026-11-05 08:08:58",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 422,
+   "audit_passed": 1,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=7dwkwnq95twVXLBS9j8xpVPtcwtPA2LFoxyap3ppump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/15 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.04/4; rug risk 0.93. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 08:10:21"
+   }
   },
   {
    "id": 419,
@@ -3115,5 +3192,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T08:09:27+00:00"
+ "generated_at": "2026-11-05T08:10:29+00:00"
 }
