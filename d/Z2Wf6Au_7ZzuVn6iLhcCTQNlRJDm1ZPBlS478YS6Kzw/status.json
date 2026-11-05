@@ -9,46 +9,46 @@
     "agent": "Analyst",
     "status": "ok",
     "detail": "verdicts=134 jev_calls=101 queue=0",
-    "last_beat": "2026-11-05 17:26:22",
-    "age_s": 7.3
+    "last_beat": "2026-11-05 17:28:22",
+    "age_s": 9.1
    },
    {
     "agent": "Auditor",
     "status": "ok",
     "detail": "audited=134 queue=0 busy=None",
-    "last_beat": "2026-11-05 17:26:22",
-    "age_s": 7.3
+    "last_beat": "2026-11-05 17:28:22",
+    "age_s": 9.1
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=LIVE stats={'429': 1402, '429_by_host': {}, 'errors': 6, 'jev_in': 107074, 'jev_out': 7171, 'jev_calls': 101, 'tg': {'in': 0, 'ignored': 0, 'sent': 11, 'send_err': 0}, 'publishes': 186}",
-    "last_beat": "2026-11-05 17:25:48",
-    "age_s": 41.3
+    "detail": "mode=LIVE stats={'429': 1409, '429_by_host': {}, 'errors': 6, 'jev_in': 107074, 'jev_out': 7171, 'jev_calls': 101, 'tg': {'in': 0, 'ignored': 0, 'sent': 11, 'send_err': 0}, 'publishes': 187}",
+    "last_beat": "2026-11-05 17:27:48",
+    "age_s": 43.1
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=LIVE opened=0 closed=0 live_alerts=11",
-    "last_beat": "2026-11-05 17:26:22",
-    "age_s": 7.3
+    "last_beat": "2026-11-05 17:28:22",
+    "age_s": 9.1
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=886 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-05 17:26:22",
-    "age_s": 7.3
+    "detail": "checks=894 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-05 17:28:22",
+    "age_s": 9.1
    },
    {
     "agent": "Scanner",
     "status": "ok",
     "detail": "seen=140 connected=True reconnects=2",
-    "last_beat": "2026-11-05 17:26:21",
-    "age_s": 8.3
+    "last_beat": "2026-11-05 17:28:22",
+    "age_s": 9.1
    }
   ],
-  "last_update": "2026-11-05 17:26:22"
+  "last_update": "2026-11-05 17:28:22"
  },
- "generated_at": "2026-11-05T17:26:29+00:00"
+ "generated_at": "2026-11-05T17:28:31+00:00"
 }
