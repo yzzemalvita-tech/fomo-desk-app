@@ -29,7 +29,7 @@ const layers=s=>Object.entries(s.layers||{}).sort((a,b)=>a[0]-b[0]).map(([k,v])=
 const all8=s=>{const l=layers(s);return l.length===8&&l.every(x=>x.r==="pass")};
 const probs=s=>{const m=((s.verdict||{}).reasoning||"").match(/P BUY ([\d.]+) \/ WATCH ([\d.]+) \/ PASS ([\d.]+)/);return m?{buy:+m[1],watch:+m[2],pass:+m[3]}:null};
 const FILTERS={all:()=>true,buy:s=>s.verdict&&s.verdict.verdict==="BUY",all8,hour:s=>Date.now()-utc(s.created_at)<3600e3};
-const link=(u,cls="btn")=>/^https:\/\//.test(u||"")?`<a class="${cls}" href="${esc(u)}" target="_blank" rel="noopener">Open in pump.fun</a>`:"";
+const link=(u,cls="btn")=>/^https:\/\//.test(u||"")?`<a class="${cls}" href="${esc(u)}" target="_blank" rel="noopener">Open in FOMO</a>`:"";
 const set=k=>{const o=D.settings&&D.settings.data&&D.settings.data[k];return o&&typeof o==="object"?o.value:o};
 const maxHold=()=>+(set("max_hold_min")||60);
 const openPos=()=>(D.positions&&D.positions.data||[]).filter(p=>p.status==="open");  // real open positions only
