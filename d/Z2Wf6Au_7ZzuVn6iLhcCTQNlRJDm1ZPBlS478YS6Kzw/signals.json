@@ -5,22 +5,66 @@
   {
    "id": 441,
    "mint": "6s2umN1sqM8mS8ERRmt9cqcFwAoWu5ofma7DN3KfFiue",
-   "symbol": null,
-   "name": null,
+   "symbol": "TRUMP3",
+   "name": "Trump Index",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.7596,
+   "mcap_usd": 83867.0,
+   "liquidity_usd": 23157.22,
    "created_at": "2026-11-05 09:06:07",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 443,
+   "audit_passed": 0,
+   "audit_score": 0.375,
    "coin_url": "https://fomo.family/coin?address=6s2umN1sqM8mS8ERRmt9cqcFwAoWu5ofma7DN3KfFiue&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "fail"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "error"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L2_mint_authority",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 09:07:29"
+   }
   },
   {
    "id": 440,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-05T09:06:53+00:00"
+ "generated_at": "2026-11-05T09:07:55+00:00"
 }
