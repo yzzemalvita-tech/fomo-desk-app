@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 355,
-   "mint": "jv6kv45LRnhQf6dS7noxhmZPcoFraG6o2YVFiuPpump",
+   "id": 356,
+   "mint": "FracBXwyzFNqzQ2XXUshNayrbvgQySknYZxMyuadpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 05:50:22",
+   "created_at": "2026-11-05 05:51:56",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=jv6kv45LRnhQf6dS7noxhmZPcoFraG6o2YVFiuPpump&chainId=1399811149&r=savipww&source=share_link",
+   "coin_url": "https://fomo.family/coin?address=FracBXwyzFNqzQ2XXUshNayrbvgQySknYZxMyuadpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 355,
+   "mint": "jv6kv45LRnhQf6dS7noxhmZPcoFraG6o2YVFiuPpump",
+   "symbol": "MAJIN",
+   "name": "MAJIN COIN",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 6.92e-08,
+   "mcap_usd": 138.0,
+   "liquidity_usd": 27.94,
+   "created_at": "2026-11-05 05:50:22",
+   "audit_id": 357,
+   "audit_passed": 0,
+   "audit_score": 0.5,
+   "coin_url": "https://fomo.family/coin?address=jv6kv45LRnhQf6dS7noxhmZPcoFraG6o2YVFiuPpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 05:51:45"
+   }
   },
   {
    "id": 354,
@@ -3093,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 04:11:59"
    }
-  },
-  {
-   "id": 306,
-   "mint": "J6JKTfNmzaSKx93eGxe9sJ7fLQrBi6u6xPETDmEupump",
-   "symbol": "PORSCHE",
-   "name": "$PORSCHE",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 2.878e-06,
-   "mcap_usd": 2878.97,
-   "liquidity_usd": null,
-   "created_at": "2026-11-05 04:10:09",
-   "audit_id": 308,
-   "audit_passed": 1,
-   "audit_score": 0.5,
-   "coin_url": "https://fomo.family/coin?address=J6JKTfNmzaSKx93eGxe9sJ7fLQrBi6u6xPETDmEupump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "error"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/19 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.12/4; rug risk 0.93. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 04:11:31"
-   }
   }
  ],
- "generated_at": "2026-11-05T05:51:09+00:00"
+ "generated_at": "2026-11-05T05:52:11+00:00"
 }
