@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 365,
-   "mint": "zKag3PGuq5RYvN8z3KxwtX9ujmGckUKSJqdUr7sn7PQ",
+   "id": 366,
+   "mint": "2huJ1cxDXpGrh2bPYxptaoLj89to8CnzdVC5aYTEpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,34 +13,123 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-05 06:05:18",
+   "created_at": "2026-11-05 06:06:20",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=zKag3PGuq5RYvN8z3KxwtX9ujmGckUKSJqdUr7sn7PQ&chainId=1399811149&r=savipww&source=share_link",
+   "coin_url": "https://fomo.family/coin?address=2huJ1cxDXpGrh2bPYxptaoLj89to8CnzdVC5aYTEpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 365,
+   "mint": "zKag3PGuq5RYvN8z3KxwtX9ujmGckUKSJqdUr7sn7PQ",
+   "symbol": "BOTTEGA",
+   "name": "BOTTEGA",
+   "source": "pumpportal_migration",
+   "status": "auditing",
+   "mode": "PAPER",
+   "price_usd": 4.972e-05,
+   "mcap_usd": 49724.0,
+   "liquidity_usd": 17827.57,
+   "created_at": "2026-11-05 06:05:18",
+   "audit_id": 367,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=zKag3PGuq5RYvN8z3KxwtX9ujmGckUKSJqdUr7sn7PQ&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 364,
    "mint": "62n2ytBBoiJAMSU9sYBfUFRWymVw31Fwb2189egtXkuK",
-   "symbol": null,
-   "name": null,
+   "symbol": "DEM",
+   "name": "Delicate Enormous Milkers",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.751e-05,
+   "mcap_usd": 47518.0,
+   "liquidity_usd": 16498.59,
    "created_at": "2026-11-05 06:04:54",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 366,
+   "audit_passed": 1,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=62n2ytBBoiJAMSU9sYBfUFRWymVw31Fwb2189egtXkuK&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "fail"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "warn"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.69/4; rug risk 0.84. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=fail; L5_rugcheck=fail; L6_activity=warn; L7_bundles=partial; L8_holders=warn",
+    "analyst": "Jev",
+    "created_at": "2026-11-05 06:06:19"
+   }
   },
   {
    "id": 363,
@@ -3049,71 +3138,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 04:26:13"
    }
-  },
-  {
-   "id": 316,
-   "mint": "7Kf7Nj1ryqnPyofmp38Vvn9cms7fHjo2qHQni9Cmpump",
-   "symbol": "sol",
-   "name": "grok bot",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 4.801e-09,
-   "mcap_usd": 10.0,
-   "liquidity_usd": 13.64,
-   "created_at": "2026-11-05 04:24:08",
-   "audit_id": 318,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://fomo.family/coin?address=7Kf7Nj1ryqnPyofmp38Vvn9cms7fHjo2qHQni9Cmpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 2/16 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 04:25:36"
-   }
   }
  ],
- "generated_at": "2026-11-05T06:05:29+00:00"
+ "generated_at": "2026-11-05T06:06:31+00:00"
 }
