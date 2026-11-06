@@ -5,20 +5,45 @@
   {
    "id": 943,
    "mint": "C63BxGGTdPxRtxSwdRSrFFzPU2pnTgpt1anyRYKspump",
-   "symbol": null,
-   "name": null,
+   "symbol": "BMW",
+   "name": "BMW",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001118,
+   "mcap_usd": 111845.0,
+   "liquidity_usd": 25094.28,
    "created_at": "2026-11-06 01:19:54",
-   "audit_id": null,
+   "audit_id": 948,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=C63BxGGTdPxRtxSwdRSrFFzPU2pnTgpt1anyRYKspump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T01:19:56+00:00"
+ "generated_at": "2026-11-06T01:20:57+00:00"
 }
