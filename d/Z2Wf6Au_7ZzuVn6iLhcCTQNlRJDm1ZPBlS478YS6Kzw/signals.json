@@ -5,22 +5,66 @@
   {
    "id": 1547,
    "mint": "3boqiy5mwSjuUpYaHDVEbNiEc43Np5ddJ4Pgyb4Ypump",
-   "symbol": null,
-   "name": null,
+   "symbol": "ALONSHOUSE",
+   "name": "46 Tongdean Ave",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
+   "price_usd": 0.0,
    "mcap_usd": null,
    "liquidity_usd": null,
    "created_at": "2026-11-06 21:32:13",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1552,
+   "audit_passed": 1,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/3boqiy5mwSjuUpYaHDVEbNiEc43Np5ddJ4Pgyb4Ypump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "error"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.64,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.24 / PASS 0.76); quality 0.58/4; rug risk 0.69. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=error; L5_rugcheck=warn; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 21:33:35"
+   }
   },
   {
    "id": 1546,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T21:33:05+00:00"
+ "generated_at": "2026-11-06T21:34:07+00:00"
 }
