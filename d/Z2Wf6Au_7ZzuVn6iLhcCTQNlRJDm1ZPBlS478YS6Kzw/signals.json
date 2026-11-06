@@ -5,42 +5,111 @@
   {
    "id": 1174,
    "mint": "EXduSTNM1m8PSZkPDFXc1zgALgFMAamqGuk1Ax65pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "$BWIZ",
+   "name": "\ud83c\udf4c BANANA WIZARD",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 8.036e-09,
+   "mcap_usd": 16.0,
+   "liquidity_usd": 21.94,
    "created_at": "2026-11-06 10:42:16",
-   "audit_id": null,
+   "audit_id": 1179,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=EXduSTNM1m8PSZkPDFXc1zgALgFMAamqGuk1Ax65pump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 1173,
    "mint": "AuKHGneTsZfpx6jsEc5iUBmp9Q567HbEWh8TEZ24pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "ROBBIE",
+   "name": "Robbie",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
+   "price_usd": 3.697e-05,
+   "mcap_usd": 36979.22,
    "liquidity_usd": null,
    "created_at": "2026-11-06 10:41:29",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1178,
+   "audit_passed": 1,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=AuKHGneTsZfpx6jsEc5iUBmp9Q567HbEWh8TEZ24pump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "2 bundled \u00b7 10/20 checked",
+    "bundled_pct": 10.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.27/4; rug risk 0.87. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=fail; L7_bundles=partial; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 10:42:51"
+   }
   },
   {
    "id": 1172,
@@ -3115,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T10:42:18+00:00"
+ "generated_at": "2026-11-06T10:43:20+00:00"
 }
