@@ -5,40 +5,90 @@
   {
    "id": 1170,
    "mint": "9ca4GcKGbnx26x6ZRR7BXUnd8mWGJNfD9BuXGjsYpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "kfc",
+   "name": "kfc",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.617e-08,
+   "mcap_usd": 32.0,
+   "liquidity_usd": 55.86,
    "created_at": "2026-11-06 10:32:55",
-   "audit_id": null,
+   "audit_id": 1175,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=9ca4GcKGbnx26x6ZRR7BXUnd8mWGJNfD9BuXGjsYpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 1169,
    "mint": "uy9SJMmFreEqdz9u4i23T85izJjbPqq6ALPpcNtpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "$PENGU",
+   "name": "FROSTPENGU",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 9.367e-09,
+   "mcap_usd": 19.0,
+   "liquidity_usd": 3.82,
    "created_at": "2026-11-06 10:32:46",
-   "audit_id": null,
+   "audit_id": 1174,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=uy9SJMmFreEqdz9u4i23T85izJjbPqq6ALPpcNtpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3111,5 +3161,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T10:33:02+00:00"
+ "generated_at": "2026-11-06T10:34:04+00:00"
 }
