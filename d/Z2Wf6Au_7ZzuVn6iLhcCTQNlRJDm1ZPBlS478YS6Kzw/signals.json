@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 1051,
-   "mint": "2NgdUjFYoU5TWvEMu91rw3oYegvmERtiPcYRKVcBpump",
+   "id": 1052,
+   "mint": "HVi6rbpS9fhuHauCXbdZaGtSuGt7qff3pqvnpkY6pump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-06 05:15:49",
+   "created_at": "2026-11-06 05:17:04",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=2NgdUjFYoU5TWvEMu91rw3oYegvmERtiPcYRKVcBpump&chainId=1399811149&r=savipww&source=share_link",
+   "coin_url": "https://fomo.family/coin?address=HVi6rbpS9fhuHauCXbdZaGtSuGt7qff3pqvnpkY6pump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 1051,
+   "mint": "2NgdUjFYoU5TWvEMu91rw3oYegvmERtiPcYRKVcBpump",
+   "symbol": "Daycare",
+   "name": "Daycare Centers",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 3.048e-05,
+   "mcap_usd": 30436.0,
+   "liquidity_usd": 12280.7,
+   "created_at": "2026-11-06 05:15:49",
+   "audit_id": 1056,
+   "audit_passed": 1,
+   "audit_score": 0.875,
+   "coin_url": "https://fomo.family/coin?address=2NgdUjFYoU5TWvEMu91rw3oYegvmERtiPcYRKVcBpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "3 bundled \u00b7 10/20 checked",
+    "bundled_pct": 15.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.67,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.00 / WATCH 0.78 / PASS 0.22); quality 1.86/4; rug risk 0.24. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 05:17:11"
+   }
   },
   {
    "id": 1050,
@@ -3093,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-06 03:26:49"
    }
-  },
-  {
-   "id": 1002,
-   "mint": "HgitrELLEjavWQqSB88CsqafhyczZeebRDRCqLYipNWy",
-   "symbol": "ELIZUBETH",
-   "name": "Elizubeth Wurren",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 3.447e-05,
-   "mcap_usd": 34431.0,
-   "liquidity_usd": 13195.92,
-   "created_at": "2026-11-06 03:24:37",
-   "audit_id": 1007,
-   "audit_passed": 1,
-   "audit_score": 0.875,
-   "coin_url": "https://fomo.family/coin?address=HgitrELLEjavWQqSB88CsqafhyczZeebRDRCqLYipNWy&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 8/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "WATCH",
-    "confidence": 0.88,
-    "size_sol": null,
-    "reasoning": "Jev: WATCH (P BUY 0.01 / WATCH 0.92 / PASS 0.07); quality 2.13/4; rug risk 0.18. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 03:25:59"
-   }
   }
  ],
- "generated_at": "2026-11-06T05:16:45+00:00"
+ "generated_at": "2026-11-06T05:17:46+00:00"
 }
