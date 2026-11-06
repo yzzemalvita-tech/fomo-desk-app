@@ -5,42 +5,111 @@
   {
    "id": 1229,
    "mint": "3cBqaVwhaq79zeMtA5YGo7LE9W9tPukyCTXaEyhGpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "OIL",
+   "name": "UKOR Pigeon",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 9.535e-09,
+   "mcap_usd": 19.0,
+   "liquidity_usd": 16.27,
    "created_at": "2026-11-06 13:00:19",
-   "audit_id": null,
+   "audit_id": 1234,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/3cBqaVwhaq79zeMtA5YGo7LE9W9tPukyCTXaEyhGpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 1228,
    "mint": "9La9bDakxmX6KmUNmBUeRa5H2YTpcWtJMwNvHPaZpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "FLOAT",
+   "name": "FLOAT",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.975e-09,
+   "mcap_usd": 10.0,
+   "liquidity_usd": 4.28,
    "created_at": "2026-11-06 12:59:35",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1233,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/9La9bDakxmX6KmUNmBUeRa5H2YTpcWtJMwNvHPaZpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/16 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 13:00:56"
+   }
   },
   {
    "id": 1227,
@@ -3115,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T13:00:34+00:00"
+ "generated_at": "2026-11-06T13:01:36+00:00"
 }
