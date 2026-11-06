@@ -5,42 +5,111 @@
   {
    "id": 1179,
    "mint": "4fdMD3bWQHNE8Pi1qjrsQjNE53tptPii22VvyU2Hpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "GTRM",
+   "name": "GOLDEN TRUMPET",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 2.699e-08,
+   "mcap_usd": 54.0,
+   "liquidity_usd": 13.27,
    "created_at": "2026-11-06 10:47:10",
-   "audit_id": null,
+   "audit_id": 1184,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=4fdMD3bWQHNE8Pi1qjrsQjNE53tptPii22VvyU2Hpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 1178,
    "mint": "9Fr9jdeNFMEAsWYwX9etrhT3YXyTyX2FitdXa281pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "WCharGoat",
+   "name": "wrappedChartGoat",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.978e-08,
+   "mcap_usd": 40.0,
+   "liquidity_usd": 29.18,
    "created_at": "2026-11-06 10:46:44",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1183,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=9Fr9jdeNFMEAsWYwX9etrhT3YXyTyX2FitdXa281pump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 10:48:06"
+   }
   },
   {
    "id": 1177,
@@ -3115,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T10:47:27+00:00"
+ "generated_at": "2026-11-06T10:48:29+00:00"
 }
