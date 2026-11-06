@@ -5,20 +5,45 @@
   {
    "id": 1114,
    "mint": "zkWZXfpQGgoEdziWy2QWewXpugZ88FDLJgkLdGKpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "ROCCO",
+   "name": "ROCCO",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001112,
+   "mcap_usd": 111214.0,
+   "liquidity_usd": 24923.55,
    "created_at": "2026-11-06 08:05:28",
-   "audit_id": null,
+   "audit_id": 1119,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=zkWZXfpQGgoEdziWy2QWewXpugZ88FDLJgkLdGKpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T08:05:31+00:00"
+ "generated_at": "2026-11-06T08:06:33+00:00"
 }
