@@ -5,20 +5,45 @@
   {
    "id": 1512,
    "mint": "D9bzC1XvVERT47gampJS11rw5fCCoF3ftUfsUkLdpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "STARBUCKS",
+   "name": "Starbucks Corporation",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001211,
+   "mcap_usd": 121165.0,
+   "liquidity_usd": 26165.56,
    "created_at": "2026-11-06 20:50:42",
-   "audit_id": null,
+   "audit_id": 1517,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/D9bzC1XvVERT47gampJS11rw5fCCoF3ftUfsUkLdpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -28,15 +53,15 @@
    "symbol": "67",
    "name": "67Coin",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 3.835e-05,
    "mcap_usd": 38310.0,
    "liquidity_usd": 14011.13,
    "created_at": "2026-11-06 20:49:51",
    "audit_id": 1516,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.875,
    "coin_url": "https://pump.fun/coin/4atxiQkyt5UiurefXxEQZY1MxVcStQaxdG8XvEtUpump",
    "layers": {
     "1": {
@@ -62,10 +87,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.91,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.01 / WATCH 0.94 / PASS 0.05); quality 2.25/4; rug risk 0.20. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 20:51:13"
+   }
   },
   {
    "id": 1510,
@@ -3140,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T20:51:01+00:00"
+ "generated_at": "2026-11-06T20:52:03+00:00"
 }
