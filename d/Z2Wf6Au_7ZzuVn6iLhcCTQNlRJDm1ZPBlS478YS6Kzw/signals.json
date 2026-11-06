@@ -5,20 +5,45 @@
   {
    "id": 1261,
    "mint": "22oDtUuTerJC5sbiYD8UQngsJaGe9pgiMxX3RA3mjJCh",
-   "symbol": null,
-   "name": null,
+   "symbol": "WHALE",
+   "name": "Whale Pad",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.71e-05,
+   "mcap_usd": 37108.0,
+   "liquidity_usd": 15338.48,
    "created_at": "2026-11-06 14:18:14",
-   "audit_id": null,
+   "audit_id": 1266,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/22oDtUuTerJC5sbiYD8UQngsJaGe9pgiMxX3RA3mjJCh",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T14:18:32+00:00"
+ "generated_at": "2026-11-06T14:19:34+00:00"
 }
