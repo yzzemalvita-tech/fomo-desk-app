@@ -5,42 +5,130 @@
   {
    "id": 1006,
    "mint": "3xgBHG43bZ7tWf98WeNEfvkMXuq6BR2x657rk9AHpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "MPGA",
+   "name": "Make Pump Great Again",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.114e-05,
+   "mcap_usd": 31010.0,
+   "liquidity_usd": 12466.01,
    "created_at": "2026-11-06 03:28:41",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1011,
+   "audit_passed": 1,
+   "audit_score": 0.875,
    "coin_url": "https://fomo.family/coin?address=3xgBHG43bZ7tWf98WeNEfvkMXuq6BR2x657rk9AHpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 7/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.82,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.02 / WATCH 0.88 / PASS 0.10); quality 2.19/4; rug risk 0.19. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 03:30:03"
+   }
   },
   {
    "id": 1005,
    "mint": "63YTNP5oE83UuEARAnkVZDRykcjEfz5zUd4NLMr2pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "DOGE PAID",
+   "name": "DOGE PAID",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 8.222e-09,
+   "mcap_usd": 16.0,
+   "liquidity_usd": 17.55,
    "created_at": "2026-11-06 03:28:15",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1010,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=63YTNP5oE83UuEARAnkVZDRykcjEfz5zUd4NLMr2pump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 03:29:36"
+   }
   },
   {
    "id": 1004,
@@ -3115,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T03:29:06+00:00"
+ "generated_at": "2026-11-06T03:30:07+00:00"
 }
