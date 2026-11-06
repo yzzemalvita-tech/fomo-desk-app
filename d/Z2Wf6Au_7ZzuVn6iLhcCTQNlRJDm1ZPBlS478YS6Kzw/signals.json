@@ -5,22 +5,66 @@
   {
    "id": 1292,
    "mint": "FgLfLhT3QoPWynZ53L3KUUsPhspWbdPUfMtmPfezXci6",
-   "symbol": null,
-   "name": null,
+   "symbol": "xZEC",
+   "name": "xZEC",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.995,
+   "mcap_usd": 36652.0,
+   "liquidity_usd": 219605.94,
    "created_at": "2026-11-06 15:03:53",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1297,
+   "audit_passed": 0,
+   "audit_score": 0.375,
    "coin_url": "https://pump.fun/coin/FgLfLhT3QoPWynZ53L3KUUsPhspWbdPUfMtmPfezXci6",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "fail"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "error"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L2_mint_authority",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 15:05:15"
+   }
   },
   {
    "id": 1291,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T15:04:46+00:00"
+ "generated_at": "2026-11-06T15:05:47+00:00"
 }
