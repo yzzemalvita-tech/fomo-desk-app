@@ -5,20 +5,45 @@
   {
    "id": 1056,
    "mint": "7kpcMCFQTTmKaeLKoCz1QVt7Vi5tBj4JrEqMj5Fkpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "CHAROC",
+   "name": "Chaotic Rocket",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.581e-08,
+   "mcap_usd": 32.0,
+   "liquidity_usd": 61.04,
    "created_at": "2026-11-06 05:35:56",
-   "audit_id": null,
+   "audit_id": 1061,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=7kpcMCFQTTmKaeLKoCz1QVt7Vi5tBj4JrEqMj5Fkpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T05:36:09+00:00"
+ "generated_at": "2026-11-06T05:37:11+00:00"
 }
