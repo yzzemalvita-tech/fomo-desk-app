@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 1500,
+   "mint": "HTtxzfpE1qcH5RkcbTpaLhRyBazxbJmkb4J5wCE2pump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-06 20:28:41",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/HTtxzfpE1qcH5RkcbTpaLhRyBazxbJmkb4J5wCE2pump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 1499,
    "mint": "5GLcy7466skycu7gMSPg4t66jAapNAuAdr6kaBpMpump",
    "symbol": "DOOKIE",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-06 19:17:23"
    }
-  },
-  {
-   "id": 1450,
-   "mint": "5VPSz1rbwyn9uAkpFpn1dLy6NDhe2DqMhB5o4JNDpump",
-   "symbol": "Boomer",
-   "name": "Boomer",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 3.326e-05,
-   "mcap_usd": 33266.0,
-   "liquidity_usd": 12949.55,
-   "created_at": "2026-11-06 19:15:37",
-   "audit_id": 1455,
-   "audit_passed": 1,
-   "audit_score": 1.0,
-   "coin_url": "https://pump.fun/coin/5VPSz1rbwyn9uAkpFpn1dLy6NDhe2DqMhB5o4JNDpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 0/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "WATCH",
-    "confidence": 0.88,
-    "size_sol": null,
-    "reasoning": "Jev: WATCH (P BUY 0.04 / WATCH 0.92 / PASS 0.04); quality 2.18/4; rug risk 0.18. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 19:17:00"
-   }
   }
  ],
- "generated_at": "2026-11-06T20:28:23+00:00"
+ "generated_at": "2026-11-06T20:29:25+00:00"
 }
