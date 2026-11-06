@@ -5,20 +5,45 @@
   {
    "id": 1062,
    "mint": "FKga8jGa9QA1b35Bmf46RuFXg2ixxtCnE6NL33kpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Claude",
+   "name": "Be Nice To Claude",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001036,
+   "mcap_usd": 103566.0,
+   "liquidity_usd": 23951.0,
    "created_at": "2026-11-06 05:49:21",
-   "audit_id": null,
+   "audit_id": 1067,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=FKga8jGa9QA1b35Bmf46RuFXg2ixxtCnE6NL33kpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T05:49:29+00:00"
+ "generated_at": "2026-11-06T05:50:30+00:00"
 }
