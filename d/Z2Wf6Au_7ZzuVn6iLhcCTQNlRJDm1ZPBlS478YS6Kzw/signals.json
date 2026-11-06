@@ -5,22 +5,66 @@
   {
    "id": 1159,
    "mint": "J2rWJqjsWa6PqSWMjuHH9YYbfukhhfrNwLSwUo3Epump",
-   "symbol": null,
-   "name": null,
+   "symbol": "GOLD",
+   "name": "GOLDBERGER",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 5.337e-10,
+   "mcap_usd": 1.0,
+   "liquidity_usd": 1.29,
    "created_at": "2026-11-06 10:14:57",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1164,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://fomo.family/coin?address=J2rWJqjsWa6PqSWMjuHH9YYbfukhhfrNwLSwUo3Epump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 11/15 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 10:16:20"
+   }
   },
   {
    "id": 1158,
@@ -3155,5 +3199,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T10:15:34+00:00"
+ "generated_at": "2026-11-06T10:16:36+00:00"
 }
