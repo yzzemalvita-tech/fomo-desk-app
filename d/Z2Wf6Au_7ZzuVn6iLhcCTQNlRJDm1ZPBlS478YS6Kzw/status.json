@@ -8,47 +8,47 @@
    {
     "agent": "Analyst",
     "status": "ok",
-    "detail": "verdicts=156 jev_calls=90 queue=0",
-    "last_beat": "2026-11-06 03:09:07",
-    "age_s": 29.9
+    "detail": "verdicts=157 jev_calls=91 queue=0",
+    "last_beat": "2026-11-06 03:11:37",
+    "age_s": 3.3
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=156 queue=0 busy=None",
-    "last_beat": "2026-11-06 03:09:35",
-    "age_s": 1.9
+    "detail": "audited=157 queue=0 busy=None",
+    "last_beat": "2026-11-06 03:11:35",
+    "age_s": 5.3
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=PAPER stats={'429': 6326, 'errors': 5, 'jev_in': 82937, 'jev_out': 6319, 'jev_calls': 89, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 265}",
-    "last_beat": "2026-11-06 03:09:01",
-    "age_s": 35.9
+    "detail": "mode=PAPER stats={'429': 6422, 'errors': 5, 'jev_in': 84838, 'jev_out': 6461, 'jev_calls': 91, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 267}",
+    "last_beat": "2026-11-06 03:11:01",
+    "age_s": 39.3
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=PAPER opened=0 closed=0 live_alerts=0",
-    "last_beat": "2026-11-06 03:09:06",
-    "age_s": 30.9
+    "last_beat": "2026-11-06 03:11:36",
+    "age_s": 4.3
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=1298 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-06 03:09:36",
-    "age_s": 0.9
+    "detail": "checks=1306 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-06 03:11:36",
+    "age_s": 4.3
    },
    {
     "agent": "Scanner",
     "status": "ok",
     "detail": "seen=159 connected=True reconnects=2",
-    "last_beat": "2026-11-06 03:09:35",
-    "age_s": 1.9
+    "last_beat": "2026-11-06 03:11:35",
+    "age_s": 5.3
    }
   ],
-  "last_update": "2026-11-06 03:09:36"
+  "last_update": "2026-11-06 03:11:37"
  },
- "generated_at": "2026-11-06T03:09:36+00:00"
+ "generated_at": "2026-11-06T03:11:40+00:00"
 }
