@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 1334,
-   "mint": "Fhj4wF1k7LzSNZQ58JBLasFSGPqZRnVKzsPr8VPopump",
+   "id": 1337,
+   "mint": "8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,123 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-06 16:15:50",
+   "created_at": "2026-11-06 16:17:24",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/Fhj4wF1k7LzSNZQ58JBLasFSGPqZRnVKzsPr8VPopump",
+   "coin_url": "https://pump.fun/coin/8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 1336,
+   "mint": "Gt4Ty5n1G5XcR7LmUp5bTDkbqYeLMMRqQcZKmYCtpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-06 16:16:38",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/Gt4Ty5n1G5XcR7LmUp5bTDkbqYeLMMRqQcZKmYCtpump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 1335,
+   "mint": "5do6LBiSP7hnm5nRndRe14fMMoYb9JA7aw272YHfMTT5",
+   "symbol": "FI",
+   "name": "Finance Inu",
+   "source": "pumpportal_migration",
+   "status": "auditing",
+   "mode": "PAPER",
+   "price_usd": 1.852e-05,
+   "mcap_usd": 18499.0,
+   "liquidity_usd": 9493.35,
+   "created_at": "2026-11-06 16:16:37",
+   "audit_id": 1340,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/5do6LBiSP7hnm5nRndRe14fMMoYb9JA7aw272YHfMTT5",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    }
+   },
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 1334,
+   "mint": "Fhj4wF1k7LzSNZQ58JBLasFSGPqZRnVKzsPr8VPopump",
+   "symbol": "FOMO",
+   "name": "fomo",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 3.454e-08,
+   "mcap_usd": 69.0,
+   "liquidity_usd": 22.59,
+   "created_at": "2026-11-06 16:15:50",
+   "audit_id": 1339,
+   "audit_passed": 0,
+   "audit_score": 0.5,
+   "coin_url": "https://pump.fun/coin/Fhj4wF1k7LzSNZQ58JBLasFSGPqZRnVKzsPr8VPopump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/16 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 16:17:13"
+   }
   },
   {
    "id": 1333,
@@ -2965,199 +3074,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-06 15:01:28"
    }
-  },
-  {
-   "id": 1287,
-   "mint": "6vQKtjBPg4EWkTk7ayZhvbpFbeW1YDvxgPskGnChpump",
-   "symbol": "BARRON",
-   "name": "Official Barron Trump",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 0.0001098,
-   "mcap_usd": 109813.0,
-   "liquidity_usd": 24893.79,
-   "created_at": "2026-11-06 14:59:49",
-   "audit_id": 1292,
-   "audit_passed": 1,
-   "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/6vQKtjBPg4EWkTk7ayZhvbpFbeW1YDvxgPskGnChpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 0/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.98,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.94/4; rug risk 0.82. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 15:01:18"
-   }
-  },
-  {
-   "id": 1286,
-   "mint": "4WfKUfd9AB285nQpcBsbTY2pHWbFmjwmbXACY66wpump",
-   "symbol": "PNC",
-   "name": "PANIC-BTC",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 4.457e-08,
-   "mcap_usd": 89.0,
-   "liquidity_usd": 44.37,
-   "created_at": "2026-11-06 14:59:44",
-   "audit_id": 1291,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/4WfKUfd9AB285nQpcBsbTY2pHWbFmjwmbXACY66wpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 9/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 15:01:06"
-   }
-  },
-  {
-   "id": 1285,
-   "mint": "oEQTda4s6osRNHot7Lzs7zGtfvf1nrRRAB6K7yYpump",
-   "symbol": "Haaland",
-   "name": "The Meme King",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 0.0001126,
-   "mcap_usd": 112556.0,
-   "liquidity_usd": 25224.82,
-   "created_at": "2026-11-06 14:59:09",
-   "audit_id": 1290,
-   "audit_passed": 1,
-   "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/oEQTda4s6osRNHot7Lzs7zGtfvf1nrRRAB6K7yYpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.98,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.86/4; rug risk 0.86. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 15:00:31"
-   }
   }
  ],
- "generated_at": "2026-11-06T16:16:35+00:00"
+ "generated_at": "2026-11-06T16:17:37+00:00"
 }
