@@ -4,9 +4,9 @@
  "data": {
   "date_utc": "2026-11-06",
   "signals": 709,
-  "audited": 708,
+  "audited": 709,
   "verdicts": {
-   "PASS": 538,
+   "PASS": 539,
    "WATCH": 170
   },
   "live_signal_alerts": 0,
@@ -36,5 +36,5 @@
    "source": "https://help.fomo.family/en/articles/14436214-trading-fees-on-fomo"
   }
  },
- "generated_at": "2026-11-06T23:10:40+00:00"
+ "generated_at": "2026-11-06T23:11:42+00:00"
 }
