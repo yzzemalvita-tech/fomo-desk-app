@@ -5,42 +5,130 @@
   {
    "id": 1332,
    "mint": "HtuBqPEzTAo2oSdHuBwW3m72EqyxBDfbt723tgYQpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "FLOYD",
+   "name": "LETS BOND GEORGE FLOYD",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
+   "price_usd": 4.356e-09,
+   "mcap_usd": 9.0,
    "liquidity_usd": null,
    "created_at": "2026-11-06 16:09:55",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1337,
+   "audit_passed": 1,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/HtuBqPEzTAo2oSdHuBwW3m72EqyxBDfbt723tgYQpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 2/19 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.15/4; rug risk 0.87. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 16:11:17"
+   }
   },
   {
    "id": 1331,
    "mint": "ARKPqDVQvJNrwYMpzUSiixCYiDBBBzxxPfjxDjtkpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "CHICXU",
+   "name": "Chicxu",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
+   "price_usd": 3.405e-05,
+   "mcap_usd": 34050.01,
    "liquidity_usd": null,
    "created_at": "2026-11-06 16:09:35",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1336,
+   "audit_passed": 1,
+   "audit_score": 0.75,
    "coin_url": "https://pump.fun/coin/ARKPqDVQvJNrwYMpzUSiixCYiDBBBzxxPfjxDjtkpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "warn"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.38,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.01 / WATCH 0.59 / PASS 0.40); quality 2.16/4; rug risk 0.28. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=warn",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 16:10:57"
+   }
   },
   {
    "id": 1330,
@@ -3115,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T16:10:26+00:00"
+ "generated_at": "2026-11-06T16:11:28+00:00"
 }
