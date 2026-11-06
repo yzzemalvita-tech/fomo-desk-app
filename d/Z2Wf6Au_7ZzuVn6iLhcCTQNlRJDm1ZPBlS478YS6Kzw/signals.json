@@ -5,20 +5,45 @@
   {
    "id": 1053,
    "mint": "8Q5FLYVt9SLgnCV4bumS1BcAopqzaZW6a3aYKHespump",
-   "symbol": null,
-   "name": null,
+   "symbol": "SPARK",
+   "name": "SPARK",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.688e-09,
+   "mcap_usd": 3.0,
+   "liquidity_usd": 4.22,
    "created_at": "2026-11-06 05:24:51",
-   "audit_id": null,
+   "audit_id": 1058,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=8Q5FLYVt9SLgnCV4bumS1BcAopqzaZW6a3aYKHespump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T05:24:53+00:00"
+ "generated_at": "2026-11-06T05:25:55+00:00"
 }
