@@ -3,20 +3,40 @@
  "version": 1,
  "data": [
   {
+   "id": 969,
+   "mint": "BgJaJZXLwCCQ7ooV1WNJoWdTzHLrFDu3DgDbziw3pump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-06 02:19:56",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=BgJaJZXLwCCQ7ooV1WNJoWdTzHLrFDu3DgDbziw3pump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 968,
    "mint": "CkQamF6TpKcWoE9J6JSBPhsqHNkdNnZQRRktb9Jdpump",
    "symbol": "GTA6",
    "name": "GTA VI",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 0.0001038,
    "mcap_usd": 103795.0,
    "liquidity_usd": 24065.79,
    "created_at": "2026-11-06 02:18:09",
    "audit_id": 973,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.75,
    "coin_url": "https://fomo.family/coin?address=CkQamF6TpKcWoE9J6JSBPhsqHNkdNnZQRRktb9Jdpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
@@ -42,10 +62,29 @@
     "6": {
      "name": "activity",
      "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.88/4; rug risk 0.84. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=partial; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 02:19:32"
+   }
   },
   {
    "id": 967,
@@ -3118,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-06 00:41:47"
    }
-  },
-  {
-   "id": 919,
-   "mint": "BCxTfpfWmzfMKqUVAogUG37jdmrEkHtNv5d37bJrpump",
-   "symbol": "MrBeast",
-   "name": "MrBeast",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 0.0001051,
-   "mcap_usd": 105113.0,
-   "liquidity_usd": 24251.28,
-   "created_at": "2026-11-06 00:39:32",
-   "audit_id": 924,
-   "audit_passed": 1,
-   "audit_score": 0.75,
-   "coin_url": "https://fomo.family/coin?address=BCxTfpfWmzfMKqUVAogUG37jdmrEkHtNv5d37bJrpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.98,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.84/4; rug risk 0.85. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 00:40:54"
-   }
   }
  ],
- "generated_at": "2026-11-06T02:19:19+00:00"
+ "generated_at": "2026-11-06T02:20:20+00:00"
 }
