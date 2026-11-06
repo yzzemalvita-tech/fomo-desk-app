@@ -5,22 +5,66 @@
   {
    "id": 950,
    "mint": "HMvrcMb4GUu7Zp3uPovZM9BH5bFTssFT8EHu9eFhpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "SHADOW",
+   "name": "THE BAGWORKER",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 2.605e-05,
+   "mcap_usd": 26021.0,
+   "liquidity_usd": 11297.98,
    "created_at": "2026-11-06 01:35:44",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 955,
+   "audit_passed": 1,
+   "audit_score": 0.625,
    "coin_url": "https://fomo.family/coin?address=HMvrcMb4GUu7Zp3uPovZM9BH5bFTssFT8EHu9eFhpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.95/4; rug risk 0.69. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 01:37:06"
+   }
   },
   {
    "id": 949,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T01:36:19+00:00"
+ "generated_at": "2026-11-06T01:37:21+00:00"
 }
