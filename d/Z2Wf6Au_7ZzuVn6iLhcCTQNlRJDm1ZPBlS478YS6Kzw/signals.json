@@ -5,20 +5,45 @@
   {
    "id": 1575,
    "mint": "BXxQ6qv2YmY4ELpY9LrvxHPxZNpsQNKz4755rULspump",
-   "symbol": null,
-   "name": null,
+   "symbol": "BetOnBlak",
+   "name": "BetOnBlack",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 2.033e-08,
+   "mcap_usd": 41.0,
+   "liquidity_usd": 16.05,
    "created_at": "2026-11-06 22:12:57",
-   "audit_id": null,
+   "audit_id": 1580,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/BXxQ6qv2YmY4ELpY9LrvxHPxZNpsQNKz4755rULspump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T22:13:08+00:00"
+ "generated_at": "2026-11-06T22:14:10+00:00"
 }
