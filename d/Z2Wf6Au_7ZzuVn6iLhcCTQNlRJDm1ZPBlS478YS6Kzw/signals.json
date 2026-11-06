@@ -5,20 +5,45 @@
   {
    "id": 1187,
    "mint": "4PUDrs1H1eTErxyD7mBFEWftMg9KAACguV3exe3mpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "CHILLAKIN",
+   "name": "CHILLAKIN",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.465e-05,
+   "mcap_usd": 44603.0,
+   "liquidity_usd": 15257.92,
    "created_at": "2026-11-06 11:13:00",
-   "audit_id": null,
+   "audit_id": 1192,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=4PUDrs1H1eTErxyD7mBFEWftMg9KAACguV3exe3mpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T11:13:01+00:00"
+ "generated_at": "2026-11-06T11:14:03+00:00"
 }
