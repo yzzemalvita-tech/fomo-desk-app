@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 967,
-   "mint": "GcZp2vCtpradnyriZ75ME1jsf8xqVFcA2A6pJKbypump",
+   "id": 968,
+   "mint": "CkQamF6TpKcWoE9J6JSBPhsqHNkdNnZQRRktb9Jdpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,12 +13,57 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-06 02:17:11",
+   "created_at": "2026-11-06 02:18:09",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=GcZp2vCtpradnyriZ75ME1jsf8xqVFcA2A6pJKbypump&chainId=1399811149&r=savipww&source=share_link",
+   "coin_url": "https://fomo.family/coin?address=CkQamF6TpKcWoE9J6JSBPhsqHNkdNnZQRRktb9Jdpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 967,
+   "mint": "GcZp2vCtpradnyriZ75ME1jsf8xqVFcA2A6pJKbypump",
+   "symbol": "LaMisery",
+   "name": "La Misery",
+   "source": "pumpportal_migration",
+   "status": "auditing",
+   "mode": "PAPER",
+   "price_usd": 3.437e-07,
+   "mcap_usd": 688.0,
+   "liquidity_usd": 230.15,
+   "created_at": "2026-11-06 02:17:11",
+   "audit_id": 972,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=GcZp2vCtpradnyriZ75ME1jsf8xqVFcA2A6pJKbypump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3093,71 +3138,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-06 00:40:54"
    }
-  },
-  {
-   "id": 918,
-   "mint": "E9EGEhJK4BeMxCfCaHawbE2RXLLLXkzTDNrSAkNEpump",
-   "symbol": "LMC",
-   "name": "Laughing Monkey Coin",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 4.271e-08,
-   "mcap_usd": 85.0,
-   "liquidity_usd": 57.88,
-   "created_at": "2026-11-06 00:38:22",
-   "audit_id": 923,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://fomo.family/coin?address=E9EGEhJK4BeMxCfCaHawbE2RXLLLXkzTDNrSAkNEpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/17 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 00:39:43"
-   }
   }
  ],
- "generated_at": "2026-11-06T02:17:15+00:00"
+ "generated_at": "2026-11-06T02:18:17+00:00"
 }
