@@ -3,6 +3,46 @@
  "version": 1,
  "data": [
   {
+   "id": 1183,
+   "mint": "G9iZw3g9TFvuGt9Zt2QogETMoGN4VBbhNMfJvWsVpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-06 10:58:35",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=G9iZw3g9TFvuGt9Zt2QogETMoGN4VBbhNMfJvWsVpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 1182,
+   "mint": "585pqVkjNkaBi3GwygqSyXDfKVaBcx3LWuiiXcW7pump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-06 10:58:09",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=585pqVkjNkaBi3GwygqSyXDfKVaBcx3LWuiiXcW7pump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 1181,
    "mint": "AQibLgUQpm2maL2MB32EEBPmK8mxPTdobtKxixaZpump",
    "symbol": "kfc",
@@ -3073,135 +3113,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-06 09:07:04"
    }
-  },
-  {
-   "id": 1133,
-   "mint": "597Q77v8xbKZUTXG3P2Waw2zE5rQB8iLxGx8U7Wpump",
-   "symbol": "PCHARGE",
-   "name": "Purr Charge",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 0.0001066,
-   "mcap_usd": 106595.0,
-   "liquidity_usd": 24355.72,
-   "created_at": "2026-11-06 09:04:06",
-   "audit_id": 1138,
-   "audit_passed": 1,
-   "audit_score": 0.625,
-   "coin_url": "https://fomo.family/coin?address=597Q77v8xbKZUTXG3P2Waw2zE5rQB8iLxGx8U7Wpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "warn"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.96,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.03 / PASS 0.97); quality 1.08/4; rug risk 0.62. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 09:05:28"
-   }
-  },
-  {
-   "id": 1132,
-   "mint": "FLuENAjNzsYZDdcHqbtMsWfhhSHB31irPheJkJespump",
-   "symbol": "Capiboo",
-   "name": "Capiboo",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 4.266e-05,
-   "mcap_usd": 42667.0,
-   "liquidity_usd": 14818.66,
-   "created_at": "2026-11-06 09:02:57",
-   "audit_id": 1137,
-   "audit_passed": 1,
-   "audit_score": 0.625,
-   "coin_url": "https://fomo.family/coin?address=FLuENAjNzsYZDdcHqbtMsWfhhSHB31irPheJkJespump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "2 bundled \u00b7 3/20 checked",
-    "bundled_pct": 10.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.41/4; rug risk 0.89. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 09:04:23"
-   }
   }
  ],
- "generated_at": "2026-11-06T10:55:37+00:00"
+ "generated_at": "2026-11-06T10:58:41+00:00"
 }
