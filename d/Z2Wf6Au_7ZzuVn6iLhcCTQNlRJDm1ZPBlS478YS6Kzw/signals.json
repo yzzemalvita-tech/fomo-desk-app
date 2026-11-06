@@ -8,15 +8,15 @@
    "symbol": "$GBIT \ufffd",
    "name": "GoldBit",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 2.474e-08,
    "mcap_usd": 49.0,
    "liquidity_usd": 10.16,
    "created_at": "2026-11-06 19:20:22",
    "audit_id": 1458,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/Di4iAmK8d2DGp6XcSCrY3dD9rt9dHTA4Gt5a43m7pump",
    "layers": {
     "1": {
@@ -42,10 +42,29 @@
     "6": {
      "name": "activity",
      "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None \u00b7 10/18 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 19:21:51"
+   }
   },
   {
    "id": 1452,
@@ -3180,5 +3199,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T19:21:38+00:00"
+ "generated_at": "2026-11-06T19:22:40+00:00"
 }
