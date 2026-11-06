@@ -5,40 +5,90 @@
   {
    "id": 1061,
    "mint": "GwDf3exuTfLiNFptrfCJP8X65scu7KyJ8kV5HmBEpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "NORTHKOREA",
+   "name": "BINANCE HACK",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 2.15e-08,
+   "mcap_usd": 43.0,
+   "liquidity_usd": 79.46,
    "created_at": "2026-11-06 05:44:21",
-   "audit_id": null,
+   "audit_id": 1066,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=GwDf3exuTfLiNFptrfCJP8X65scu7KyJ8kV5HmBEpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 1060,
    "mint": "AqgiqQfr4LEUkEehtjxA2tatLYQym5Y9ykQ9aJwcpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "GTA 6 Coin",
+   "name": "GTA6",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.000106,
+   "mcap_usd": 106015.0,
+   "liquidity_usd": 24247.38,
    "created_at": "2026-11-06 05:44:08",
-   "audit_id": null,
+   "audit_id": 1065,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=AqgiqQfr4LEUkEehtjxA2tatLYQym5Y9ykQ9aJwcpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3115,5 +3165,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T05:44:21+00:00"
+ "generated_at": "2026-11-06T05:45:23+00:00"
 }
