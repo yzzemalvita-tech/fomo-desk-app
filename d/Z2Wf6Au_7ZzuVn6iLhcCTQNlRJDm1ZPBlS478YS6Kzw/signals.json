@@ -5,20 +5,45 @@
   {
    "id": 1588,
    "mint": "CnjVAiv775y11gXuKapM2uxJM1yfBM75MP3BPwFnpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "$GTA6",
+   "name": "GTA6",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 7.727e-09,
+   "mcap_usd": 15.0,
+   "liquidity_usd": 10.52,
    "created_at": "2026-11-06 22:38:46",
-   "audit_id": null,
+   "audit_id": 1593,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/CnjVAiv775y11gXuKapM2uxJM1yfBM75MP3BPwFnpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T22:38:47+00:00"
+ "generated_at": "2026-11-06T22:39:49+00:00"
 }
