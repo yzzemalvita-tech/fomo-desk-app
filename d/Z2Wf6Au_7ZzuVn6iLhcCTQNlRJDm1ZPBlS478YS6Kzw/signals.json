@@ -5,42 +5,111 @@
   {
    "id": 975,
    "mint": "F3LhKiBUH5mjaEkuUyPrSDJvUdukEJLubqcemnHFpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "TOAD",
+   "name": "The Toad Cat",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.641e-06,
+   "mcap_usd": 9284.0,
+   "liquidity_usd": 1890.15,
    "created_at": "2026-11-06 02:31:35",
-   "audit_id": null,
+   "audit_id": 980,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=F3LhKiBUH5mjaEkuUyPrSDJvUdukEJLubqcemnHFpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 974,
    "mint": "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "AMD",
+   "name": "A Meme Dacity",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001438,
+   "mcap_usd": 143798.0,
+   "liquidity_usd": 28802.05,
    "created_at": "2026-11-06 02:31:01",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 979,
+   "audit_passed": 1,
+   "audit_score": 0.75,
    "coin_url": "https://fomo.family/coin?address=oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "3 bundled \u00b7 3/20 checked",
+    "bundled_pct": 15.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 1.30/4; rug risk 0.64. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=pass; L7_bundles=partial; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 02:32:25"
+   }
   },
   {
    "id": 973,
@@ -3115,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T02:31:38+00:00"
+ "generated_at": "2026-11-06T02:32:40+00:00"
 }
