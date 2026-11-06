@@ -72,15 +72,15 @@
    "symbol": "USDC",
    "name": "USD Coin",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 1.00017,
    "mcap_usd": 70620199019.0,
    "liquidity_usd": 1594013.9,
    "created_at": "2026-11-06 08:28:23",
    "audit_id": 1128,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 0,
+   "audit_score": 0.375,
    "coin_url": "https://fomo.family/coin?address=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
@@ -110,10 +110,21 @@
     "7": {
      "name": "bundles",
      "result": "error"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
    "bundles": null,
-   "verdict": null
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L2_mint_authority, L3_freeze_authority",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 08:31:35"
+   }
   },
   {
    "id": 1122,
@@ -3188,5 +3199,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T08:31:09+00:00"
+ "generated_at": "2026-11-06T08:32:11+00:00"
 }
