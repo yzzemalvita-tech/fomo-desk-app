@@ -8,15 +8,15 @@
    "symbol": "Gemini",
    "name": "Google Gemini",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 0.000131,
    "mcap_usd": 130975.0,
    "liquidity_usd": 27254.02,
    "created_at": "2026-11-06 01:26:56",
    "audit_id": 952,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.75,
    "coin_url": "https://fomo.family/coin?address=ChcAVXpMiubDhwzyHYjR7no4QR4MgkqhCZtduMCLpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
@@ -42,10 +42,29 @@
     "6": {
      "name": "activity",
      "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "warn"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None \u00b7 4/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.6,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.27 / PASS 0.73); quality 1.79/4; rug risk 0.49. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=pass; L7_bundles=partial; L8_holders=warn",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 01:28:20"
+   }
   },
   {
    "id": 946,
@@ -53,15 +72,15 @@
    "symbol": "SHADOW",
    "name": "THE BAGWORKER",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 9.331e-05,
    "mcap_usd": 93140.0,
    "liquidity_usd": 22945.71,
    "created_at": "2026-11-06 01:26:45",
    "audit_id": 951,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.75,
    "coin_url": "https://fomo.family/coin?address=M1biEJsfuZBTmTjHRqziTASP51dUhjSHrB5rDjPpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {
     "1": {
@@ -91,6 +110,10 @@
     "7": {
      "name": "bundles",
      "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "warn"
     }
    },
    "bundles": {
@@ -98,7 +121,14 @@
     "bundled_pct": 0.0,
     "partial": 1
    },
-   "verdict": null
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.94,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.04 / PASS 0.96); quality 1.23/4; rug risk 0.76. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=partial; L8_holders=warn",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 01:28:12"
+   }
   },
   {
    "id": 945,
@@ -3173,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T01:28:08+00:00"
+ "generated_at": "2026-11-06T01:29:10+00:00"
 }
