@@ -5,22 +5,66 @@
   {
    "id": 1308,
    "mint": "9ZtuW8JzjCPNirmhKne2EnWknTj7wjv7k4cRaFEhpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "RECEIPTS",
+   "name": "Receipts",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.183e-05,
+   "mcap_usd": 11812.0,
+   "liquidity_usd": 7144.57,
    "created_at": "2026-11-06 15:44:09",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1313,
+   "audit_passed": 1,
+   "audit_score": 0.875,
    "coin_url": "https://pump.fun/coin/9ZtuW8JzjCPNirmhKne2EnWknTj7wjv7k4cRaFEhpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "4 bundled \u00b7 10/20 checked",
+    "bundled_pct": 20.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.97,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.02 / PASS 0.98); quality 0.87/4; rug risk 0.76. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 15:45:32"
+   }
   },
   {
    "id": 1307,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T15:44:46+00:00"
+ "generated_at": "2026-11-06T15:45:48+00:00"
 }
