@@ -5,20 +5,45 @@
   {
    "id": 1050,
    "mint": "72aU7E7CEMbmcBKHJAKVieb8SEwKiWNBpEu5JkMMpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "FORKYU",
+   "name": "Forkyu",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 5.826e-05,
+   "mcap_usd": 58187.0,
+   "liquidity_usd": 17549.02,
    "created_at": "2026-11-06 05:12:29",
-   "audit_id": null,
+   "audit_id": 1055,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=72aU7E7CEMbmcBKHJAKVieb8SEwKiWNBpEu5JkMMpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T05:12:39+00:00"
+ "generated_at": "2026-11-06T05:13:41+00:00"
 }
