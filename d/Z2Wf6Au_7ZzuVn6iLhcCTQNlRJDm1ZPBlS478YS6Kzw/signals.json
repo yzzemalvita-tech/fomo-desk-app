@@ -5,20 +5,45 @@
   {
    "id": 1152,
    "mint": "FNp2Hit1bpYfskkW2CaWbW9tTVis4wb3qMjEZ8E4pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "UK",
+   "name": "United Knockers",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
+   "price_usd": 3.314e-05,
+   "mcap_usd": 33099.0,
    "liquidity_usd": null,
    "created_at": "2026-11-06 10:02:07",
-   "audit_id": null,
+   "audit_id": 1157,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=FNp2Hit1bpYfskkW2CaWbW9tTVis4wb3qMjEZ8E4pump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3155,5 +3180,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T10:02:14+00:00"
+ "generated_at": "2026-11-06T10:03:16+00:00"
 }
