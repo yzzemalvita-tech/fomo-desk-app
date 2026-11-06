@@ -5,40 +5,70 @@
   {
    "id": 1574,
    "mint": "gwN3emBPQEA9hpofKsjF4ci3MrCS6D5NkpQvJrepump",
-   "symbol": null,
-   "name": null,
+   "symbol": "AMM",
+   "name": "Automated Milkers Machine",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.089e-05,
+   "mcap_usd": 40816.0,
+   "liquidity_usd": 14546.07,
    "created_at": "2026-11-06 22:11:02",
-   "audit_id": null,
+   "audit_id": 1579,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/gwN3emBPQEA9hpofKsjF4ci3MrCS6D5NkpQvJrepump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 1573,
    "mint": "5xbrc25zJmvcsqxWJ2uefeJjUiWkZ8ezKCKGK1NFpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "BROKE",
+   "name": "Broke Again",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.716e-08,
+   "mcap_usd": 94.0,
+   "liquidity_usd": 36.68,
    "created_at": "2026-11-06 22:10:56",
-   "audit_id": null,
+   "audit_id": 1578,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/5xbrc25zJmvcsqxWJ2uefeJjUiWkZ8ezKCKGK1NFpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3115,5 +3145,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T22:11:05+00:00"
+ "generated_at": "2026-11-06T22:12:07+00:00"
 }
