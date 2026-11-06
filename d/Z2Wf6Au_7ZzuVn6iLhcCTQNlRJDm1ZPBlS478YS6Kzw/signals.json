@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 999,
+   "mint": "GJ16keG36kFvKzQPK8JrZFx5scb4NDeHWrdKgn6Xpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-06 03:19:14",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=GJ16keG36kFvKzQPK8JrZFx5scb4NDeHWrdKgn6Xpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 998,
    "mint": "Dj9PoVgXf5bnhaDc1RMPzQjutPupFQxBmVsYf1Kfpump",
    "symbol": "SALONA",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-06 01:37:06"
    }
-  },
-  {
-   "id": 949,
-   "mint": "7wE17VifYPgK42xDjeqthzhje6D69ib8Dq2XfyFQpump",
-   "symbol": "STARE",
-   "name": "1000 Yard Stare",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 2.307e-05,
-   "mcap_usd": 23078.0,
-   "liquidity_usd": 10561.52,
-   "created_at": "2026-11-06 01:34:57",
-   "audit_id": 954,
-   "audit_passed": 1,
-   "audit_score": 1.0,
-   "coin_url": "https://fomo.family/coin?address=7wE17VifYPgK42xDjeqthzhje6D69ib8Dq2XfyFQpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "WATCH",
-    "confidence": 0.79,
-    "size_sol": null,
-    "reasoning": "Jev: WATCH (P BUY 0.10 / WATCH 0.86 / PASS 0.04); quality 2.29/4; rug risk 0.17. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 01:36:19"
-   }
   }
  ],
- "generated_at": "2026-11-06T03:18:50+00:00"
+ "generated_at": "2026-11-06T03:19:52+00:00"
 }
