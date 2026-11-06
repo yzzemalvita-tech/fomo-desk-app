@@ -3,6 +3,51 @@
  "version": 1,
  "data": [
   {
+   "id": 1076,
+   "mint": "6NRk3Tp8KSLiak7oNfw5wcBVybJ9kWfAwzASdWz5pump",
+   "symbol": "xGptAi",
+   "name": "Artificial Intelligence GPT",
+   "source": "pumpportal_migration",
+   "status": "auditing",
+   "mode": "PAPER",
+   "price_usd": 2.546e-07,
+   "mcap_usd": 259.0,
+   "liquidity_usd": 103.38,
+   "created_at": "2026-11-06 06:24:16",
+   "audit_id": 1081,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=6NRk3Tp8KSLiak7oNfw5wcBVybJ9kWfAwzASdWz5pump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    }
+   },
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 1075,
    "mint": "EDhr5RayKDCTuA6kWMD4ppmwXsPpurZ8JDm5Q9Jkpump",
    "symbol": "SOXL",
@@ -3137,71 +3182,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-06 04:21:16"
    }
-  },
-  {
-   "id": 1026,
-   "mint": "FzTKun7HZds4mnx1sgayLNjnTyM9AjG6X16KGNZepump",
-   "symbol": "token",
-   "name": "token",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 3.818e-05,
-   "mcap_usd": 38126.0,
-   "liquidity_usd": 13968.6,
-   "created_at": "2026-11-06 04:17:45",
-   "audit_id": 1031,
-   "audit_passed": 1,
-   "audit_score": 0.875,
-   "coin_url": "https://fomo.family/coin?address=FzTKun7HZds4mnx1sgayLNjnTyM9AjG6X16KGNZepump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "WATCH",
-    "confidence": 0.86,
-    "size_sol": null,
-    "reasoning": "Jev: WATCH (P BUY 0.06 / WATCH 0.91 / PASS 0.03); quality 2.50/4; rug risk 0.18. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 04:19:07"
-   }
   }
  ],
- "generated_at": "2026-11-06T06:18:10+00:00"
+ "generated_at": "2026-11-06T06:25:17+00:00"
 }
