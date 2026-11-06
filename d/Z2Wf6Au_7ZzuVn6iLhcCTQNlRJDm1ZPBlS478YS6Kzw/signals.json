@@ -5,22 +5,66 @@
   {
    "id": 1352,
    "mint": "A9X187z7tuARePU3jszX5kKXgviPADQjA2uyvpHspump",
-   "symbol": null,
-   "name": null,
+   "symbol": "CORNE",
+   "name": "Cornecoin",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.331e-05,
+   "mcap_usd": 33243.0,
+   "liquidity_usd": 12968.32,
    "created_at": "2026-11-06 16:40:41",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1357,
+   "audit_passed": 1,
+   "audit_score": 0.875,
    "coin_url": "https://pump.fun/coin/A9X187z7tuARePU3jszX5kKXgviPADQjA2uyvpHspump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "2 bundled \u00b7 10/20 checked",
+    "bundled_pct": 10.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.74,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.00 / WATCH 0.83 / PASS 0.17); quality 2.28/4; rug risk 0.20. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 16:42:04"
+   }
   },
   {
    "id": 1351,
@@ -3155,5 +3199,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T16:41:14+00:00"
+ "generated_at": "2026-11-06T16:42:16+00:00"
 }
