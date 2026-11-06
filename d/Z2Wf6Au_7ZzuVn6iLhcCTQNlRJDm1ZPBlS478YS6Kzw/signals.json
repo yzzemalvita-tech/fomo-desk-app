@@ -5,20 +5,45 @@
   {
    "id": 1024,
    "mint": "6ueYnQpTbVtubHfdPXApBDZxsNzDK2w6AcujMuuqpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "FERAL",
+   "name": "Feral",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.361e-06,
+   "mcap_usd": 2722.0,
+   "liquidity_usd": 920.78,
    "created_at": "2026-11-06 04:09:58",
-   "audit_id": null,
+   "audit_id": 1029,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=6ueYnQpTbVtubHfdPXApBDZxsNzDK2w6AcujMuuqpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T04:10:07+00:00"
+ "generated_at": "2026-11-06T04:11:08+00:00"
 }
