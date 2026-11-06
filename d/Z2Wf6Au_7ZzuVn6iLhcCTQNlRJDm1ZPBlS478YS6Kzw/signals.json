@@ -5,20 +5,45 @@
   {
    "id": 1249,
    "mint": "E5tPUasqLx6yJiTvXGrfrhjmmBjnSN5yye7QedhTpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "kimchi",
+   "name": "kimchi cat",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
+   "price_usd": 2.577e-07,
+   "mcap_usd": 257.77,
    "liquidity_usd": null,
    "created_at": "2026-11-06 14:02:56",
-   "audit_id": null,
+   "audit_id": 1254,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/E5tPUasqLx6yJiTvXGrfrhjmmBjnSN5yye7QedhTpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T14:03:05+00:00"
+ "generated_at": "2026-11-06T14:04:07+00:00"
 }
