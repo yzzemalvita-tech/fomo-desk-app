@@ -5,20 +5,45 @@
   {
    "id": 1117,
    "mint": "HcwnTXjxPEbtT5WrSzDNf4uVycWuXbsEJRCJWzkPpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "DOGCOIN",
+   "name": "DOGCOIN",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.988e-08,
+   "mcap_usd": 80.0,
+   "liquidity_usd": 45.5,
    "created_at": "2026-11-06 08:14:30",
-   "audit_id": null,
+   "audit_id": 1122,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=HcwnTXjxPEbtT5WrSzDNf4uVycWuXbsEJRCJWzkPpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T08:14:45+00:00"
+ "generated_at": "2026-11-06T08:15:47+00:00"
 }
