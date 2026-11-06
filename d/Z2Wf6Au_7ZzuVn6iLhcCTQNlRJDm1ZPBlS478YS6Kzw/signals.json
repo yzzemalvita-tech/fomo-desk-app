@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 927,
+   "mint": "Fr7SAPhzaWePWmF7ve8DYBMBXuEtpjHdj5J6EvWF7GZH",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-06 00:50:02",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://fomo.family/coin?address=Fr7SAPhzaWePWmF7ve8DYBMBXuEtpjHdj5J6EvWF7GZH&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 926,
    "mint": "ButcMEvKrV4teb6e7vBLVqBGtyyPG26BBMH6Ys2fpump",
    "symbol": "401G",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-05 23:08:38"
    }
-  },
-  {
-   "id": 877,
-   "mint": "HBeA4xbYXqqdvUqbxMpZgmweAtgxEAabz6oVEtspump",
-   "symbol": "HYDRA",
-   "name": "\ud83d\udc09 Chaos Rage Hydra",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 5.611e-08,
-   "mcap_usd": 112.0,
-   "liquidity_usd": 87.88,
-   "created_at": "2026-11-05 23:05:54",
-   "audit_id": 882,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://fomo.family/coin?address=HBeA4xbYXqqdvUqbxMpZgmweAtgxEAabz6oVEtspump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "2 bundled \u00b7 11/14 checked",
-    "bundled_pct": 14.3,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-05 23:07:15"
-   }
   }
  ],
- "generated_at": "2026-11-06T00:48:08+00:00"
+ "generated_at": "2026-11-06T00:50:10+00:00"
 }
