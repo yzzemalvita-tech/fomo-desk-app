@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 1461,
-   "mint": "21stRRqNK7y7M6XUGYVTkYf3gqHt3ekfqCtawkjZpump",
+   "id": 1462,
+   "mint": "2LQjvtLrPFZhnCfV3EbpPJkH6a6UNZAEEAsJk6gXpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,12 +13,57 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-06 19:30:48",
+   "created_at": "2026-11-06 19:31:33",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/21stRRqNK7y7M6XUGYVTkYf3gqHt3ekfqCtawkjZpump",
+   "coin_url": "https://pump.fun/coin/2LQjvtLrPFZhnCfV3EbpPJkH6a6UNZAEEAsJk6gXpump",
    "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 1461,
+   "mint": "21stRRqNK7y7M6XUGYVTkYf3gqHt3ekfqCtawkjZpump",
+   "symbol": "Fox",
+   "name": "Megan Fox",
+   "source": "pumpportal_migration",
+   "status": "auditing",
+   "mode": "PAPER",
+   "price_usd": 2.419e-09,
+   "mcap_usd": 5.0,
+   "liquidity_usd": 8.03,
+   "created_at": "2026-11-06 19:30:48",
+   "audit_id": 1466,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/21stRRqNK7y7M6XUGYVTkYf3gqHt3ekfqCtawkjZpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3089,71 +3134,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-06 18:19:28"
    }
-  },
-  {
-   "id": 1412,
-   "mint": "Xeiy83eHbh7ctSTQ1pZBxsk5SaTFPPhfH1mvQCtpump",
-   "symbol": "XQC",
-   "name": "JUST BOND xQc",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 2.754e-09,
-   "mcap_usd": 6.0,
-   "liquidity_usd": 3.4,
-   "created_at": "2026-11-06 18:16:42",
-   "audit_id": 1417,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/Xeiy83eHbh7ctSTQ1pZBxsk5SaTFPPhfH1mvQCtpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 0/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 18:18:07"
-   }
   }
  ],
- "generated_at": "2026-11-06T19:30:52+00:00"
+ "generated_at": "2026-11-06T19:31:54+00:00"
 }
