@@ -5,20 +5,45 @@
   {
    "id": 1137,
    "mint": "4UQTMrvYxzUgRuqYhXRfoyDMEo1aNr5Ds4kELP5kpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "GTA6",
+   "name": "GTA VI",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001018,
+   "mcap_usd": 101867.0,
+   "liquidity_usd": 23822.81,
    "created_at": "2026-11-06 09:16:07",
-   "audit_id": null,
+   "audit_id": 1142,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=4UQTMrvYxzUgRuqYhXRfoyDMEo1aNr5Ds4kELP5kpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3155,5 +3180,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T09:16:10+00:00"
+ "generated_at": "2026-11-06T09:17:11+00:00"
 }
