@@ -5,20 +5,45 @@
   {
    "id": 1453,
    "mint": "Di4iAmK8d2DGp6XcSCrY3dD9rt9dHTA4Gt5a43m7pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "$GBIT \ufffd",
+   "name": "GoldBit",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 2.474e-08,
+   "mcap_usd": 49.0,
+   "liquidity_usd": 10.16,
    "created_at": "2026-11-06 19:20:22",
-   "audit_id": null,
+   "audit_id": 1458,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/Di4iAmK8d2DGp6XcSCrY3dD9rt9dHTA4Gt5a43m7pump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3155,5 +3180,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T19:20:36+00:00"
+ "generated_at": "2026-11-06T19:21:38+00:00"
 }
