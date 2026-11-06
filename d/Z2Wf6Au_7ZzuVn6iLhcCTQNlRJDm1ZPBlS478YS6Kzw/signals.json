@@ -25,40 +25,90 @@
   {
    "id": 1426,
    "mint": "6x6c6BesZpnGeB7QeFNAuGgySWHDwwk7GegHumtYpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Trump",
+   "name": "Trump Coin",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.00011,
+   "mcap_usd": 109988.0,
+   "liquidity_usd": 24859.68,
    "created_at": "2026-11-06 18:44:23",
-   "audit_id": null,
+   "audit_id": 1431,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/6x6c6BesZpnGeB7QeFNAuGgySWHDwwk7GegHumtYpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 1425,
    "mint": "FATj8hEPz5mTBTYiBgsMsiAB1MW8Lt9TXBTUZ26Tpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "DOZEFOX",
+   "name": "Doze Fox",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
+   "price_usd": 3.156e-05,
+   "mcap_usd": 31567.35,
    "liquidity_usd": null,
    "created_at": "2026-11-06 18:44:22",
-   "audit_id": null,
+   "audit_id": 1430,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/FATj8hEPz5mTBTYiBgsMsiAB1MW8Lt9TXBTUZ26Tpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3067,5 +3117,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T18:44:38+00:00"
+ "generated_at": "2026-11-06T18:45:40+00:00"
 }
