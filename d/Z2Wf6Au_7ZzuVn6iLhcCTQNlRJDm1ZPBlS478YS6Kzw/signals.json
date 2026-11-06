@@ -5,42 +5,111 @@
   {
    "id": 1210,
    "mint": "pzg8VPApNZC3twxegqCFzAevxQEKBiGTtB3cgVtpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "GTA 6 Coin",
+   "name": "GTA6",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001098,
+   "mcap_usd": 109787.0,
+   "liquidity_usd": 24845.85,
    "created_at": "2026-11-06 12:06:08",
-   "audit_id": null,
+   "audit_id": 1215,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/pzg8VPApNZC3twxegqCFzAevxQEKBiGTtB3cgVtpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 1209,
    "mint": "M3EZcEJABTFQLsHZ3znBgeD7VWYtejhQLdJ1NYmpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "USOE",
+   "name": "USOE",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 2.807e-06,
+   "mcap_usd": 2807.0,
+   "liquidity_usd": 2670.02,
    "created_at": "2026-11-06 12:05:50",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1214,
+   "audit_passed": 0,
+   "audit_score": 0.625,
    "coin_url": "https://pump.fun/coin/M3EZcEJABTFQLsHZ3znBgeD7VWYtejhQLdJ1NYmpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "2 bundled \u00b7 10/20 checked",
+    "bundled_pct": 10.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 12:07:13"
+   }
   },
   {
    "id": 1208,
@@ -3115,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T12:06:13+00:00"
+ "generated_at": "2026-11-06T12:07:15+00:00"
 }
