@@ -5,20 +5,45 @@
   {
    "id": 970,
    "mint": "wKjmjpWVYaAvU3t4TTeeEqCudo6VQjFi26GzMQUpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Speed",
+   "name": "IShowSpeed",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001093,
+   "mcap_usd": 109295.0,
+   "liquidity_usd": 24737.33,
    "created_at": "2026-11-06 02:21:04",
-   "audit_id": null,
+   "audit_id": 975,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=wKjmjpWVYaAvU3t4TTeeEqCudo6VQjFi26GzMQUpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T02:21:22+00:00"
+ "generated_at": "2026-11-06T02:22:24+00:00"
 }
