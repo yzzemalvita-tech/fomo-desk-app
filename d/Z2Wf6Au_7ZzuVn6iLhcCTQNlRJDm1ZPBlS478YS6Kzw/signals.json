@@ -5,22 +5,66 @@
   {
    "id": 1029,
    "mint": "EC32AoECX3e4wLLTipVT2MjJZ5zgp4WesRnpRY3wpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "AI",
+   "name": "Artificial Inu",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001008,
+   "mcap_usd": 100821.0,
+   "liquidity_usd": 23598.45,
    "created_at": "2026-11-06 04:22:43",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1034,
+   "audit_passed": 1,
+   "audit_score": 0.75,
    "coin_url": "https://fomo.family/coin?address=EC32AoECX3e4wLLTipVT2MjJZ5zgp4WesRnpRY3wpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "4 bundled \u00b7 20/20 checked",
+    "bundled_pct": 20.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 1.12/4; rug risk 0.77. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=pass; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 04:24:06"
+   }
   },
   {
    "id": 1028,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T04:23:28+00:00"
+ "generated_at": "2026-11-06T04:24:29+00:00"
 }
