@@ -5,20 +5,45 @@
   {
    "id": 902,
    "mint": "GyPoNrioGXzY6d7uNHnFnW614Cw3XC1KQv9MVNS5pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "BongoCat",
+   "name": "BongoCat",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.656e-05,
+   "mcap_usd": 36537.0,
+   "liquidity_usd": 13638.62,
    "created_at": "2026-11-06 00:00:49",
-   "audit_id": null,
+   "audit_id": 907,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://fomo.family/coin?address=GyPoNrioGXzY6d7uNHnFnW614Cw3XC1KQv9MVNS5pump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T00:00:57+00:00"
+ "generated_at": "2026-11-06T00:01:59+00:00"
 }
