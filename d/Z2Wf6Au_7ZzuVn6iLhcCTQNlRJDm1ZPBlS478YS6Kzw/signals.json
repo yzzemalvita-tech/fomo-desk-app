@@ -5,20 +5,45 @@
   {
    "id": 1204,
    "mint": "HHBLhmA3GQpVbQS93DLtatG6LwqMwicvoiPKruaJpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "FREAK",
+   "name": "Greek Freak",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 5.132e-09,
+   "mcap_usd": 10.0,
+   "liquidity_usd": 7.87,
    "created_at": "2026-11-06 11:51:50",
-   "audit_id": null,
+   "audit_id": 1209,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/HHBLhmA3GQpVbQS93DLtatG6LwqMwicvoiPKruaJpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T11:51:55+00:00"
+ "generated_at": "2026-11-06T11:52:57+00:00"
 }
