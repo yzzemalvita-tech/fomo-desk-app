@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 997,
-   "mint": "FyVBUKytLkJ6nfyNXsc6KGFegYtLZETu6SPYRKKdpump",
+   "id": 998,
+   "mint": "Dj9PoVgXf5bnhaDc1RMPzQjutPupFQxBmVsYf1Kfpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-06 03:16:17",
+   "created_at": "2026-11-06 03:16:55",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://fomo.family/coin?address=FyVBUKytLkJ6nfyNXsc6KGFegYtLZETu6SPYRKKdpump&chainId=1399811149&r=savipww&source=share_link",
+   "coin_url": "https://fomo.family/coin?address=Dj9PoVgXf5bnhaDc1RMPzQjutPupFQxBmVsYf1Kfpump&chainId=1399811149&r=savipww&source=share_link",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 997,
+   "mint": "FyVBUKytLkJ6nfyNXsc6KGFegYtLZETu6SPYRKKdpump",
+   "symbol": "CYCAP",
+   "name": "Cyber Capy",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 1.284e-08,
+   "mcap_usd": 26.0,
+   "liquidity_usd": 41.46,
+   "created_at": "2026-11-06 03:16:17",
+   "audit_id": 1002,
+   "audit_passed": 0,
+   "audit_score": 0.5,
+   "coin_url": "https://fomo.family/coin?address=FyVBUKytLkJ6nfyNXsc6KGFegYtLZETu6SPYRKKdpump&chainId=1399811149&r=savipww&source=share_link",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/16 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 03:17:38"
+   }
   },
   {
    "id": 996,
@@ -3093,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-06 01:36:19"
    }
-  },
-  {
-   "id": 948,
-   "mint": "m5HMYZjQyTquyfonBm5aEQZm9gjJY5ryeWfVpMJpump",
-   "symbol": "USDP",
-   "name": "USDP",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 0.1296,
-   "mcap_usd": 129610654.0,
-   "liquidity_usd": 903963.05,
-   "created_at": "2026-11-06 01:32:44",
-   "audit_id": 953,
-   "audit_passed": 1,
-   "audit_score": 0.625,
-   "coin_url": "https://fomo.family/coin?address=m5HMYZjQyTquyfonBm5aEQZm9gjJY5ryeWfVpMJpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.47/4; rug risk 0.87. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-06 01:34:05"
-   }
   }
  ],
- "generated_at": "2026-11-06T03:16:47+00:00"
+ "generated_at": "2026-11-06T03:17:48+00:00"
 }
