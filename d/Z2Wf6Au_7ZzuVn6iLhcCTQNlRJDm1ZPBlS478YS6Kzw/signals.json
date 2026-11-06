@@ -5,20 +5,45 @@
   {
    "id": 1222,
    "mint": "pDmJ9fVMET1Vrafaid98XcnvvEiAs3d7nSStznRpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "USPR",
+   "name": "USPR",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.1341,
+   "mcap_usd": 134122259.0,
+   "liquidity_usd": 923314.05,
    "created_at": "2026-11-06 12:41:47",
-   "audit_id": null,
+   "audit_id": 1227,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/pDmJ9fVMET1Vrafaid98XcnvvEiAs3d7nSStznRpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T12:42:06+00:00"
+ "generated_at": "2026-11-06T12:43:08+00:00"
 }
