@@ -9,46 +9,46 @@
     "agent": "Analyst",
     "status": "ok",
     "detail": "verdicts=125 jev_calls=91 queue=0",
-    "last_beat": "2026-11-06 15:55:48",
-    "age_s": 14.6
+    "last_beat": "2026-11-06 15:57:48",
+    "age_s": 18.1
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=125 queue=0 busy=None",
-    "last_beat": "2026-11-06 15:55:49",
-    "age_s": 13.6
+    "detail": "audited=125 queue=0 busy=1314",
+    "last_beat": "2026-11-06 15:57:49",
+    "age_s": 17.1
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=PAPER stats={'429': 4900, 'errors': 2, 'jev_in': 84755, 'jev_out': 6461, 'jev_calls': 91, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 226}",
-    "last_beat": "2026-11-06 15:55:15",
-    "age_s": 47.6
+    "detail": "mode=PAPER stats={'429': 4900, 'errors': 2, 'jev_in': 84755, 'jev_out': 6461, 'jev_calls': 91, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 228}",
+    "last_beat": "2026-11-06 15:57:15",
+    "age_s": 51.1
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=PAPER opened=0 closed=0 live_alerts=0",
-    "last_beat": "2026-11-06 15:55:49",
-    "age_s": 13.6
+    "last_beat": "2026-11-06 15:57:49",
+    "age_s": 17.1
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=1090 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-06 15:55:49",
-    "age_s": 13.6
+    "detail": "checks=1098 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-06 15:57:49",
+    "age_s": 17.1
    },
    {
     "agent": "Scanner",
     "status": "ok",
-    "detail": "seen=140 connected=True reconnects=2",
-    "last_beat": "2026-11-06 15:55:49",
-    "age_s": 13.6
+    "detail": "seen=143 connected=True reconnects=2",
+    "last_beat": "2026-11-06 15:57:49",
+    "age_s": 17.1
    }
   ],
-  "last_update": "2026-11-06 15:55:49"
+  "last_update": "2026-11-06 15:57:49"
  },
- "generated_at": "2026-11-06T15:56:02+00:00"
+ "generated_at": "2026-11-06T15:58:06+00:00"
 }
