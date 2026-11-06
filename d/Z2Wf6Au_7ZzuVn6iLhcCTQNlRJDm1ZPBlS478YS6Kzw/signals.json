@@ -5,20 +5,45 @@
   {
    "id": 1253,
    "mint": "3AmuKnnf7edJEW6MBvZEw8GRF1pfPSHDgkyf97HJpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "MAYHEM",
+   "name": "MAYHEM COIN",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 8.456e-08,
+   "mcap_usd": 169.0,
+   "liquidity_usd": 75.97,
    "created_at": "2026-11-06 14:10:05",
-   "audit_id": null,
+   "audit_id": 1258,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/3AmuKnnf7edJEW6MBvZEw8GRF1pfPSHDgkyf97HJpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T14:10:17+00:00"
+ "generated_at": "2026-11-06T14:11:19+00:00"
 }
