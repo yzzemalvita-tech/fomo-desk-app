@@ -5,22 +5,66 @@
   {
    "id": 998,
    "mint": "Dj9PoVgXf5bnhaDc1RMPzQjutPupFQxBmVsYf1Kfpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "SALONA",
+   "name": "salona",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.22e-05,
+   "mcap_usd": 32179.0,
+   "liquidity_usd": 12773.48,
    "created_at": "2026-11-06 03:16:55",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1003,
+   "audit_passed": 1,
+   "audit_score": 1.0,
    "coin_url": "https://fomo.family/coin?address=Dj9PoVgXf5bnhaDc1RMPzQjutPupFQxBmVsYf1Kfpump&chainId=1399811149&r=savipww&source=share_link",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.82,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.07 / WATCH 0.88 / PASS 0.05); quality 2.56/4; rug risk 0.16. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-06 03:18:16"
+   }
   },
   {
    "id": 997,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T03:17:48+00:00"
+ "generated_at": "2026-11-06T03:18:50+00:00"
 }
