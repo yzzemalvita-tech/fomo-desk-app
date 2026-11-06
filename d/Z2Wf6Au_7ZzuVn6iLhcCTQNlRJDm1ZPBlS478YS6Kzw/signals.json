@@ -5,40 +5,90 @@
   {
    "id": 1498,
    "mint": "CUJvu14xWbRz93NZjt5kgLEhzzgYTgaFactXa4a3pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "USDP",
+   "name": "United States Dividend Program",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0337,
+   "mcap_usd": 33702037.0,
+   "liquidity_usd": 460608.87,
    "created_at": "2026-11-06 20:24:05",
-   "audit_id": null,
+   "audit_id": 1503,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/CUJvu14xWbRz93NZjt5kgLEhzzgYTgaFactXa4a3pump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 1497,
    "mint": "CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD",
-   "symbol": null,
-   "name": null,
+   "symbol": "FUSE",
+   "name": "FloatFuse",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001097,
+   "mcap_usd": 109772.0,
+   "liquidity_usd": 65189.08,
    "created_at": "2026-11-06 20:23:57",
-   "audit_id": null,
+   "audit_id": 1502,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3115,5 +3165,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T20:24:16+00:00"
+ "generated_at": "2026-11-06T20:25:18+00:00"
 }
