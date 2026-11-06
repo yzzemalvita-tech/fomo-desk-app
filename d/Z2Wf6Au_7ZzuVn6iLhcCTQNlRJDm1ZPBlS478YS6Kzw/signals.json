@@ -5,21 +5,54 @@
   {
    "id": 1537,
    "mint": "2NAnvGx9QsDzXTDV5whGCya6r6Mffiqxjxc6CPG4pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "LGHTAI",
+   "name": "Lightning AI",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.141e-08,
+   "mcap_usd": 83.0,
+   "liquidity_usd": 26.97,
    "created_at": "2026-11-06 21:13:20",
-   "audit_id": null,
+   "audit_id": 1542,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/2NAnvGx9QsDzXTDV5whGCya6r6Mffiqxjxc6CPG4pump",
-   "layers": {},
-   "bundles": null,
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 11/11 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
    "verdict": null
   },
   {
@@ -3159,5 +3192,5 @@
    }
   }
  ],
- "generated_at": "2026-11-06T21:13:38+00:00"
+ "generated_at": "2026-11-06T21:14:40+00:00"
 }
