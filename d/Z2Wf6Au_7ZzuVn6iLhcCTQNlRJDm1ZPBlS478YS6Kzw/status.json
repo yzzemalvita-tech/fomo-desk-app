@@ -8,47 +8,47 @@
    {
     "agent": "Analyst",
     "status": "ok",
-    "detail": "verdicts=460 jev_calls=325 queue=0",
-    "last_beat": "2026-11-07 00:17:02",
-    "age_s": 16.9
+    "detail": "verdicts=461 jev_calls=326 queue=0",
+    "last_beat": "2026-11-07 00:19:02",
+    "age_s": 20.5
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=460 queue=0 busy=None",
-    "last_beat": "2026-11-07 00:17:02",
-    "age_s": 16.9
+    "detail": "audited=461 queue=0 busy=None",
+    "last_beat": "2026-11-07 00:19:02",
+    "age_s": 20.5
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=PAPER stats={'429': 18733, 'errors': 3, 'jev_in': 301270, 'jev_out': 23004, 'jev_calls': 324, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 661}",
-    "last_beat": "2026-11-07 00:16:20",
-    "age_s": 58.9
+    "detail": "mode=PAPER stats={'429': 18809, 'errors': 3, 'jev_in': 303138, 'jev_out': 23146, 'jev_calls': 326, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 663}",
+    "last_beat": "2026-11-07 00:19:20",
+    "age_s": 2.5
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=PAPER opened=0 closed=0 live_alerts=0",
-    "last_beat": "2026-11-07 00:17:01",
-    "age_s": 17.9
+    "last_beat": "2026-11-07 00:19:01",
+    "age_s": 21.5
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=3093 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-07 00:17:03",
-    "age_s": 15.9
+    "detail": "checks=3101 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-07 00:19:03",
+    "age_s": 19.5
    },
    {
     "agent": "Scanner",
     "status": "ok",
     "detail": "seen=506 connected=True reconnects=2",
-    "last_beat": "2026-11-07 00:17:04",
-    "age_s": 14.9
+    "last_beat": "2026-11-07 00:19:04",
+    "age_s": 18.5
    }
   ],
-  "last_update": "2026-11-07 00:17:04"
+  "last_update": "2026-11-07 00:19:20"
  },
- "generated_at": "2026-11-07T00:17:18+00:00"
+ "generated_at": "2026-11-07T00:19:22+00:00"
 }
