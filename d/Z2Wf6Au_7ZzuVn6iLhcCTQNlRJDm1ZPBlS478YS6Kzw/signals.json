@@ -5,41 +5,99 @@
   {
    "id": 1648,
    "mint": "C8CiNpmZV5RVJduwprbcik7WVxYvwVT5qK2eKCC6pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Trump",
+   "name": "Trump Coin",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.000106,
+   "mcap_usd": 106031.0,
+   "liquidity_usd": 24356.69,
    "created_at": "2026-11-07 00:15:08",
-   "audit_id": null,
+   "audit_id": 1653,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/C8CiNpmZV5RVJduwprbcik7WVxYvwVT5qK2eKCC6pump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 1647,
    "mint": "GHmJPJRo18pZh2RNSEjvCLA9iTAG85rDXKZdzTxspump",
-   "symbol": null,
-   "name": null,
+   "symbol": "42069",
+   "name": "42069 Coin",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 3.671e-05,
+   "mcap_usd": 36680.0,
+   "liquidity_usd": 13680.17,
    "created_at": "2026-11-07 00:14:52",
-   "audit_id": null,
+   "audit_id": 1652,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/GHmJPJRo18pZh2RNSEjvCLA9iTAG85rDXKZdzTxspump",
-   "layers": {},
-   "bundles": null,
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
    "verdict": null
   },
   {
@@ -3115,5 +3173,5 @@
    }
   }
  ],
- "generated_at": "2026-11-07T00:15:15+00:00"
+ "generated_at": "2026-11-07T00:16:17+00:00"
 }
