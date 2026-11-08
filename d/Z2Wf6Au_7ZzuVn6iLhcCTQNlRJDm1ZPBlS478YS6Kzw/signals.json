@@ -5,22 +5,66 @@
   {
    "id": 1655,
    "mint": "J9SiUiqyBua5bEwJEZPTLk5GnQTmt46Doj4aMpixpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "MAGGIE",
+   "name": "Gargantuan Cat",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 5.593e-08,
+   "mcap_usd": 111.0,
+   "liquidity_usd": 22.06,
    "created_at": "2026-11-08 23:28:11",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1659,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/J9SiUiqyBua5bEwJEZPTLk5GnQTmt46Doj4aMpixpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 9/9 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-08 23:29:16"
+   }
   },
   {
    "id": 1654,
@@ -3115,5 +3159,5 @@
    }
   }
  ],
- "generated_at": "2026-11-08T23:29:02+00:00"
+ "generated_at": "2026-11-08T23:30:04+00:00"
 }
