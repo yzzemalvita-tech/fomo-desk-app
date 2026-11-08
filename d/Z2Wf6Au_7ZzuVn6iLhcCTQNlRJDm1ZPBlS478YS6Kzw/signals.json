@@ -5,20 +5,45 @@
   {
    "id": 1653,
    "mint": "CXz596uKfWb5tkyz5Vh5a9QCKKh38io6hdgGrKKcpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "GTA6KODAK",
+   "name": "GTA6 KODAK BLACK",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
+   "price_usd": 3.616e-05,
+   "mcap_usd": 36165.67,
    "liquidity_usd": null,
    "created_at": "2026-11-08 23:21:39",
-   "audit_id": null,
+   "audit_id": 1657,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/CXz596uKfWb5tkyz5Vh5a9QCKKh38io6hdgGrKKcpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "error"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3115,5 +3140,5 @@
    }
   }
  ],
- "generated_at": "2026-11-08T23:21:51+00:00"
+ "generated_at": "2026-11-08T23:22:54+00:00"
 }
