@@ -8,7 +8,7 @@
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "expired",
    "mode": "PAPER",
    "price_usd": null,
    "mcap_usd": null,
@@ -3159,5 +3159,5 @@
    }
   }
  ],
- "generated_at": "2026-11-07T00:24:29+00:00"
+ "generated_at": "2026-11-08T23:04:24+00:00"
 }
