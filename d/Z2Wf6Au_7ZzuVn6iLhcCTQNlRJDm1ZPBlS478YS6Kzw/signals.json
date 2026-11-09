@@ -5,20 +5,45 @@
   {
    "id": 1819,
    "mint": "P69B1qYvDep8NMtEKXLyyvrFzDtqQNfR7Q9UzZPpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "R.I.P",
+   "name": "RIP TRUMP",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.783e-09,
+   "mcap_usd": 10.0,
+   "liquidity_usd": 12.62,
    "created_at": "2026-11-09 04:53:12",
-   "audit_id": null,
+   "audit_id": 1823,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/P69B1qYvDep8NMtEKXLyyvrFzDtqQNfR7Q9UzZPpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T04:53:13+00:00"
+ "generated_at": "2026-11-09T04:54:15+00:00"
 }
