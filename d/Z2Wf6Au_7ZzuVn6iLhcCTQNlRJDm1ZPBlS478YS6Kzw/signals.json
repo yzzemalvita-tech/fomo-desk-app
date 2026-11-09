@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 1754,
-   "mint": "T8PVfjmAsczCPk5odgScSHbjyywe4QTxSaVPeVoELYS",
+   "id": 1756,
+   "mint": "CPkCGzTuKCm9vLguz2AvRSkb2e2y8KaA3SxJ5Zdhpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,98 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-09 02:39:04",
+   "created_at": "2026-11-09 02:40:49",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/T8PVfjmAsczCPk5odgScSHbjyywe4QTxSaVPeVoELYS",
+   "coin_url": "https://pump.fun/coin/CPkCGzTuKCm9vLguz2AvRSkb2e2y8KaA3SxJ5Zdhpump",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 1755,
+   "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-09 02:40:42",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 1754,
+   "mint": "T8PVfjmAsczCPk5odgScSHbjyywe4QTxSaVPeVoELYS",
+   "symbol": "ELYS",
+   "name": "ELYS.RUN",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 5.112e-05,
+   "mcap_usd": 51071.0,
+   "liquidity_usd": 18047.98,
+   "created_at": "2026-11-09 02:39:04",
+   "audit_id": 1758,
+   "audit_passed": 1,
+   "audit_score": 0.875,
+   "coin_url": "https://pump.fun/coin/T8PVfjmAsczCPk5odgScSHbjyywe4QTxSaVPeVoELYS",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "2 bundled \u00b7 10/20 checked",
+    "bundled_pct": 10.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.8,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.01 / WATCH 0.87 / PASS 0.12); quality 2.38/4; rug risk 0.16. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 02:40:28"
+   }
   },
   {
    "id": 1753,
@@ -3029,135 +3113,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-09 01:03:17"
    }
-  },
-  {
-   "id": 1706,
-   "mint": "CxvF7vLwiYRyCJFWY6ifNk2nXYQtCZ1ZMv4mFE7pump",
-   "symbol": "USAR",
-   "name": "United States Asset Reserve",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 0.005567,
-   "mcap_usd": 5567378.0,
-   "liquidity_usd": 183687.46,
-   "created_at": "2026-11-09 01:01:36",
-   "audit_id": 1710,
-   "audit_passed": 1,
-   "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/CxvF7vLwiYRyCJFWY6ifNk2nXYQtCZ1ZMv4mFE7pump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.66,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.23 / PASS 0.77); quality 1.73/4; rug risk 0.58. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-09 01:02:59"
-   }
-  },
-  {
-   "id": 1705,
-   "mint": "GPzJKW9YTRRxPk8HexkmSLWzms12jbtLJDdSxbxpump",
-   "symbol": "CHIMP",
-   "name": "$CHIMPSHOT",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 6.466e-08,
-   "mcap_usd": 129.0,
-   "liquidity_usd": 64.25,
-   "created_at": "2026-11-09 00:58:12",
-   "audit_id": 1709,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/GPzJKW9YTRRxPk8HexkmSLWzms12jbtLJDdSxbxpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 15/15 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-09 00:59:33"
-   }
   }
  ],
- "generated_at": "2026-11-09T02:39:58+00:00"
+ "generated_at": "2026-11-09T02:41:00+00:00"
 }
