@@ -5,20 +5,45 @@
   {
    "id": 1843,
    "mint": "Dmo4abNBreNZ4GMGE37GhneZkKrLAzk2mprnbYN3pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "GTA 6 Coin",
+   "name": "GTA6",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 9.773e-05,
+   "mcap_usd": 97702.0,
+   "liquidity_usd": 22869.86,
    "created_at": "2026-11-09 13:20:33",
-   "audit_id": null,
+   "audit_id": 1847,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/Dmo4abNBreNZ4GMGE37GhneZkKrLAzk2mprnbYN3pump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T13:20:34+00:00"
+ "generated_at": "2026-11-09T13:21:36+00:00"
 }
