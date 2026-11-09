@@ -5,22 +5,66 @@
   {
    "id": 1775,
    "mint": "HvUrNb4A9BhoRZQz5GyG2xUeAM2rqcAtihnKKEq5pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "ChineseX",
+   "name": "\u725b\u903c",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.059e-08,
+   "mcap_usd": 21.0,
+   "liquidity_usd": 39.51,
    "created_at": "2026-11-09 03:31:22",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1779,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/HvUrNb4A9BhoRZQz5GyG2xUeAM2rqcAtihnKKEq5pump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "pass"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/10 checked",
+    "bundled_pct": 0.0,
+    "partial": 0
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 03:32:24"
+   }
   },
   {
    "id": 1774,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T03:32:09+00:00"
+ "generated_at": "2026-11-09T03:33:10+00:00"
 }
