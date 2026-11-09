@@ -5,42 +5,130 @@
   {
    "id": 1787,
    "mint": "A99zPMTjkMSGTSY37PzL46M7UfQnNwyTHY5aP7t2pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Trump",
+   "name": "Trump Coin",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 9.959e-05,
+   "mcap_usd": 99591.0,
+   "liquidity_usd": 23272.94,
    "created_at": "2026-11-09 03:47:45",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1791,
+   "audit_passed": 1,
+   "audit_score": 0.75,
    "coin_url": "https://pump.fun/coin/A99zPMTjkMSGTSY37PzL46M7UfQnNwyTHY5aP7t2pump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 3/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.00 / PASS 1.00); quality 0.72/4; rug risk 0.86. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=partial; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 03:49:09"
+   }
   },
   {
    "id": 1786,
    "mint": "9VGfxBj4mfX6Aps5jh6vj1Q526vQ7PfSPdGQUnppump",
-   "symbol": null,
-   "name": null,
+   "symbol": "7us08vj83",
+   "name": "sylvester",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.053e-05,
+   "mcap_usd": 40465.0,
+   "liquidity_usd": 14484.7,
    "created_at": "2026-11-09 03:47:34",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1790,
+   "audit_passed": 1,
+   "audit_score": 1.0,
    "coin_url": "https://pump.fun/coin/9VGfxBj4mfX6Aps5jh6vj1Q526vQ7PfSPdGQUnppump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "2 bundled \u00b7 10/20 checked",
+    "bundled_pct": 10.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.76,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.02 / WATCH 0.84 / PASS 0.14); quality 2.77/4; rug risk 0.18. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 03:48:57"
+   }
   },
   {
    "id": 1785,
@@ -3115,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T03:48:33+00:00"
+ "generated_at": "2026-11-09T03:49:35+00:00"
 }
