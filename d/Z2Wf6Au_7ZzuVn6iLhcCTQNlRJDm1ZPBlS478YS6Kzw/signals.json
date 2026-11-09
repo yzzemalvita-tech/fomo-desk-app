@@ -5,20 +5,45 @@
   {
    "id": 1687,
    "mint": "9CW9rNDFWACHcXTacJaZjM8jtL3Mz4Qyc9VRdAu2pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "SCAMCHI",
+   "name": "Scamchi",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.752e-07,
+   "mcap_usd": 475.0,
+   "liquidity_usd": 175.24,
    "created_at": "2026-11-09 00:26:25",
-   "audit_id": null,
+   "audit_id": 1691,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/9CW9rNDFWACHcXTacJaZjM8jtL3Mz4Qyc9VRdAu2pump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "fail"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "fail"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3115,5 +3140,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T00:26:36+00:00"
+ "generated_at": "2026-11-09T00:27:38+00:00"
 }
