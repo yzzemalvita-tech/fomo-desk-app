@@ -5,42 +5,130 @@
   {
    "id": 1714,
    "mint": "f4qrdGWzjHJzzJLM65gNNdrXuiXbag7XUYEjQJPpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "FLOAT",
+   "name": "FLOAT",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001059,
+   "mcap_usd": 105885.0,
+   "liquidity_usd": 23983.5,
    "created_at": "2026-11-09 01:15:24",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1718,
+   "audit_passed": 1,
+   "audit_score": 0.75,
    "coin_url": "https://pump.fun/coin/f4qrdGWzjHJzzJLM65gNNdrXuiXbag7XUYEjQJPpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 2/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.7,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.01 / WATCH 0.80 / PASS 0.19); quality 1.99/4; rug risk 0.33. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=warn; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 01:16:48"
+   }
   },
   {
    "id": 1713,
    "mint": "2DL3Nzf9oFE2BGqc9SMG8uox9FiWsc15RARiA8nqpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "$COO",
+   "name": "RICH PIGEON \ud83d\udc26\ud83d\udcb8",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.353e-09,
+   "mcap_usd": 3.0,
+   "liquidity_usd": 1.79,
    "created_at": "2026-11-09 01:15:07",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1717,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/2DL3Nzf9oFE2BGqc9SMG8uox9FiWsc15RARiA8nqpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/19 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 01:16:31"
+   }
   },
   {
    "id": 1712,
@@ -3115,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T01:15:56+00:00"
+ "generated_at": "2026-11-09T01:16:58+00:00"
 }
