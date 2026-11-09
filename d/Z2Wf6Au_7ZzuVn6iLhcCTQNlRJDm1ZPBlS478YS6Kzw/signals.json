@@ -5,22 +5,66 @@
   {
    "id": 1845,
    "mint": "AA5U5hNETgeqVouYMefdLVvF5edP5jmNujqdSRjtpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "GINGATO",
+   "name": "GINGERGATO",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 4.106e-05,
+   "mcap_usd": 41062.0,
+   "liquidity_usd": 14930.88,
    "created_at": "2026-11-09 13:24:51",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1849,
+   "audit_passed": 1,
+   "audit_score": 0.625,
    "coin_url": "https://pump.fun/coin/AA5U5hNETgeqVouYMefdLVvF5edP5jmNujqdSRjtpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "warn"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 7/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.4,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.40 / PASS 0.60); quality 1.63/4; rug risk 0.47. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=warn; L7_bundles=partial; L8_holders=warn",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 13:26:13"
+   }
   },
   {
    "id": 1844,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T13:25:45+00:00"
+ "generated_at": "2026-11-09T13:26:47+00:00"
 }
