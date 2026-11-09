@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 1700,
-   "mint": "HgGrmd6dsRaeryvDLrs5kN1YZehmkbuCafF43UgQpump",
+   "id": 1701,
+   "mint": "mkmGXy7rYBNSmTqcEDysF1HnVzsNmVwqEcCPeJUpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,34 +13,123 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-09 00:48:58",
+   "created_at": "2026-11-09 00:49:29",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/HgGrmd6dsRaeryvDLrs5kN1YZehmkbuCafF43UgQpump",
+   "coin_url": "https://pump.fun/coin/mkmGXy7rYBNSmTqcEDysF1HnVzsNmVwqEcCPeJUpump",
    "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 1700,
+   "mint": "HgGrmd6dsRaeryvDLrs5kN1YZehmkbuCafF43UgQpump",
+   "symbol": "NVIDIA",
+   "name": "Need Vagina In Digital Assets",
+   "source": "pumpportal_migration",
+   "status": "auditing",
+   "mode": "PAPER",
+   "price_usd": 0.0001221,
+   "mcap_usd": 122068.0,
+   "liquidity_usd": 25908.71,
+   "created_at": "2026-11-09 00:48:58",
+   "audit_id": 1704,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/HgGrmd6dsRaeryvDLrs5kN1YZehmkbuCafF43UgQpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 1699,
    "mint": "AxWd7zsqNmgcPyt8evEzycPAAgfAPNdZh8nToP1bpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "TITTYVERSE",
+   "name": "TITTYVERSE",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001538,
+   "mcap_usd": 153857.0,
+   "liquidity_usd": 29221.59,
    "created_at": "2026-11-09 00:48:22",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1703,
+   "audit_passed": 1,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/AxWd7zsqNmgcPyt8evEzycPAAgfAPNdZh8nToP1bpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "fail"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "10 bundled \u00b7 10/20 checked",
+    "bundled_pct": 50.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.99/4; rug risk 0.71. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=warn; L7_bundles=fail; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 00:49:44"
+   }
   },
   {
    "id": 1698,
@@ -3049,27 +3138,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-08 23:17:35"
    }
-  },
-  {
-   "id": 1651,
-   "mint": "FzmSx4UuG8Jhsrxvyt1xNtk6qFxo7KY4zGwPifKZpump",
-   "symbol": null,
-   "name": null,
-   "source": "pumpportal_migration",
-   "status": "expired",
-   "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
-   "created_at": "2026-11-07 00:24:11",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
-   "coin_url": "https://pump.fun/coin/FzmSx4UuG8Jhsrxvyt1xNtk6qFxo7KY4zGwPifKZpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
   }
  ],
- "generated_at": "2026-11-09T00:49:11+00:00"
+ "generated_at": "2026-11-09T00:50:12+00:00"
 }
