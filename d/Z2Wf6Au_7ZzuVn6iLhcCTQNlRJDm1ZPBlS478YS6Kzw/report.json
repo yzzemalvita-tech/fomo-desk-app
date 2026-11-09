@@ -2,13 +2,10 @@
  "schema": "fomo-desk/report",
  "version": 1,
  "data": {
-  "date_utc": "2026-11-08",
-  "signals": 23,
-  "audited": 23,
-  "verdicts": {
-   "PASS": 20,
-   "WATCH": 3
-  },
+  "date_utc": "2026-11-09",
+  "signals": 0,
+  "audited": 0,
+  "verdicts": {},
   "live_signal_alerts": 0,
   "risk_events": 0,
   "paper": {
@@ -36,5 +33,5 @@
    "source": "https://help.fomo.family/en/articles/14436214-trading-fees-on-fomo"
   }
  },
- "generated_at": "2026-11-08T23:58:52+00:00"
+ "generated_at": "2026-11-09T00:00:55+00:00"
 }
