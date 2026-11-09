@@ -5,20 +5,45 @@
   {
    "id": 1709,
    "mint": "GaHjjYdyatdfBhqeBVduALkMdsWod43y4YeuesrQpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Amazon",
+   "name": "Amazon",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001096,
+   "mcap_usd": 109570.0,
+   "liquidity_usd": 24493.19,
    "created_at": "2026-11-09 01:03:32",
-   "audit_id": null,
+   "audit_id": 1713,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/GaHjjYdyatdfBhqeBVduALkMdsWod43y4YeuesrQpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "warn"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T01:03:38+00:00"
+ "generated_at": "2026-11-09T01:04:40+00:00"
 }
