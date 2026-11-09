@@ -5,20 +5,45 @@
   {
    "id": 1924,
    "mint": "9vQ2nQ8dgts77Ft2VZ6xcKn4XcrzFSX7Me5SvWeZpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Max",
+   "name": "dog Max",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 8.911e-05,
+   "mcap_usd": 89077.0,
+   "liquidity_usd": 22164.09,
    "created_at": "2026-11-09 15:26:14",
-   "audit_id": null,
+   "audit_id": 1928,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/9vQ2nQ8dgts77Ft2VZ6xcKn4XcrzFSX7Me5SvWeZpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T15:26:15+00:00"
+ "generated_at": "2026-11-09T15:27:17+00:00"
 }
