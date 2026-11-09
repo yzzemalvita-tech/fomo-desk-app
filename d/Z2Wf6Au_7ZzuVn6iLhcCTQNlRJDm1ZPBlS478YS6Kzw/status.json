@@ -9,46 +9,46 @@
     "agent": "Analyst",
     "status": "ok",
     "detail": "verdicts=35 jev_calls=31 queue=0",
-    "last_beat": "2026-11-09 14:03:48",
-    "age_s": 2.1
+    "last_beat": "2026-11-09 14:05:48",
+    "age_s": 5.8
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=35 queue=0 busy=None",
-    "last_beat": "2026-11-09 14:03:48",
-    "age_s": 2.1
+    "detail": "audited=35 queue=0 busy=1871",
+    "last_beat": "2026-11-09 14:05:48",
+    "age_s": 5.8
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=PAPER stats={'429': 615, 'errors': 0, 'jev_in': 29117, 'jev_out': 2201, 'jev_calls': 31, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 47}",
-    "last_beat": "2026-11-09 14:03:17",
-    "age_s": 33.1
+    "detail": "mode=PAPER stats={'429': 615, 'errors': 0, 'jev_in': 29117, 'jev_out': 2201, 'jev_calls': 31, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 49}",
+    "last_beat": "2026-11-09 14:05:17",
+    "age_s": 36.8
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=PAPER opened=0 closed=0 live_alerts=0",
-    "last_beat": "2026-11-09 14:03:48",
-    "age_s": 2.1
+    "last_beat": "2026-11-09 14:05:48",
+    "age_s": 5.8
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=214 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-09 14:03:48",
-    "age_s": 2.1
+    "detail": "checks=222 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-09 14:05:48",
+    "age_s": 5.8
    },
    {
     "agent": "Scanner",
     "status": "ok",
-    "detail": "seen=35 connected=True reconnects=0",
-    "last_beat": "2026-11-09 14:03:48",
-    "age_s": 2.1
+    "detail": "seen=36 connected=True reconnects=0",
+    "last_beat": "2026-11-09 14:05:48",
+    "age_s": 5.8
    }
   ],
-  "last_update": "2026-11-09 14:03:48"
+  "last_update": "2026-11-09 14:05:48"
  },
- "generated_at": "2026-11-09T14:03:50+00:00"
+ "generated_at": "2026-11-09T14:05:53+00:00"
 }

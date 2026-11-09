@@ -5,20 +5,45 @@
   {
    "id": 1871,
    "mint": "CoGfYU6kFmV7NekmC13uQuhyQGZ3dqGteKccx2SKpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "MrBeast",
+   "name": "MrBeast",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001086,
+   "mcap_usd": 108605.0,
+   "liquidity_usd": 24205.92,
    "created_at": "2026-11-09 14:04:41",
-   "audit_id": null,
+   "audit_id": 1875,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/CoGfYU6kFmV7NekmC13uQuhyQGZ3dqGteKccx2SKpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T14:04:51+00:00"
+ "generated_at": "2026-11-09T14:05:53+00:00"
 }
