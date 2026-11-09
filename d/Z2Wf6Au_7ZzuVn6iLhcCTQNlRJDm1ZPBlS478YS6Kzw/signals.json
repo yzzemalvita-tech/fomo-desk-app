@@ -5,22 +5,66 @@
   {
    "id": 1686,
    "mint": "FHQkKtzwEWHNsUe32rQBSjfRbSEgDGLGAApMMjwxpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Secretary",
+   "name": "DW",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 2.832e-08,
+   "mcap_usd": 57.0,
+   "liquidity_usd": 11.24,
    "created_at": "2026-11-09 00:23:01",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1690,
+   "audit_passed": 0,
+   "audit_score": 0.5,
    "coin_url": "https://pump.fun/coin/FHQkKtzwEWHNsUe32rQBSjfRbSEgDGLGAApMMjwxpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "2 bundled \u00b7 10/16 checked",
+    "bundled_pct": 12.5,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 1.0,
+    "size_sol": null,
+    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 00:24:25"
+   }
   },
   {
    "id": 1685,
@@ -3115,5 +3159,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T00:23:32+00:00"
+ "generated_at": "2026-11-09T00:24:33+00:00"
 }
