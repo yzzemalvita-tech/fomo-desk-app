@@ -3,6 +3,26 @@
  "version": 1,
  "data": [
   {
+   "id": 1939,
+   "mint": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-09 15:54:55",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 1938,
    "mint": "DkPhfuUz6NBfbQ1ZYdJHnaJXgbFoKWb6jRYxL67Fpump",
    "symbol": "REEM",
@@ -3137,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-09 14:35:27"
    }
-  },
-  {
-   "id": 1889,
-   "mint": "GhSwSSSfXDgZu5Q7f9CzPAkhbfqtamsNKEuhNyAepump",
-   "symbol": "Porsche",
-   "name": "Porsche",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 0.0001261,
-   "mcap_usd": 126048.0,
-   "liquidity_usd": 26315.09,
-   "created_at": "2026-11-09 14:32:43",
-   "audit_id": 1893,
-   "audit_passed": 1,
-   "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/GhSwSSSfXDgZu5Q7f9CzPAkhbfqtamsNKEuhNyAepump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.98,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 1.08/4; rug risk 0.78. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=pass; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-09 14:34:05"
-   }
   }
  ],
- "generated_at": "2026-11-09T15:53:58+00:00"
+ "generated_at": "2026-11-09T15:55:00+00:00"
 }
