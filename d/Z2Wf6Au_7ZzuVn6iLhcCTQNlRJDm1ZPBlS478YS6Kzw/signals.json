@@ -5,20 +5,45 @@
   {
    "id": 1888,
    "mint": "V9uc7thdPmKS9WLSTALasJBfvvDKx6krmYNPAnspump",
-   "symbol": null,
-   "name": null,
+   "symbol": "UODF\u26a1\ufe0f",
+   "name": "United Oil Dividend Fund",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.01169,
+   "mcap_usd": 11692163.0,
+   "liquidity_usd": 266120.06,
    "created_at": "2026-11-09 14:30:31",
-   "audit_id": null,
+   "audit_id": 1892,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/V9uc7thdPmKS9WLSTALasJBfvvDKx6krmYNPAnspump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T14:30:39+00:00"
+ "generated_at": "2026-11-09T14:31:41+00:00"
 }
