@@ -5,22 +5,66 @@
   {
    "id": 1846,
    "mint": "3cemrLWv6XqQ4Vdfcd7PaLagoNy3PTgzMZAL9JuEpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Grok",
+   "name": "Grok",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "analysed",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 9.494e-05,
+   "mcap_usd": 94903.0,
+   "liquidity_usd": 22509.76,
    "created_at": "2026-11-09 13:27:19",
-   "audit_id": null,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_id": 1850,
+   "audit_passed": 1,
+   "audit_score": 0.625,
    "coin_url": "https://pump.fun/coin/3cemrLWv6XqQ4Vdfcd7PaLagoNy3PTgzMZAL9JuEpump",
-   "layers": {},
-   "bundles": null,
-   "verdict": null
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 11/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.81/4; rug risk 0.82. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 13:28:43"
+   }
   },
   {
    "id": 1845,
@@ -3159,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T13:27:49+00:00"
+ "generated_at": "2026-11-09T13:28:50+00:00"
 }
