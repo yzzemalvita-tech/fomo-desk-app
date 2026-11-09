@@ -5,20 +5,45 @@
   {
    "id": 1838,
    "mint": "B7sp6M1YZTDZyxyUaZHeFDwQf3ncVrKGAdW1YgJZpump",
-   "symbol": null,
-   "name": null,
+   "symbol": "PUSSY",
+   "name": "Pussycoin",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 9.943e-05,
+   "mcap_usd": 99435.0,
+   "liquidity_usd": 23315.48,
    "created_at": "2026-11-09 13:16:18",
-   "audit_id": null,
+   "audit_id": 1842,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/B7sp6M1YZTDZyxyUaZHeFDwQf3ncVrKGAdW1YgJZpump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T13:16:27+00:00"
+ "generated_at": "2026-11-09T13:17:29+00:00"
 }
