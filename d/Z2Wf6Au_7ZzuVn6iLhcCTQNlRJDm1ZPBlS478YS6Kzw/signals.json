@@ -5,20 +5,45 @@
   {
    "id": 1804,
    "mint": "BP53Gmf6JVaPvjykP2NtV9C23qrXjo6hLCYaJTT4pump",
-   "symbol": null,
-   "name": null,
+   "symbol": "FIJA",
+   "name": "Fija",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 1.022e-07,
+   "mcap_usd": 204.0,
+   "liquidity_usd": 37.75,
    "created_at": "2026-11-09 04:21:10",
-   "audit_id": null,
+   "audit_id": 1808,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/BP53Gmf6JVaPvjykP2NtV9C23qrXjo6hLCYaJTT4pump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "fail"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T04:21:24+00:00"
+ "generated_at": "2026-11-09T04:22:26+00:00"
 }
