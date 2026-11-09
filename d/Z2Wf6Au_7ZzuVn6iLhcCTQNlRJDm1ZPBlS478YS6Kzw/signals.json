@@ -8,15 +8,15 @@
    "symbol": "PUMP",
    "name": "Pump",
    "source": "pumpportal_migration",
-   "status": "auditing",
+   "status": "analysed",
    "mode": "PAPER",
    "price_usd": 0.003593,
    "mcap_usd": 1649024270.0,
    "liquidity_usd": 2351535.39,
    "created_at": "2026-11-09 00:54:21",
    "audit_id": 1708,
-   "audit_passed": null,
-   "audit_score": null,
+   "audit_passed": 1,
+   "audit_score": 0.875,
    "coin_url": "https://pump.fun/coin/pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
    "layers": {
     "1": {
@@ -42,10 +42,29 @@
     "6": {
      "name": "activity",
      "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
     }
    },
-   "bundles": null,
-   "verdict": null
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.82,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.12 / PASS 0.88); quality 1.90/4; rug risk 0.55. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 00:56:57"
+   }
   },
   {
    "id": 1703,
@@ -3184,5 +3203,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T00:56:23+00:00"
+ "generated_at": "2026-11-09T00:57:27+00:00"
 }
