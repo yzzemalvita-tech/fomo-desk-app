@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 1744,
-   "mint": "ASsYMrK2NAWDWSAuJcTVfo3eExPQf6Xa9CbU4qJQpump",
+   "id": 1745,
+   "mint": "AhGzgYrqJdKkrDtwKxjnqRU77f8Zr4HbZ8v825cLpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,78 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-09 02:19:32",
+   "created_at": "2026-11-09 02:21:15",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/ASsYMrK2NAWDWSAuJcTVfo3eExPQf6Xa9CbU4qJQpump",
+   "coin_url": "https://pump.fun/coin/AhGzgYrqJdKkrDtwKxjnqRU77f8Zr4HbZ8v825cLpump",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 1744,
+   "mint": "ASsYMrK2NAWDWSAuJcTVfo3eExPQf6Xa9CbU4qJQpump",
+   "symbol": "SPACEXSI",
+   "name": "SpaceX Super Intelligence",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 9.706e-05,
+   "mcap_usd": 97067.0,
+   "liquidity_usd": 22973.6,
+   "created_at": "2026-11-09 02:19:32",
+   "audit_id": 1748,
+   "audit_passed": 1,
+   "audit_score": 0.625,
+   "coin_url": "https://pump.fun/coin/ASsYMrK2NAWDWSAuJcTVfo3eExPQf6Xa9CbU4qJQpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "fail"
+    }
+   },
+   "bundles": {
+    "label": "None \u00b7 10/20 checked",
+    "bundled_pct": 0.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "PASS",
+    "confidence": 0.98,
+    "size_sol": null,
+    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.77/4; rug risk 0.84. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 02:20:54"
+   }
   },
   {
    "id": 1743,
@@ -3093,71 +3157,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-09 00:46:44"
    }
-  },
-  {
-   "id": 1695,
-   "mint": "3igUgQKe53ReAuuyHcyG7MbDe7EdS7SveDdYxVWppump",
-   "symbol": "dang",
-   "name": "dang",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 1.239e-09,
-   "mcap_usd": 2.0,
-   "liquidity_usd": 1.74,
-   "created_at": "2026-11-09 00:45:22",
-   "audit_id": 1699,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/3igUgQKe53ReAuuyHcyG7MbDe7EdS7SveDdYxVWppump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "pass"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/10 checked",
-    "bundled_pct": 0.0,
-    "partial": 0
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-09 00:46:24"
-   }
   }
  ],
- "generated_at": "2026-11-09T02:20:29+00:00"
+ "generated_at": "2026-11-09T02:21:30+00:00"
 }
