@@ -8,47 +8,47 @@
    {
     "agent": "Analyst",
     "status": "ok",
-    "detail": "verdicts=96 jev_calls=68 queue=0",
-    "last_beat": "2026-11-09 02:25:38",
-    "age_s": 0.2
+    "detail": "verdicts=97 jev_calls=69 queue=0",
+    "last_beat": "2026-11-09 02:27:38",
+    "age_s": 3.9
    },
    {
     "agent": "Auditor",
     "status": "ok",
-    "detail": "audited=96 queue=0 busy=None",
-    "last_beat": "2026-11-09 02:25:38",
-    "age_s": 0.2
+    "detail": "audited=97 queue=0 busy=None",
+    "last_beat": "2026-11-09 02:27:38",
+    "age_s": 3.9
    },
    {
     "agent": "Desk",
     "status": "ok",
-    "detail": "mode=PAPER stats={'429': 3538, 'errors': 0, 'jev_in': 63723, 'jev_out': 4828, 'jev_calls': 68, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 165}",
-    "last_beat": "2026-11-09 02:25:26",
-    "age_s": 12.2
+    "detail": "mode=PAPER stats={'429': 3586, 'errors': 0, 'jev_in': 64640, 'jev_out': 4899, 'jev_calls': 69, 'tg': {'in': 0, 'ignored': 0, 'sent': 0, 'send_err': 0}, 'publishes': 167}",
+    "last_beat": "2026-11-09 02:27:26",
+    "age_s": 15.9
    },
    {
     "agent": "Executor",
     "status": "ok",
     "detail": "mode=PAPER opened=0 closed=0 live_alerts=0",
-    "last_beat": "2026-11-09 02:25:37",
-    "age_s": 1.2
+    "last_beat": "2026-11-09 02:27:37",
+    "age_s": 4.9
    },
    {
     "agent": "Risk",
     "status": "ok",
-    "detail": "checks=804 open=0 live_open=0 kill=0",
-    "last_beat": "2026-11-09 02:25:37",
-    "age_s": 1.2
+    "detail": "checks=812 open=0 live_open=0 kill=0",
+    "last_beat": "2026-11-09 02:27:37",
+    "age_s": 4.9
    },
    {
     "agent": "Scanner",
     "status": "ok",
     "detail": "seen=98 connected=True reconnects=0",
-    "last_beat": "2026-11-09 02:25:38",
-    "age_s": 0.2
+    "last_beat": "2026-11-09 02:27:38",
+    "age_s": 3.9
    }
   ],
-  "last_update": "2026-11-09 02:25:38"
+  "last_update": "2026-11-09 02:27:38"
  },
- "generated_at": "2026-11-09T02:25:38+00:00"
+ "generated_at": "2026-11-09T02:27:41+00:00"
 }
