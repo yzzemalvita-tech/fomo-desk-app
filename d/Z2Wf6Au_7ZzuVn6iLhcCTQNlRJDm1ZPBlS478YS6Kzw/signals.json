@@ -3,6 +3,46 @@
  "version": 1,
  "data": [
   {
+   "id": 1876,
+   "mint": "EkoWz5wYFS9GXS4zL65Gtu2e46dVr8D3YGmNnrCpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-09 14:17:06",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/EkoWz5wYFS9GXS4zL65Gtu2e46dVr8D3YGmNnrCpump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 1875,
+   "mint": "GjTxRxE1YUxG1RHYAoZQghCU8oFCau35YjhHXFjVpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "new",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-09 14:17:00",
+   "audit_id": null,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/GjTxRxE1YUxG1RHYAoZQghCU8oFCau35YjhHXFjVpump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
    "id": 1874,
    "mint": "t7U5CPpMP5fcGG34Dv3SP5NJefLXdRKGBYRpp8fLXCV",
    "symbol": "Chihuahua",
@@ -3073,135 +3113,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-09 05:00:25"
    }
-  },
-  {
-   "id": 1826,
-   "mint": "e9YfLKXrAUswEFgrgCjxjVF3yHU6Vcu4QJBE6k648WT",
-   "symbol": "MOOHAN",
-   "name": "MOOHAN",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 2.929e-05,
-   "mcap_usd": 29226.0,
-   "liquidity_usd": 11931.39,
-   "created_at": "2026-11-09 04:58:23",
-   "audit_id": 1830,
-   "audit_passed": 1,
-   "audit_score": 1.0,
-   "coin_url": "https://pump.fun/coin/e9YfLKXrAUswEFgrgCjxjVF3yHU6Vcu4QJBE6k648WT",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "WATCH",
-    "confidence": 0.8,
-    "size_sol": null,
-    "reasoning": "Jev: WATCH (P BUY 0.09 / WATCH 0.87 / PASS 0.04); quality 2.44/4; rug risk 0.15. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-09 04:59:44"
-   }
-  },
-  {
-   "id": 1825,
-   "mint": "CxWS2Zg24gGDiVQMxcoMHhRvr7E1hDfGBd6H1ahEpump",
-   "symbol": "TDI",
-   "name": "Top Dawge Inu",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 9.622e-09,
-   "mcap_usd": 19.0,
-   "liquidity_usd": 27.56,
-   "created_at": "2026-11-09 04:57:25",
-   "audit_id": 1829,
-   "audit_passed": 0,
-   "audit_score": 0.5,
-   "coin_url": "https://pump.fun/coin/CxWS2Zg24gGDiVQMxcoMHhRvr7E1hDfGBd6H1ahEpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "fail"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 13/15 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 1.0,
-    "size_sol": null,
-    "reasoning": "Auto-PASS without Jev: hard audit failure in L1_liquidity",
-    "analyst": "Jev",
-    "created_at": "2026-11-09 04:58:46"
-   }
   }
  ],
- "generated_at": "2026-11-09T14:16:14+00:00"
+ "generated_at": "2026-11-09T14:17:16+00:00"
 }
