@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 1756,
-   "mint": "CPkCGzTuKCm9vLguz2AvRSkb2e2y8KaA3SxJ5Zdhpump",
+   "id": 1757,
+   "mint": "3h6uFu4DKvywDnTckVTCpUTzRsJCsj148WicgFpxpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,32 +13,102 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-09 02:40:49",
+   "created_at": "2026-11-09 02:42:00",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/CPkCGzTuKCm9vLguz2AvRSkb2e2y8KaA3SxJ5Zdhpump",
+   "coin_url": "https://pump.fun/coin/3h6uFu4DKvywDnTckVTCpUTzRsJCsj148WicgFpxpump",
    "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 1756,
+   "mint": "CPkCGzTuKCm9vLguz2AvRSkb2e2y8KaA3SxJ5Zdhpump",
+   "symbol": "fomo",
+   "name": "fomo",
+   "source": "pumpportal_migration",
+   "status": "auditing",
+   "mode": "PAPER",
+   "price_usd": 9.9e-05,
+   "mcap_usd": 98967.0,
+   "liquidity_usd": 23233.81,
+   "created_at": "2026-11-09 02:40:49",
+   "audit_id": 1760,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/CPkCGzTuKCm9vLguz2AvRSkb2e2y8KaA3SxJ5Zdhpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "warn"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
   {
    "id": 1755,
    "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
-   "symbol": null,
-   "name": null,
+   "symbol": "NVDAx",
+   "name": "NVIDIA xStock",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 181.1,
+   "mcap_usd": 39824270.0,
+   "liquidity_usd": 2619869.73,
    "created_at": "2026-11-09 02:40:42",
-   "audit_id": null,
+   "audit_id": 1759,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "fail"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "fail"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3049,71 +3119,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-09 01:03:20"
    }
-  },
-  {
-   "id": 1707,
-   "mint": "EC7FSJ8HW4YzRC3S77ULnzw5Z5nmqZLHVkAY28Ztpump",
-   "symbol": "QUINN",
-   "name": "Quinn the Corgi",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 3.593e-05,
-   "mcap_usd": 35931.47,
-   "liquidity_usd": null,
-   "created_at": "2026-11-09 01:01:43",
-   "audit_id": 1711,
-   "audit_passed": 1,
-   "audit_score": 0.875,
-   "coin_url": "https://pump.fun/coin/EC7FSJ8HW4YzRC3S77ULnzw5Z5nmqZLHVkAY28Ztpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "error"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "pass"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "pass"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 0/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "WATCH",
-    "confidence": 0.72,
-    "size_sol": null,
-    "reasoning": "Jev: WATCH (P BUY 0.06 / WATCH 0.81 / PASS 0.13); quality 2.21/4; rug risk 0.24. Audit: L1_liquidity=error; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
-    "analyst": "Jev",
-    "created_at": "2026-11-09 01:03:17"
-   }
   }
  ],
- "generated_at": "2026-11-09T02:41:00+00:00"
+ "generated_at": "2026-11-09T02:42:01+00:00"
 }
