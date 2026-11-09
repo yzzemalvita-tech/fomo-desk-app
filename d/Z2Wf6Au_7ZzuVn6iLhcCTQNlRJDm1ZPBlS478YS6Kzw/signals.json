@@ -5,20 +5,45 @@
   {
    "id": 1889,
    "mint": "GhSwSSSfXDgZu5Q7f9CzPAkhbfqtamsNKEuhNyAepump",
-   "symbol": null,
-   "name": null,
+   "symbol": "Porsche",
+   "name": "Porsche",
    "source": "pumpportal_migration",
-   "status": "new",
+   "status": "auditing",
    "mode": "PAPER",
-   "price_usd": null,
-   "mcap_usd": null,
-   "liquidity_usd": null,
+   "price_usd": 0.0001261,
+   "mcap_usd": 126048.0,
+   "liquidity_usd": 26315.09,
    "created_at": "2026-11-09 14:32:43",
-   "audit_id": null,
+   "audit_id": 1893,
    "audit_passed": null,
    "audit_score": null,
    "coin_url": "https://pump.fun/coin/GhSwSSSfXDgZu5Q7f9CzPAkhbfqtamsNKEuhNyAepump",
-   "layers": {},
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "fail"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    }
+   },
    "bundles": null,
    "verdict": null
   },
@@ -3159,5 +3184,5 @@
    }
   }
  ],
- "generated_at": "2026-11-09T14:32:43+00:00"
+ "generated_at": "2026-11-09T14:33:45+00:00"
 }
