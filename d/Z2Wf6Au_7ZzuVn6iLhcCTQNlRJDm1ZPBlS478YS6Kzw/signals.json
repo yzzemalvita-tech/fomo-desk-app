@@ -3,8 +3,8 @@
  "version": 1,
  "data": [
   {
-   "id": 1820,
-   "mint": "G9UUj2zSddRYzmQ98i9thLdXkDmxRTaGuXXAAQsEpump",
+   "id": 1822,
+   "mint": "7oqZop3jYQGR9bqAA8zetq8HGbrJ2Mu8BvFKo9okpump",
    "symbol": null,
    "name": null,
    "source": "pumpportal_migration",
@@ -13,14 +13,98 @@
    "price_usd": null,
    "mcap_usd": null,
    "liquidity_usd": null,
-   "created_at": "2026-11-09 04:54:30",
+   "created_at": "2026-11-09 04:55:51",
    "audit_id": null,
    "audit_passed": null,
    "audit_score": null,
-   "coin_url": "https://pump.fun/coin/G9UUj2zSddRYzmQ98i9thLdXkDmxRTaGuXXAAQsEpump",
+   "coin_url": "https://pump.fun/coin/7oqZop3jYQGR9bqAA8zetq8HGbrJ2Mu8BvFKo9okpump",
    "layers": {},
    "bundles": null,
    "verdict": null
+  },
+  {
+   "id": 1821,
+   "mint": "A3koPx8ubJjxSfaRw14Q6RSrzy6492vtwZuP6o6zpump",
+   "symbol": null,
+   "name": null,
+   "source": "pumpportal_migration",
+   "status": "auditing",
+   "mode": "PAPER",
+   "price_usd": null,
+   "mcap_usd": null,
+   "liquidity_usd": null,
+   "created_at": "2026-11-09 04:55:19",
+   "audit_id": 1825,
+   "audit_passed": null,
+   "audit_score": null,
+   "coin_url": "https://pump.fun/coin/A3koPx8ubJjxSfaRw14Q6RSrzy6492vtwZuP6o6zpump",
+   "layers": {},
+   "bundles": null,
+   "verdict": null
+  },
+  {
+   "id": 1820,
+   "mint": "G9UUj2zSddRYzmQ98i9thLdXkDmxRTaGuXXAAQsEpump",
+   "symbol": "MOOHAN",
+   "name": "\u0e2b\u0e21\u0e39\u0e2b\u0e31\u0e19",
+   "source": "pumpportal_migration",
+   "status": "analysed",
+   "mode": "PAPER",
+   "price_usd": 9.245e-05,
+   "mcap_usd": 92459.0,
+   "liquidity_usd": 22962.8,
+   "created_at": "2026-11-09 04:54:30",
+   "audit_id": 1824,
+   "audit_passed": 1,
+   "audit_score": 1.0,
+   "coin_url": "https://pump.fun/coin/G9UUj2zSddRYzmQ98i9thLdXkDmxRTaGuXXAAQsEpump",
+   "layers": {
+    "1": {
+     "name": "liquidity",
+     "result": "pass"
+    },
+    "2": {
+     "name": "mint_authority",
+     "result": "pass"
+    },
+    "3": {
+     "name": "freeze_authority",
+     "result": "pass"
+    },
+    "4": {
+     "name": "lp_locked",
+     "result": "pass"
+    },
+    "5": {
+     "name": "rugcheck",
+     "result": "pass"
+    },
+    "6": {
+     "name": "activity",
+     "result": "pass"
+    },
+    "7": {
+     "name": "bundles",
+     "result": "partial"
+    },
+    "8": {
+     "name": "holders",
+     "result": "pass"
+    }
+   },
+   "bundles": {
+    "label": "2 bundled \u00b7 10/20 checked",
+    "bundled_pct": 10.0,
+    "partial": 1
+   },
+   "verdict": {
+    "verdict": "WATCH",
+    "confidence": 0.79,
+    "size_sol": null,
+    "reasoning": "Jev: WATCH (P BUY 0.03 / WATCH 0.86 / PASS 0.11); quality 2.69/4; rug risk 0.18. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=pass; L6_activity=pass; L7_bundles=partial; L8_holders=pass",
+    "analyst": "Jev",
+    "created_at": "2026-11-09 04:55:53"
+   }
   },
   {
    "id": 1819,
@@ -3029,135 +3113,7 @@
     "analyst": "Jev",
     "created_at": "2026-11-09 03:30:37"
    }
-  },
-  {
-   "id": 1772,
-   "mint": "J8yZUqhRPwwWx85KmQHG3rggiVfKpYNN8mhEVUQwpump",
-   "symbol": "Rockstar",
-   "name": "Rockstar Games",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 0.0001013,
-   "mcap_usd": 101318.0,
-   "liquidity_usd": 23449.71,
-   "created_at": "2026-11-09 03:26:52",
-   "audit_id": 1776,
-   "audit_passed": 1,
-   "audit_score": 0.75,
-   "coin_url": "https://pump.fun/coin/J8yZUqhRPwwWx85KmQHG3rggiVfKpYNN8mhEVUQwpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "warn"
-    },
-    "6": {
-     "name": "activity",
-     "result": "pass"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 11/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.97,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.02 / PASS 0.98); quality 1.28/4; rug risk 0.66. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=warn; L6_activity=pass; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-09 03:28:16"
-   }
-  },
-  {
-   "id": 1771,
-   "mint": "9fC3SJQ1Xj16A28Ehq9RgJScb7sXyqVeXXnDf66xpump",
-   "symbol": "NVIDIA",
-   "name": "NVIDIA",
-   "source": "pumpportal_migration",
-   "status": "analysed",
-   "mode": "PAPER",
-   "price_usd": 9.585e-05,
-   "mcap_usd": 95805.0,
-   "liquidity_usd": 22757.68,
-   "created_at": "2026-11-09 03:26:19",
-   "audit_id": 1775,
-   "audit_passed": 1,
-   "audit_score": 0.625,
-   "coin_url": "https://pump.fun/coin/9fC3SJQ1Xj16A28Ehq9RgJScb7sXyqVeXXnDf66xpump",
-   "layers": {
-    "1": {
-     "name": "liquidity",
-     "result": "pass"
-    },
-    "2": {
-     "name": "mint_authority",
-     "result": "pass"
-    },
-    "3": {
-     "name": "freeze_authority",
-     "result": "pass"
-    },
-    "4": {
-     "name": "lp_locked",
-     "result": "pass"
-    },
-    "5": {
-     "name": "rugcheck",
-     "result": "fail"
-    },
-    "6": {
-     "name": "activity",
-     "result": "warn"
-    },
-    "7": {
-     "name": "bundles",
-     "result": "partial"
-    },
-    "8": {
-     "name": "holders",
-     "result": "fail"
-    }
-   },
-   "bundles": {
-    "label": "None \u00b7 10/20 checked",
-    "bundled_pct": 0.0,
-    "partial": 1
-   },
-   "verdict": {
-    "verdict": "PASS",
-    "confidence": 0.98,
-    "size_sol": null,
-    "reasoning": "Jev: PASS (P BUY 0.00 / WATCH 0.01 / PASS 0.99); quality 0.70/4; rug risk 0.84. Audit: L1_liquidity=pass; L2_mint_authority=pass; L3_freeze_authority=pass; L4_lp_locked=pass; L5_rugcheck=fail; L6_activity=warn; L7_bundles=partial; L8_holders=fail",
-    "analyst": "Jev",
-    "created_at": "2026-11-09 03:27:45"
-   }
   }
  ],
- "generated_at": "2026-11-09T04:55:17+00:00"
+ "generated_at": "2026-11-09T04:56:19+00:00"
 }
